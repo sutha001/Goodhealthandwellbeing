@@ -1,0 +1,18 @@
+.imageall {
+    background-image: url("motion.gif");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgtop{
+    height: 110vh;
+    background-color: aqua;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
