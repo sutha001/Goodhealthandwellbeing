@@ -30,6 +30,9 @@
 
     <section>
         <div class="imageallbgfoot">
+            <div class="headd">
+                <img src="css/img/icon/head.png" id="headd1" style="width: 50vh; height: 50vh;">
+            </div>
         </div>
     </section>
 
@@ -96,6 +99,27 @@
 
         TweenMax.to(element, 0.5, { y: "+=20", yoyo: true, repeat: -1 });
         TweenMax.to(element, 0.5, { y: "-=20", yoyo: true, repeat: -1 });
+
+
+        gsap.to('#headd1', {
+            x: 0,
+            scrollTrigger: {
+                trigger: '#headd1',
+                start: 'top bottom',
+                end: 'center center',
+                scrub: true
+            }
+        });
+
+        gsap.to('#headd1', {
+            x: 300,
+            scrollTrigger: {
+                trigger: '#headd1',
+                start: 'center center',
+                end: 'bottom top',
+                scrub: true
+            }
+        });
     </script>
 
 
