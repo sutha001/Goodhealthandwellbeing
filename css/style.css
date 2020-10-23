@@ -1,4 +1,4 @@
-.imageall {
+.imageallbg {
     background-image: url("motion.gif");
     background-color: #cccccc;
     height: 100vh;
@@ -8,9 +8,9 @@
     position: relative;
 }
 
-.bgtop{
-    height: 110vh;
-    background-color: aqua;
+.imageallbgfoot {
+    background-image: url("img/imgGIF/Home.png");
+    height: 150vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
