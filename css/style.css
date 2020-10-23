@@ -16,3 +16,9 @@
     background-size: cover;
     position: relative;
 }
+.butfootbg{
+    height: 10%;
+    top:87%;
+    left: 50%;
+    position: absolute;
+}
