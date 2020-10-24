@@ -14,7 +14,15 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-
+.mark_section3 {
+padding-right: 5px;
+padding-left: 5px;
+padding-top: 12px;
+padding-bottom: : 12px;
+display:block;
+color: #0037ff;
+background-color: #ffe91a;
+}
 .FontTaviraj {
     font-family: 'tavirajbold', 'sans-serif';
 }
@@ -200,4 +208,7 @@ mark {
     top: 30%;
     left: 5%;
     position: absolute;
+}
+#mark_stat{
+    width:45%;
 }
