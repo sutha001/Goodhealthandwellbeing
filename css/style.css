@@ -43,7 +43,7 @@ label.logo{
     color:yellow;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 80px;
+    padding: 0 30px;
 }
 nav ul{
     float: right;
@@ -54,7 +54,7 @@ nav ul li{
     line-height: 80px;
     margin: 0 5px;
 }
-nav ul li {
+nav ul li a{
     color:#7c7b77;
     font-size: 17px;
     text-transform: uppercase;
