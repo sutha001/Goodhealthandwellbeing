@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'tavirajbold';
+    src: url('taviraj-bold-webfont.woff2') format('woff2'),
+         url('taviraj-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'chakra_petchlight';
+    src: url('chakrapetch-light-webfont.woff2') format('woff2'),
+         url('chakrapetch-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.FontTaviraj{
+    font-family: 'tavirajbold','sans-serif';
+}
+.FontChakrapetch{
+    font-family: 'chakra_petchlight','sans-serif';
+}
 .imageallbg {
     background-image: url("motion.gif");
     background-color: #cccccc;
