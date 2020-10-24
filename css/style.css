@@ -33,3 +33,29 @@
     background-size: cover;
     position: absolute;
 }
+
+nav{
+    background:#161616;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color:yellow;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+}
+nav ul{
+    float: right;
+    margin-right:20px; 
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color:#7c7b77;
+    font-size: 17px;
+    text-transform: uppercase;
+}
