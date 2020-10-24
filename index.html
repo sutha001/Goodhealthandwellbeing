@@ -28,18 +28,6 @@
 
 <body style="background-color: #f4f0ea;">
 
-    <nav>
-        <label class="logo">
-            <a href="#"><img src="css/img/icon/logo.png" width="100%" height="50"></a>
-        </label>
-        <ul>
-            <li><a href="#">one</a></li>
-            <li><a href="#">two</a></li>
-            <li><a href="#">three</a></li>
-            <li><a href="#">four</a></li>
-        </ul>
-    </nav>
-
     <section class="animate0">
         <div class="imageallbg">
             <img src="css/img/icon/เด้งดึ๋งๆ.png" class="butfootbg" id="ele">
@@ -49,7 +37,7 @@
     <section class="animate1">
         <div class="imageallbgfoot">
             <div class="headd">
-                <img src="css/img/icon/head.png" id="headd1" style="width: 70vh; height: 70vh;">
+                <img src="css/img/icon/head.png" id="headd1" style="width: 50vh; height: 50vh;">
             </div>
             <div class="IntroColumn">
                 <h2 class="c1">ชีวิตดี ๆ ที่ลงตัว</h2>
@@ -68,11 +56,11 @@
     <section class="animate2">
         <div class="section11">
             <img src="css/img/imgGIF/1.4 มอไซต์.png" class="motorcycle14">
+            <img src="css/img/icon/_.png" class="policeline">
             <img src="css/img/imgGIF/1.3 มอไซต์.png" class="motorcycle13">
             <img src="css/img/imgGIF/1.1 มอไซต์.png" class="motorcycle11">
             <div class="h1section">
-                <h1><mark style="background-color: #ffe91a; color: #0037ff; font-size: 60pt; line-height:50pt;">สถิติ</mark></h1>
-                <h1><mark style="background-color: #ffe91a; color: #0037ff; font-size: 60pt; line-height:50pt;">การเกิดคดี</mark></h1>
+                <h1 style="font-size: 60pt; line-height:50pt;">สถิติ<br>การเกิดคดี</h1>
             </div>
         </div>
     </section>
@@ -87,11 +75,10 @@
                     ซึ่งถือเป็นอันดับหนึ่งของกรุงเทพ ฯ และประเทศไทย
                 </p>
             </div>
-            <img src="css/img/icon/_.png" style="width: 150vh; height: 50vh;">
         </div>
     </section>
 
-    <!--<section>
+    <section>
         <div class="allbg1">
                 <h2 class="c3">40%</h2>
                 <p class="introCol1" style="color:#161616;">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน<br>
@@ -99,22 +86,22 @@
                     เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์<br>
                     การชนระหว่างรถกับคน</p>
         </div>
-    </section>-->
+    </section>
 
-    <!--<section>
+    <section>
         <div class="allbg1">
                 <h2 class="c3">10%</h2>
                 <p class="introCol1" style="color: #161616;">มีคนเดินเท้าประสบอุบัติเหตุเฉลี่ยปีละ 821 ราย<br>
                 โดยจํานวนอุบัติเหตุมีแนวโน้มเพิมขึ ่ น</p>
         </div>
-    </section>-->
+    </section>
 
-    <!--<section>
+    <section>
         <div class="allbg1">
                 <h2 class="c3">6%</h2>
                 <p class="introCol1" style="color:#161616;">เช่นเกิดกับผู้ขี่จักรยานและรถบรรทุกขนาดใหญ่</p>
         </div>
-    </section>-->
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
         integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
@@ -204,7 +191,7 @@
         const controller = new ScrollMagic.Controller();
         const scene = new ScrollMagic.Scene({
             triggerElement: ".animate1",
-            duration: 1000,
+            duration: 1500,
             triggerHook: 0
         })
             .setTween("#headd1")

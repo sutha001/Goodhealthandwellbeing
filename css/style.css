@@ -35,7 +35,7 @@ body{
 
 .imageallbgfoot {
     background-image: url("img/imgGIF/Home.png");
-    height: 125vh;
+    height: 132vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ body{
 .headd {
     width: 100vh;
     height: 90vh;
-    top: 15%;
+    top: 10%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,8 +79,8 @@ h1 {
 
 .IntroColumn {
     width: 80vh;
-    top: 65%;
-    left: 60%;
+    top: 40%;
+    left: 50%;
     position: absolute;
 }
 
@@ -176,6 +176,16 @@ mark {
     left: 75%;
     position: absolute;
 }
+.policeline{
+    width: 190vh;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 145%;
+    left: 10%;
+    position: absolute;
+}
 
 .section11 {
     background-image: url("img/imgGIF/1.2\ มอไซต์.png");
@@ -187,7 +197,7 @@ mark {
 }
 
 .h1section {
-    top: 20%;
-    left: 20%;
+    top: 30%;
+    left: 5%;
     position: absolute;
 }
