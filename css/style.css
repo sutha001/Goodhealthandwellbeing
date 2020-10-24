@@ -34,6 +34,18 @@
     position: absolute;
 }
 
+h2{
+    font-size:40pt;
+    font-family: 'Taviraj', serif;
+    color:#ffe91a;
+}
+.introCol1{
+    font-size:16pt;
+    line-height: 25pt;
+    font-family: 'Chakra Petch', sans-serif;
+    color:#f9f9f9;
+}
+
 nav{
     background:#161616;
     height: 80px;
