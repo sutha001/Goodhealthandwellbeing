@@ -18,7 +18,7 @@ body{
 padding-right: 5px;
 padding-left: 5px;
 padding-top: 12px;
-padding-bottom: : 12px;
+padding-bottom: 12px;
 display:block;
 color: #0037ff;
 background-color: #ffe91a;
@@ -85,6 +85,11 @@ h1 {
     color: #0037ff;
 }
 
+h3{
+    font-family: "tavirajbold";
+    color: #0037ff;
+}
+
 .IntroColumn {
     width: 80vh;
     top: 40%;
@@ -109,8 +114,11 @@ h1 {
 
 .Column1 {
     width: 70vh;
-    top: 20%;
+    top: 15%;
     left: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
 }
 
@@ -162,7 +170,6 @@ mark {
     background-repeat: no-repeat;
     background-size: cover;
     top: 30%;
-    left: 31%;
     position: absolute;
 }
 
@@ -191,7 +198,7 @@ mark {
     background-repeat: no-repeat;
     background-size: cover;
     top: 145%;
-    left: 10%;
+    left: -150%;
     position: absolute;
 }
 
@@ -206,9 +213,14 @@ mark {
 
 .h1section {
     top: 30%;
-    left: 5%;
+    left: -100%;
     position: absolute;
 }
 #mark_stat{
     width:45%;
+}
+.posih3sec1{
+    left: 45%;
+    top: 15%;
+    position: absolute;
 }

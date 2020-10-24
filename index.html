@@ -56,11 +56,12 @@
     <section class="animate2">
         <div class="section11">
             <img src="css/img/imgGIF/1.4 มอไซต์.png" class="motorcycle14">
-            <img src="css/img/icon/_.png" class="policeline">
-            <img src="css/img/imgGIF/1.3 มอไซต์.png" class="motorcycle13">
-            <img src="css/img/imgGIF/1.1 มอไซต์.png" class="motorcycle11">
+            <img src="css/img/icon/_.png" id="policl" class="policeline">
+            <img src="css/img/imgGIF/1.3 มอไซต์.png" id="mo13" class="motorcycle13">
+            <img src="css/img/imgGIF/1.1 มอไซต์.png" id="mo11" class="motorcycle11">
             <div class="h1section">
-                <h1 style="font-size: 60pt; line-height:50pt;"><mark id="mark_stat" class="mark_section3">สถิติ<br></mark><mark class="mark_section3">การเกิดคดี<br></mark></h1>
+                <h1 style="font-size: 60pt; line-height:50pt;" id="h1sec1"><mark id="mark_stat"
+                        class="mark_section3">สถิติ<br></mark><mark class="mark_section3">การเกิดคดี<br></mark></h1>
             </div>
         </div>
     </section>
@@ -69,6 +70,7 @@
         <div class="allbg1">
             <div class="Column1">
                 <h1 style="font-size: 60pt;">70 %</h1>
+                <h3 style="font-size: 20pt; line-height: 25pt;" class="posih3sec1">เกิดจากผู้ใช้<br>รถจักยานยนต์</h3>
                 <p class="Col1">
                     คดีผู้เสียชีวิตและบาดเจ็บจากการขับขี่รถจักยานยนต์
                     เกิดขึ้นในเขตชั้นนอกของกรุงเทพ ฯ กว่าร้อยละ 90
@@ -80,26 +82,26 @@
 
     <section>
         <div class="allbg1">
-                <h2 class="c3">40%</h2>
-                <p class="introCol1" style="color:#161616;">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน<br>
-                    เกิดในลักษณะการชนระหว่างรถกับรถ<br>
-                    เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์<br>
-                    การชนระหว่างรถกับคน</p>
+            <h2 class="c3">40%</h2>
+            <p class="introCol1" style="color:#161616;">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน<br>
+                เกิดในลักษณะการชนระหว่างรถกับรถ<br>
+                เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์<br>
+                การชนระหว่างรถกับคน</p>
         </div>
     </section>
 
     <section>
         <div class="allbg1">
-                <h2 class="c3">10%</h2>
-                <p class="introCol1" style="color: #161616;">มีคนเดินเท้าประสบอุบัติเหตุเฉลี่ยปีละ 821 ราย<br>
+            <h2 class="c3">10%</h2>
+            <p class="introCol1" style="color: #161616;">มีคนเดินเท้าประสบอุบัติเหตุเฉลี่ยปีละ 821 ราย<br>
                 โดยจํานวนอุบัติเหตุมีแนวโน้มเพิมขึ ่ น</p>
         </div>
     </section>
 
     <section>
         <div class="allbg1">
-                <h2 class="c3">6%</h2>
-                <p class="introCol1" style="color:#161616;">เช่นเกิดกับผู้ขี่จักรยานและรถบรรทุกขนาดใหญ่</p>
+            <h2 class="c3">6%</h2>
+            <p class="introCol1" style="color:#161616;">เช่นเกิดกับผู้ขี่จักรยานและรถบรรทุกขนาดใหญ่</p>
         </div>
     </section>
 
@@ -188,6 +190,63 @@
             }
         });
 
+        const boxes13 = gsap.utils.toArray('#mo13');
+        boxes13.forEach(box => {
+            const anim = gsap.to(box, { x: 450, paused: true });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "center 70%",
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "top bottom",
+                onLeaveBack: () => anim.pause(0)
+            });
+        });
+
+        const pol = gsap.utils.toArray('#policl');
+       pol.forEach(box => {
+            const anim = gsap.to(box, { x: 2500, paused: true });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "center 70%",
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "top bottom",
+                onLeaveBack: () => anim.pause(0)
+            });
+        });
+
+        const boxes = gsap.utils.toArray('#h1sec1');
+        boxes.forEach(box => {
+            const anim = gsap.to(box, { x: 1550, paused: true });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "center 70%",
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "top bottom",
+                onLeaveBack: () => anim.pause(0)
+            });
+        });
+
+        ScrollTrigger.batch("#mo11", {
+            onEnter: batch => {
+                gsap.from(batch, { rotation: -5})
+            },
+            toggleActions: "play none none none"
+        })
         const controller = new ScrollMagic.Controller();
         const scene = new ScrollMagic.Scene({
             triggerElement: ".animate1",
