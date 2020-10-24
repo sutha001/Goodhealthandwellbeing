@@ -22,13 +22,13 @@
 </head>
 
 <body>
-    <section>
+    <section class="animate0">
         <div class="imageallbg">
             <img src="css/img/icon/เด้งดึ๋งๆ.png" class="butfootbg" id="ele">
         </div>
     </section>
 
-    <section>
+    <section class="animate1">
         <div class="imageallbgfoot">
             <div class="headd">
                 <img src="css/img/icon/head.png" id="headd1" style="width: 50vh; height: 50vh;">
@@ -120,6 +120,17 @@
                 scrub: true
             }
         });
+
+        const controller = new ScrollMagic.Controller();
+        const scene = new ScrollMagic.Scene({
+            triggerElement:".animate1",
+            duration:1500,
+            triggerHook:0
+        })
+        .setTween("#headd1")
+        .addIndicators({name:"Head"})
+        .setPin(".animate1")
+        .addTo(controller);
     </script>
 
 

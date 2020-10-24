@@ -10,7 +10,7 @@
 
 .imageallbgfoot {
     background-image: url("img/imgGIF/Home.png");
-    height: 150vh;
+    height: 125vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
 .headd{
     width: 100vh;
     height: 90vh;
-    top: 33%;
+    top: 25%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
