@@ -191,7 +191,7 @@ h3 {
 }
 .Column5{
     width: 35%;
-    top: 5%;
+    top: 64%;
     left: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ h3 {
 
 .Column6{
     width: 55%;
-    top: 2%;
+    top: 80%;
     left: 57%;
     background-position: center;
     background-repeat: no-repeat;
@@ -374,6 +374,9 @@ footer{
     background-color: #161616;
     color: #ffe91a;
     font-family: 'chakra_petchlight';
+    margin-top:70%;
+    height:15vh;
+    padding-top: 2%;     
 }
 .Section5{
     height: 150vh;
@@ -394,7 +397,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
-    margin-top: -85%;
+    margin-top: -81%;
 }
 .Section6{
     height: 100vh;
@@ -415,3 +418,4 @@ footer{
 .hide{
     display: none;
 }
+
