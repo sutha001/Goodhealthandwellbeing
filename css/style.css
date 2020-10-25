@@ -278,7 +278,7 @@ mark {
     position: absolute;
 }
 .motorcycle22{
-    width: 70vw;
+    width: 80vw;
     height: 150vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,4 +345,10 @@ mark {
     left: 42%;
     top: 15%;
     position: absolute;
+}
+
+footer{
+    background-color: #161616;
+    color: #ffe91a;
+    font-family: 'chakra_petchlight';
 }
