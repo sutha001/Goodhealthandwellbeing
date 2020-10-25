@@ -183,7 +183,15 @@ h3 {
     background-size: cover;
     position: absolute;
 }
-
+.Column5{
+    width: 35%;
+    top: 100%;
+    left: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
 
 .Col1 {
     font-size: 16pt;
@@ -286,7 +294,6 @@ mark {
 
 .policeline {
     width: 100vw;
-    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,4 +390,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -25%;
+}
+#hide{
+    display: none;
 }
