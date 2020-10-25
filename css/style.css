@@ -163,12 +163,18 @@ h3 {
     background-size: cover;
     position: relative;
 }
+.allbg5{
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .Column1 {
     width: 35%;
     top: 15%;
     left: 30%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -178,15 +184,14 @@ h3 {
     width: 35%;
     top: 0%;
     left: 15%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
 }
 .Column5{
     width: 35%;
-    top: 100%;
-    left: 15%;
+    top: 2%;
+    left: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
