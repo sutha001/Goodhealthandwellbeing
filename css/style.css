@@ -166,8 +166,8 @@ h3 {
 
 .Column1 {
     width: 35%;
-    top: 15%;
-    left: 30%;
+    top: 35%;
+    left: 35%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,33 +245,35 @@ nav ul li a {
 mark {
     color: #ffe91a;
 }
-
-.motorcycle13 {
-    height: 72vh;
-    width: 67vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 30%;
-    position: absolute;
-}
-
 .motorcycle11 {
-    height: 165vh;
-    width: 34vw;
+    width: 45vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     position: absolute;
 }
-
-.motorcycle14 {
-    height: 94vh;
-    width: 30vw;
+.motorcycle12 {
+    width: 62vw;
+    right: 0%;
+    position: absolute;
+}
+.motorcycle13 {
+    width: 65vw;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 17%;
+    top: 40%;
+    position: absolute;
+}
+
+
+
+.motorcycle14 {
+    width: 25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25%;
     float: right;
 }
 
@@ -279,7 +281,7 @@ mark {
     width: 60vw;
     background-repeat: no-repeat;
     background-size: cover;
-    top: -12%;
+    top: -5%;
     right: 0%;
     float: right;
     position: absolute;
@@ -293,12 +295,12 @@ mark {
 }
 
 .policeline {
-    width: 100vw;
+    width: 90vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 145%;
-    left: 5%;
+    top: 158%;
+    left: 15%;
     position: absolute;
 }
 
@@ -312,7 +314,6 @@ mark {
 }
 
 .section11 {
-    background-image: url("img/imgGIF/1.2\ มอไซต์.png");
     height: 75vh;
     background-position: center;
     background-repeat: no-repeat;
