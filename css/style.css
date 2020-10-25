@@ -230,7 +230,7 @@ h3 {
 
 nav {
     background: #161616;
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
@@ -245,7 +245,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 90px;
     margin: 0 5px;
 }
 
