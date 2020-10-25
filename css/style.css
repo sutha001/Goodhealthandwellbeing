@@ -366,7 +366,11 @@ mark {
     top: 15%;
     position: absolute;
 }
-
+.posih3sec6{
+    left: 18%;
+    top: 15%;
+    position: absolute;
+}
 footer{
     background-color: #161616;
     color: #ffe91a;
@@ -415,4 +419,3 @@ footer{
 .hide{
     display: none;
 }
-
