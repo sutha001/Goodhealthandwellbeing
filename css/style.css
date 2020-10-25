@@ -418,16 +418,9 @@ footer{
     position: absolute;
     bottom: -150%;
     left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.ImgButton{
-    position: absolute;
-    bottom: -150%;
-    left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-
+    z-index: 999;
 }
 
 #hide{
