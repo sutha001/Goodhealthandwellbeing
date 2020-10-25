@@ -80,12 +80,19 @@
     </section>
 
     <section>
-        <div class="allbg1">
-            <h2 class="c3">40%</h2>
-            <p class="introCol1" style="color:#161616;">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน<br>
-                เกิดในลักษณะการชนระหว่างรถกับรถ<br>
-                เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์<br>
-                การชนระหว่างรถกับคน</p>
+        <div class="allbg2" style="z-index: -1;">
+            <img src="css/img/imgGIF/2.2 รถยนต์.png" class="motorcycle22">
+            <img src="css/img/icon/e.png" style="z-index: -1;" class="ee">
+            <img src="css/img/imgGIF/2.1 รถยนต์.png" class="motorcycle21">
+            <div class="Column2">
+                <h1 style="font-size: 60pt;">40%</h1>
+                <h3 style="font-size: 20pt; line-height: 25pt;" class="posih3sec2">เกิดจากผู้ใช้<br>รถยนต์ส่วนตัว</h3>
+                <p class="Col2">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน
+                    เกิดในลักษณะการชนระหว่างรถกับรถ
+                    เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์
+                    การชนระหว่างรถกับคน</p>
+            </div>
+
         </div>
     </section>
 
@@ -212,7 +219,7 @@
 
         const pol = gsap.utils.toArray('#policl');
         pol.forEach(box => {
-            const anim = gsap.to(box, { x: 1700, paused: true });
+            const anim = gsap.to(box, { x: 2500, paused: true });
 
             ScrollTrigger.create({
                 trigger: box,
