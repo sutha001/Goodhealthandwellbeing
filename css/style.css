@@ -57,7 +57,7 @@ body {
 .butfootbg {
     height: 10%;
     top: 87%;
-    left: 50%;
+    left:49%;
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -118,7 +118,7 @@ h3 {
 .IntroColumn {
     width: 80vh;
     top: 40%;
-    left: 50%;
+    left: 65%;
     position: absolute;
     opacity: 0;
     -webkit-transform: scale(0.9);
