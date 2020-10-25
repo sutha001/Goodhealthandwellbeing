@@ -268,22 +268,20 @@ mark {
 }
 
 .motorcycle21{
-    height: 130vh;
-    width: 50vw;
+    width: 60vw;
     background-repeat: no-repeat;
     background-size: cover;
-    top: -10%;
+    top: -12%;
     right: 0%;
     float: right;
     position: absolute;
 }
 .motorcycle22{
-    width: 80vw;
-    height: 150vh;
+    width: 65vw;
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .policeline {
@@ -351,4 +349,26 @@ footer{
     background-color: #161616;
     color: #ffe91a;
     font-family: 'chakra_petchlight';
+}
+.Section5{
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ImgSec5_1{
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: -36%;
+}
+.ImgSec5_2{
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: -85%;
+
 }
