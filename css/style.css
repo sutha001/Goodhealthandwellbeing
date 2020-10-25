@@ -1,6 +1,8 @@
-body{
+
+body {
     overflow-x: hidden;
 }
+
 @font-face {
     font-family: 'tavirajbold';
     src: url('taviraj-bold-webfont.woff2') format('woff2'), url('taviraj-bold-webfont.woff') format('woff');
@@ -14,15 +16,17 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+
 .mark_section3 {
-padding-right: 5px;
-padding-left: 5px;
-padding-top: 12px;
-padding-bottom: 12px;
-display:block;
-color: #0037ff;
-background-color: #ffe91a;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: block;
+    color: #0037ff;
+    background-color: #ffe91a;
 }
+
 .FontTaviraj {
     font-family: 'tavirajbold', 'sans-serif';
 }
@@ -57,6 +61,7 @@ background-color: #ffe91a;
     background-position: center;
     background-size: cover;
     position: absolute;
+    
 }
 
 .headd {
@@ -68,13 +73,14 @@ background-color: #ffe91a;
     background-size: cover;
     position: absolute;
 }
-.c1{
+
+.c1 {
     font-size: 40pt;
     font-family: 'Taviraj', serif;
     color: #ffe91a;
 }
 
-.c3{
+.c3 {
     font-size: 60pt;
     font-family: 'Taviraj', serif;
     color: #0037ff;
@@ -85,7 +91,7 @@ h1 {
     color: #0037ff;
 }
 
-h3{
+h3 {
     font-family: "tavirajbold";
     color: #0037ff;
 }
@@ -113,9 +119,9 @@ h3{
 }
 
 .Column1 {
-    width: 70vh;
+    width: 35%;
     top: 15%;
-    left: 35%;
+    left: 30%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +171,8 @@ mark {
 }
 
 .motorcycle13 {
-    height: 70vh;
+    height: 72vh;
+    width: 67vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,25 +181,26 @@ mark {
 }
 
 .motorcycle11 {
-    height: 150vh;
-    width: 80vh;
+    height: 140vh;
+    width: 34vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     position: absolute;
 }
 
 .motorcycle14 {
     height: 94vh;
-    width: 61vh;
+    width: 30vw;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 50%;
-    left: 75%;
-    position: absolute;
+    margin-top: 15%;
+    float: right;
 }
-.policeline{
-    width: 190vh;
+
+.policeline {
+    width: 190vw;
     height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,11 +224,14 @@ mark {
     left: -100%;
     position: absolute;
 }
-#mark_stat{
-    width:45%;
+
+#mark_stat {
+    width: 45%;
 }
-.posih3sec1{
-    left: 45%;
+
+.posih3sec1 {
+    left: 42%;
+    
     top: 15%;
     position: absolute;
 }

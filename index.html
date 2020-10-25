@@ -26,8 +26,7 @@
     <title>Document</title>
 </head>
 
-<body style="background-color: #f4f0ea;">
-
+<body>
     <section class="animate0">
         <div class="imageallbg">
             <img src="css/img/icon/เด้งดึ๋งๆ.png" class="butfootbg" id="ele">
@@ -189,14 +188,30 @@
                 scrub: true
             }
         });
+        const pol = gsap.utils.toArray('#policl');
+        pol.forEach(box => {
+            const anim = gsap.to(box, { x: 1700, paused: true });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "center 90%",
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: box,
+                start: "top bottom",
+                onLeaveBack: () => anim.pause(0)
+            });
+        });
 
         const boxes13 = gsap.utils.toArray('#mo13');
         boxes13.forEach(box => {
-            const anim = gsap.to(box, { x: 450, paused: true });
+            const anim = gsap.to(box, { x: 400, paused: true });
 
             ScrollTrigger.create({
                 trigger: box,
-                start: "center 70%",
+                start: "center 80%",
                 onEnter: () => anim.play()
             });
 
@@ -207,22 +222,6 @@
             });
         });
 
-        const pol = gsap.utils.toArray('#policl');
-       pol.forEach(box => {
-            const anim = gsap.to(box, { x: 2500, paused: true });
-
-            ScrollTrigger.create({
-                trigger: box,
-                start: "center 70%",
-                onEnter: () => anim.play()
-            });
-
-            ScrollTrigger.create({
-                trigger: box,
-                start: "top bottom",
-                onLeaveBack: () => anim.pause(0)
-            });
-        });
 
         const boxes = gsap.utils.toArray('#h1sec1');
         boxes.forEach(box => {
@@ -243,8 +242,9 @@
 
         ScrollTrigger.batch("#mo11", {
             onEnter: batch => {
-                gsap.from(batch, { rotation: -5})
+                gsap.from(batch, { rotation: -5 })
             },
+            start: "center 100%",
             toggleActions: "play none none none"
         })
         const controller = new ScrollMagic.Controller();
