@@ -203,9 +203,9 @@
         const scene1 = new ScrollMagic.Scene({
             triggerElement: ".animate1",
             triggerHook: 0, // show, when scrolled 10% into view
-            duration: 1500, // hide 10% before exiting view (80% + 10% from bottom)
-            offset: 50 // move trigger to center of element
+            duration: 1500
         })
+            .setTween(".IntroColumn")
             .setClassToggle(".IntroColumn", "visible") // add class to reveal
             .addIndicators({ name: "introcolumn" }) // add indicators (requires plugin)
             .addTo(controller);
