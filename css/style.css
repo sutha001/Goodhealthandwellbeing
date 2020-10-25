@@ -191,8 +191,18 @@ h3 {
 }
 .Column5{
     width: 35%;
+    top: 5%;
+    left: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.Column6{
+    width: 55%;
     top: 2%;
-    left: 65%;
+    left: 57%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
