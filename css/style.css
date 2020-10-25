@@ -163,12 +163,21 @@ h3 {
     background-size: cover;
     position: relative;
 }
+.allbg5{
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .Column1 {
     width: 35%;
     top: 35%;
     left: 35%;
     background-position: center;
+    top: 15%;
+    left: 30%;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -178,15 +187,14 @@ h3 {
     width: 35%;
     top: 0%;
     left: 15%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
 }
 .Column5{
     width: 35%;
-    top: 100%;
-    left: 15%;
+    top: 2%;
+    left: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,12 +253,22 @@ nav ul li a {
 mark {
     color: #ffe91a;
 }
+
 .motorcycle11 {
     width: 45vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+}
+
+.motorcycle13 {
+    height: 72vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 30%;
+    left: 30%;
     position: absolute;
 }
 .motorcycle12 {
@@ -305,6 +323,7 @@ mark {
 }
 
 .ee{
+    width: 60vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
