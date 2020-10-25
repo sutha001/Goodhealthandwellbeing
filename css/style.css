@@ -173,11 +173,9 @@ h3 {
 
 .Column1 {
     width: 35%;
-    top: 35%;
-    left: 35%;
+    top: -110%;
+    left: 38%;
     background-position: center;
-    top: 15%;
-    left: 30%;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -185,8 +183,8 @@ h3 {
 
 .Column2 {
     width: 35%;
-    top: 0%;
-    left: 15%;
+    top: 65%;
+    left: 10%;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -263,12 +261,12 @@ mark {
 }
 
 .motorcycle13 {
-    height: 72vh;
+    height: 35vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 30%;
-    left: 30%;
+    top: 50%;
+    left: 33%;
     position: absolute;
 }
 .motorcycle12 {
@@ -276,22 +274,12 @@ mark {
     right: 0%;
     position: absolute;
 }
-.motorcycle13 {
-    width: 65vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 40%;
-    position: absolute;
-}
-
-
 
 .motorcycle14 {
     width: 25vw;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 25%;
+    margin-top: 32%;
     float: right;
 }
 
@@ -299,7 +287,7 @@ mark {
     width: 60vw;
     background-repeat: no-repeat;
     background-size: cover;
-    top: -5%;
+    top: 52%;
     right: 0%;
     float: right;
     position: absolute;
@@ -309,7 +297,7 @@ mark {
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-    margin-top: 5%;
+    margin-top: 50%;
 }
 
 .policeline {
@@ -317,7 +305,7 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 158%;
+    top: 170%;
     left: 15%;
     position: absolute;
 }
@@ -327,7 +315,7 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 25%;
+    top: 90%;
     left: -2%;
     position: absolute;
 }
@@ -412,5 +400,8 @@ footer{
     margin-top: -25%;
 }
 #hide{
+    display: none;
+}
+.hide{
     display: none;
 }
