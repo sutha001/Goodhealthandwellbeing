@@ -247,17 +247,39 @@ nav ul {
     visibility: hidden;
 }
 
-.num1{
-    margin-right: 5px;
-}
-.num2{
-    margin-right: 5px;
-}
-.num3{
-    margin-right: 5px;
-}
-.num4{
+.num1 {
     margin-right: 0px;
+}
+
+@keyframes example {
+    from {
+        margin-right: -1000px;
+    }
+    to {
+        margin-right: 0px;
+    }
+}
+
+@keyframes example2 {
+    from {
+        margin-right: 0px;
+    }
+    to {
+        margin-right: -1000px;
+    }
+}
+
+.num2 {
+    margin-right: 0px;
+}
+
+.num3 {
+    margin-right: 0px;
+}
+
+.num4 {
+    margin-right: 0px;
+
 }
 
 nav ul li {
