@@ -229,9 +229,9 @@ h3 {
 
 
 nav {
-    background: #161616;
     height: 90px;
     width: 100%;
+    position: fixed;
 }
 
 .pic {
