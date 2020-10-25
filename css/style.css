@@ -118,7 +118,7 @@ h3 {
 .IntroColumn {
     width: 80vh;
     top: 40%;
-    left: 65%;
+    left: 60%;
     position: absolute;
     opacity: 0;
     -webkit-transform: scale(0.9);
@@ -409,6 +409,23 @@ footer{
     background-size: cover;
     margin-top: -25%;
 }
+
+.ImgButton{
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.ImgButton{
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
 #hide{
     display: none;
 }
