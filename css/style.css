@@ -248,11 +248,11 @@ mark {
 
 .motorcycle13 {
     height: 72vh;
-    width: 67vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     top: 30%;
+    left: 30%;
     position: absolute;
 }
 
@@ -303,6 +303,7 @@ mark {
 }
 
 .ee{
+    width: 60vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
