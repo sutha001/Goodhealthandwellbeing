@@ -234,11 +234,8 @@ nav {
     width: 100%;
 }
 
-label.logo {
-    color: yellow;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 30px;
+.pic {
+    padding: 25px 30px;
 }
 
 nav ul {
