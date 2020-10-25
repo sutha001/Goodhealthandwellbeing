@@ -365,10 +365,22 @@ footer{
     margin-top: -36%;
 }
 .ImgSec5_2{
-    width: 50vw;
+    width: 55vw;
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
     margin-top: -85%;
-
+}
+.Section6{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ImgSec6_1{
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -25%;
 }
