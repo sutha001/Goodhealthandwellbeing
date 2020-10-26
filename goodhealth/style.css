@@ -149,13 +149,13 @@ nav ul li a {
 	font-size: 40pt;
 }
 .percent{
-	font-size: 60pt;
+	font-size: 6vw;
 	font-family: 'tavirajbold';
 	color:#0037ff;
 }
 .column1{
 	margin-top:133%;
-	margin-left:42%;
+	margin-left:40%;
 	position: absolute;
 	z-index: 1200;
 	font-family: 'chakra_petchlight';
@@ -195,32 +195,32 @@ nav ul li a {
 }
 .foot{
 	font-family: 'chakra_petchlight';
-	font-size: 12pt;
+	font-size: 1vw;
 	line-height: 25pt;
 	text-align: center;
 	margin-top: 4vh;
 }
 
 .Posih3s1{
-	margin-left: 50%;
+	margin-left: 45%;
 	margin-top: -20%;
 }
 
 .Posih3s2{
 	width: 80%;
-	margin-left: 58%;
+	margin-left: 55%;
 	margin-top: -25%;
 }
 
 .Posih3s3{
 	width: 80%;
-	margin-left: 55%;
+	margin-left: 50%;
 	margin-top: -23%;
 }
 
 .Posih3s4{
 	width: 80%;
-	margin-left: 40%;
+	margin-left: 42%;
 	margin-top: -23%;
 }
 .h1section{
