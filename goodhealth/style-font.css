@@ -1,6 +1,21 @@
-p{
+@font-face {
+	font-family: 'tavirajbold';
+	src: url('taviraj-bold-webfont.woff2') format('woff2'), url('taviraj-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'chakra_petchlight';
+	src: url('chakrapetch-light-webfont.woff2') format('woff2'), url('chakrapetch-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
 	font-size: 16pt;
 }
-footer p{
+
+footer p {
 	font-size: 100%;
 }
