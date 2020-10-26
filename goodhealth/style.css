@@ -125,3 +125,11 @@ nav ul li a {
 .Diam span:nth-child(3) {
 	transform: rotate(-45deg) translate(1px, 0);
 }
+
+.move{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 100%;
+	left:30%;
+}
