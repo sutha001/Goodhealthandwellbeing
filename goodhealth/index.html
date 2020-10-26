@@ -24,7 +24,8 @@
 </head>
 
 
-<body >
+<body onload="load()">
+
 		<nav style="z-index: 999">
 
 				<div id="pencet" onclick="myfunction()">
@@ -198,7 +199,9 @@
 		AOS.init({
 			duration: 800,
 		})
-
+		function load(){
+			alert("finish");
+		}
 		var element = document.getElementById("dokdok");
 
 		TweenMax.to(element, 2, { y: "+=20", yoyo: true, repeat: -1 });
