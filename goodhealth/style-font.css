@@ -14,8 +14,14 @@
 
 p {
 	font-size: 16pt;
+	font-family: 'chakra_petchlight';
+	line-height: 25pt;
 }
 
 footer p {
 	font-size: 100%;
+}
+
+h1{
+	font-size: 60pt;
 }

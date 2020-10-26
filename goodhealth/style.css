@@ -128,3 +128,12 @@ nav ul li a {
 	top: 100%;
 	left:30%;
 }
+
+.texthome{
+	width: 100%;
+	z-index: 1000;
+	margin-top:42%;
+	margin-left: 60%;
+	position: relative;
+	position: absolute;
+}
