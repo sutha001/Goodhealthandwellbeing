@@ -137,3 +137,48 @@ nav ul li a {
 	position: relative;
 	position: absolute;
 }
+
+.column1{
+	margin-top:10%;
+	margin-left:60%;
+	position: absolute;
+	position: relative;
+	z-index: 1200;
+	font-family: 'chakra_petchlight';
+	color:#161616;
+	font-size: 16pt;
+	line-height: 25pt;
+}
+.column2{
+	margin-top:10%;
+	margin-left:60%;
+	position: absolute;
+	position: relative;
+	z-index: 1300;
+	font-family: 'chakra_petchlight';
+	color:#161616;
+	font-size: 16pt;
+	line-height: 25pt;
+}
+.column3{
+	margin-top:10%;
+	margin-left:60%;
+	position: absolute;
+	position: relative;
+	z-index: 1400;
+	font-family: 'chakra_petchlight';
+	color:#161616;
+	font-size: 16pt;
+	line-height: 25pt;
+}
+.column4{
+	margin-top:10%;
+	margin-left:60%;
+	position: absolute;
+	position: relative;
+	z-index: 1500;
+	font-family: 'chakra_petchlight';
+	color:#161616;
+	font-size: 16pt;
+	line-height: 25pt;
+}
