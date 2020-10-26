@@ -3,17 +3,12 @@ body {
 	overflow-x: hidden;
 	background:#f4f0ea !important; 
 }
+#BgMotion{
+	width:100vw;
 
-#section1 {
-	height: 100vh;
-	position: relative;
-	background-image: url('motion.gif');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
-#section2 {
+#section1 {
 	height: 100vh;
 	position: relative;
 	z-index: -1;
