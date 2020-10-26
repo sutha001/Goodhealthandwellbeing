@@ -26,7 +26,7 @@
 
 <body>
 
-	<nav style="z-index: 999">
+	<nav style="z-index: 99999">
 
 		<div id="pencet" onclick="myfunction()">
 			<span></span>
@@ -109,7 +109,7 @@
 				เกิดจากผู้ใช้<br>รถยนต์ส่วนตัว</h3>
 
 			<h3 style="font-size: 1.73vw; line-height: 25pt;" class="Posih3s3" data-aos="fade-right">
-			เกิดจากผู้ใช้<br>ทางเท้า</h3>
+				เกิดจากผู้ใช้<br>ทางเท้า</h3>
 
 			<h3 style="font-size: 1.73vw; line-height: 25pt;" class="Posih3s4" data-aos="fade-right">
 				เกิดจากผู้ใช้<br>ยานพาหนะอื่นๆ</h3>
@@ -222,6 +222,8 @@
 		crossorigin="anonymous" />
 
 	<script>
+
+
 		AOS.init({
 			duration: 800,
 		})
@@ -232,9 +234,11 @@
 
 		function movee() {
 			var element = document.querySelector(".move");
-
 			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
 		}
+
+
+
 
 		ScrollTrigger.batch("#motorcycle11", {
 			onEnter: batch => {
@@ -258,36 +262,12 @@
 				document.getElementById('manmuha').style.animation = "example 0.5s";
 				check += 1;
 			}
+			else {
+				document.getElementById('manmuha').style.visibility = "hidden";
+				document.getElementById('manmuha').style.animation = "example2 0.5s";
+				document.getElementById('manmuha').style.transition = "0.5s";
 
-			ScrollTrigger.batch("#motorcycle11", {
-				onEnter: batch => {
-					gsap.from(batch, { rotation: -5, duration: 2 })
-				},
-				start: "center 100%",
-				toggleActions: "play none none none"
-			})
-
-
-			const clickx = document.getElementById('pencet');
-
-			clickx.addEventListener('click', function () {
-				clickx.classList.toggle('Diam');
-			});
-
-			var check = 0;
-			function myfunction() {
-				if (check == 0) {
-					document.getElementById('manmuha').style.visibility = "visible";
-					document.getElementById('manmuha').style.animation = "example 0.5s";
-					check += 1;
-				}
-				else {
-					document.getElementById('manmuha').style.visibility = "hidden";
-					document.getElementById('manmuha').style.animation = "example2 0.5s";
-					document.getElementById('manmuha').style.transition = "0.5s";
-
-					check = 0;
-				}
+				check = 0;
 			}
 		}
 
