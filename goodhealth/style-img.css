@@ -1,0 +1,80 @@
+#ImgHome{
+	width:100%;
+	position: absolute;
+	z-index: 999;
+}
+#motorcycle11{
+	position:absolute;
+	width: 53%;
+	z-index:5;
+	margin-top:72%;
+}
+#motorcycle12{
+	position: absolute;
+	width: 63%;
+	right:0%;
+	margin-top:72%;
+}
+#motorcycle13{
+	position: absolute;
+	width: 50%;
+	right:9%;
+	margin-top:101%;
+	z-index:3;
+}
+#motorcycle14{
+	position: absolute;
+	width: 28%;
+	right:0%;
+	margin-top:110%;
+	z-index:2;
+}
+#ImgPoliceLine{
+	position: absolute;
+	width: 82%;
+	right:0%;
+	margin-top:146.5%;
+	z-index:4;
+
+}
+#car21{
+	position: absolute;
+	width: 60%;
+	right:0%;
+	margin-top:158%;
+	z-index:3;
+}
+#car22{
+	position: absolute;
+	width: 65%;
+	left: 0%;
+	margin-top:172%;
+	z-index:2;
+}
+#footpath31{
+	position: absolute;
+	width: 50%;
+	left: 0%;
+	margin-top:240%;
+	z-index:1;
+}
+#footpath32{
+	position: absolute;
+	width: 53%;
+	right: 0%;
+	margin-top:262%;
+	z-index:1;
+}
+#wheel{
+	position: absolute;
+	width: 80%;
+	left:0%;
+	margin-top:192%;
+	z-index:-1;
+}
+#bus{
+	width:100%;
+	position: absolute;
+	margin-top:317%;
+	z-index:10;
+}

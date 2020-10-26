@@ -1,0 +1,30 @@
+body{
+	margin:0;
+	overflow-x: hidden;
+	background-color: #f4f0ea;
+
+}
+#section1{
+	height:100vh;
+	position:relative;
+	background-image: url('motion.gif');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2{
+	height:100vh;
+	position:relative;
+	z-index: -1;
+}
+#footer_div {
+	position: absolute;
+	width:100%;
+	margin-top:388.3%;
+    background-color: #161616;
+    color: #ffe91a;
+    height: 15vh;
+    border-top: 2px solid white;
+    z-index: 9;
+
+}
