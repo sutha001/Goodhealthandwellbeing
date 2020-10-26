@@ -154,8 +154,8 @@ nav ul li a {
 	color:#0037ff;
 }
 .column1{
-	margin-top:133%;
-	margin-left:40%;
+	margin-top:130%;
+	margin-left:42%;
 	position: absolute;
 	z-index: 1200;
 	font-family: 'chakra_petchlight';
@@ -164,7 +164,7 @@ nav ul li a {
 	line-height: 25pt;
 }
 .column2{
-	margin-top:170%;
+	margin-top:165%;
 	margin-left:15%;
 	position: absolute;
 	z-index: 1300;
@@ -174,7 +174,7 @@ nav ul li a {
 	line-height: 25pt;
 }
 .column3{
-	margin-top:240%;
+	margin-top:238%;
 	margin-left:67%;
 	position: absolute;
 	z-index: 1400;
@@ -202,26 +202,28 @@ nav ul li a {
 }
 
 .Posih3s1{
-	margin-left: 45%;
-	margin-top: -20%;
+	position:absolute;
+	margin-left: 52%;
+	margin-top: 130%;
 }
 
 .Posih3s2{
-	width: 80%;
-	margin-left: 55%;
-	margin-top: -25%;
+	position: absolute;
+	margin-left: 26%;
+	margin-top: 165%;
 }
 
 .Posih3s3{
-	width: 80%;
-	margin-left: 50%;
-	margin-top: -23%;
+	position: absolute;
+	margin-left: 78%;
+	margin-top: 238%;
 }
 
 .Posih3s4{
-	width: 80%;
-	margin-left: 42%;
-	margin-top: -23%;
+	position: absolute;
+	margin-left: 73%;
+	margin-top: 313%;
+	z-index: 1800;
 }
 .h1section{
 	margin-left: 10%;
