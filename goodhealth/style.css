@@ -189,11 +189,10 @@ nav ul li a {
 	font-size: 16pt;
 	line-height: 25pt;
 }
-.invest{
-	position: absolute;
-	width: 90%;
-	left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    z-index: 1500;
+.foot{
+	font-family: 'chakra_petchlight';
+	font-size: 12pt;
+	line-height: 25pt;
+	text-align: center;
+	margin-top: 4vh;
 }
