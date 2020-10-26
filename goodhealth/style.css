@@ -7,6 +7,7 @@ body {
 	overflow-x: visible;
 	background:#f4f0ea !important; 
 }
+
 #BgMotion{
 	width:100vw;
 
@@ -153,7 +154,6 @@ nav ul li a {
 	color:#0037ff;
 }
 .column1{
-	width: 30%;
 	margin-top:133%;
 	margin-left:42%;
 	position: absolute;
@@ -199,4 +199,47 @@ nav ul li a {
 	line-height: 25pt;
 	text-align: center;
 	margin-top: 4vh;
+}
+
+.Posih3s1{
+	margin-left: 50%;
+	margin-top: -20%;
+}
+
+.Posih3s2{
+	width: 80%;
+	margin-left: 58%;
+	margin-top: -25%;
+}
+
+.Posih3s3{
+	width: 80%;
+	margin-left: 55%;
+	margin-top: -23%;
+}
+
+.Posih3s4{
+	width: 80%;
+	margin-left: 40%;
+	margin-top: -23%;
+}
+.h1section{
+	margin-left: 10%;
+	margin-top: 85%;
+	position: absolute;
+	z-index: 1600;
+}
+
+#mark_stat{
+	width: 45%;
+}
+
+.mark_section3{
+	padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: block;
+    color: #0037ff;
+    background-color: #ffe91a;
 }
