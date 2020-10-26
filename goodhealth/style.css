@@ -146,10 +146,10 @@ nav ul li a {
 .intro{
 	font-family: 'tavirajbold'; 
 	color: #ffe91a; 
-	font-size: 40pt;
+	font-size: 2.77vw;
 }
 .percent{
-	font-size: 6vw;
+	font-size: 4.16vw;
 	font-family: 'tavirajbold';
 	color:#0037ff;
 }
@@ -160,7 +160,7 @@ nav ul li a {
 	z-index: 1200;
 	font-family: 'chakra_petchlight';
 	color:#161616;
-	font-size: 16pt;
+	font-size: 1.11vw;
 	line-height: 25pt;
 }
 .column2{
@@ -170,7 +170,7 @@ nav ul li a {
 	z-index: 1300;
 	font-family: 'chakra_petchlight';
 	color:#161616;
-	font-size: 16pt;
+	font-size: 1.11vw;
 	line-height: 25pt;
 }
 .column3{
@@ -180,7 +180,7 @@ nav ul li a {
 	z-index: 1400;
 	font-family: 'chakra_petchlight';
 	color:#161616;
-	font-size: 16pt;
+	font-size: 1.11vw;
 	line-height: 25pt;
 }
 .column4{
@@ -190,12 +190,12 @@ nav ul li a {
 	z-index: 1500;
 	font-family: 'chakra_petchlight';
 	color:#161616;
-	font-size: 16pt;
+	font-size: 1.11vw;
 	line-height: 25pt;
 }
 .foot{
 	font-family: 'chakra_petchlight';
-	font-size: 1vw;
+	font-size: 0.83vw;
 	line-height: 25pt;
 	text-align: center;
 	margin-top: 4vh;
