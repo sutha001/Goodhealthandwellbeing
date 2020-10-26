@@ -154,8 +154,8 @@ nav ul li a {
 	color:#0037ff;
 }
 .column1{
-	margin-top:130%;
-	margin-left:42%;
+	margin-top:135%;
+	margin-left:43%;
 	position: absolute;
 	z-index: 1200;
 	font-family: 'chakra_petchlight';
@@ -164,7 +164,7 @@ nav ul li a {
 	line-height: 25pt;
 }
 .column2{
-	margin-top:165%;
+	margin-top:171%;
 	margin-left:15%;
 	position: absolute;
 	z-index: 1300;
@@ -174,7 +174,7 @@ nav ul li a {
 	line-height: 25pt;
 }
 .column3{
-	margin-top:238%;
+	margin-top:242%;
 	margin-left:67%;
 	position: absolute;
 	z-index: 1400;
@@ -184,7 +184,7 @@ nav ul li a {
 	line-height: 25pt;
 }
 .column4{
-	margin-top:313%;
+	margin-top:316%;
 	margin-left:65%;
 	position: absolute;
 	z-index: 1500;
@@ -203,26 +203,26 @@ nav ul li a {
 
 .Posih3s1{
 	position:absolute;
-	margin-left: 52%;
-	margin-top: 130%;
+	margin-left: 55%;
+	margin-top: 135.5%;
 }
 
 .Posih3s2{
 	position: absolute;
 	margin-left: 26%;
-	margin-top: 165%;
+	margin-top: 171.5%;
 }
 
 .Posih3s3{
 	position: absolute;
 	margin-left: 78%;
-	margin-top: 238%;
+	margin-top: 243%;
 }
 
 .Posih3s4{
 	position: absolute;
 	margin-left: 73%;
-	margin-top: 313%;
+	margin-top: 316.5%;
 	z-index: 1800;
 }
 .h1section{
