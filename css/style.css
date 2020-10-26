@@ -148,6 +148,17 @@ h3 {
     position: absolute;
 }
 
+.dec1{
+    right:80%;
+    top: -25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 10;
+
+}
+
 .allbg1 {
     height: 70vh;
     background-position: center;
@@ -397,19 +408,25 @@ mark {
 }
 
 .posih3sec1 {
-    left: 42%;
+    left: 35%;
     top: 15%;
     position: absolute;
 }
 
 .posih3sec2 {
-    left: 42%;
+    left: 30%;
+    top: 15%;
+    position: absolute;
+}
+
+.posih3sec3 {
+    left: 35%;
     top: 15%;
     position: absolute;
 }
 
 .posih3sec6 {
-    left: 18%;
+    left: 15%;
     top: 15%;
     position: absolute;
 }
