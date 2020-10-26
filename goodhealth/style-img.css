@@ -125,3 +125,12 @@
 	position: absolute;
 }
 
+.invest{
+	position: absolute;
+	width: 30%;
+	left: 50%;
+    cursor: pointer;
+    z-index: 1500;
+    margin-top: 378%;
+    margin-left: 6%;
+}
