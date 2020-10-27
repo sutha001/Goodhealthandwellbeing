@@ -1,386 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style-img.css">
+	<link rel="stylesheet" type="text/css" href="style-font.css">
+	<link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@700&display=swap" rel="stylesheet">
 
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link type="text/JavaScript" rel="stylesheet" href="js/script.js">
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@700&display=swap" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Document</title>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<title>GoodHealth</title>
 </head>
 
-<body style="overflow-x: hidden;">
-    
-    <nav style="z-index: 999">
-        <img class="pic" src="css/img/icon/logo.png" width="11%">
-        <div id="pencet" onclick="myfunction()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul id="manuham" class="manubbb">
-            <li class="num1" id="num1"><a href="index.html" style="font-family:'chakra_petchbold' ; color: #0037ff;">CASE</a></li>
-            <li><svg height="100" width="100">
-                    <line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
-                </svg></li>
-            <li class="num2"><a href="#" style="color:#ffe91a;">INVESTIGATE</a></li>
-            <li><svg height="100" width="100">
-                    <line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
-                </svg></li>
-            <li class="num3"><a href="#" style="color:#ffe91a;">SOLVETHECASE</a></li>
-            <li><svg height="100" width="100">
-                    <line x1="0" y1="50" x2="100" y2="50" style="stroke:#ffe91a;stroke-width:2" />
-                </svg></li>
-            <li class="num4"><a href="#" style="color:#ffe91a;">SDG</a></li>
-        </ul>
-    </nav>
+
+<body>
 
 
-    <section class="animate0">
-        <div class="imageallbg">
-            <img src="css/img/icon/เด้งดึ๋งๆ.png" class="butfootbg" id="ele">
-        </div>
-    </section>
+	<section id="section1" class="hide">
+		<nav style="z-index: 99999">
 
-    <section class="animate1">
-        <div class="imageallbgfoot">
-            <div class="headd">
-                <img src="css/img/icon/head.png" id="headd1" style="width: 70vh;">
-            </div>
-            <div class="IntroColumn">
-                <img src="css/img/icon/jjBKK-04.png" class="dec1" style="width: 20vh;">
-                <h2 class="c1">ชีวิตดี ๆ ที่ลงตัว</h2>
-                <p class="introCol1" style="color:#f9f9f9">กรุงเทพมหานครหรือเมืองใหญ่ศูนย์กลางของประเทศ<br>
-                    เมืองที่มีชีวิตชีวา มีสเน่ห์ สวยงาม นักท่องเที่ยวมากมาย<br>
-                    ต่างตกหลุมรักในเมืองอันแสนศิวิไลซ์นี้ แต่ถ้าถามตัวคน<br>
-                    กรุงเทพ ฯ จริง ๆ แล้วความเป็นอยู่ของชาวกรุงเทพ ฯ<br>
-                    อาจไม่ได้สวยงามนัก แค่เพียงการเดินทางออกจากบ้าน<br>
-                    ในแต่ละวัน ก็ทั้งเหนื่อยยากและเสี่ยงภัยอันตราย<br>
-                    ที่อาจมาถึงเมื่อไหร่ก็ได้ เหมือนตัวคุณเองกําลังเดําเนิน<br>
-                    ชีวิตอยู่ใน<mark style="background-color: #0037ff;">สถานที่เกิดเหตุ...</mark></p>
-            </div>
-        </div>
-    </section>
+			<div id="pencet" onclick="myfunction()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul id="manmuha" class="manubbb">
+				<li class="num1" id="num1"><a href="index.html"
+						style="font-family:'chakra_petchbold' ; color: #0037ff;">CASE</a></li>
+				<li><svg height="100" width="100">
+						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
+					</svg></li>
+				<li class="num2"><a href="#" style="color:#ffe91a;">INVESTIGATE</a></li>
+				<li><svg height="100" width="100">
+						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
+					</svg></li>
+				<li class="num3"><a href="#" style="color:#ffe91a;">CASE SOLVED</a></li>
+			</ul>
+		</nav>
+		<img src="motion2.gif" id="BgMotion">
 
-    <section class="animate2">
-        <div class="section11">
-            <img src="css/img/imgGIF/1.2 มอไซต์.png" class="motorcycle12" style="z-index: -1;">
-            <img src="css/img/imgGIF/1.4 มอไซต์.png" class="motorcycle14">
-            <img src="css/img/icon/_.png" id="policl" class="policeline" data-aos="fade-right">
-            <img src="css/img/imgGIF/1.3 มอไซต์.png" id="mo13" class="motorcycle13" data-aos="fade-right">
-            <img src="css/img/imgGIF/1.1 มอไซต์.png" id="mo11" class="motorcycle11">
+		<img src="pic\img\icon\logo.png" class="logo">
 
-            <div class="h1section">
-                <h1 style="font-size: 60pt; line-height:50pt;" id="h1sec1" data-aos="fade-down"><mark id="mark_stat"
-                        class="mark_section3">สถิติ<br></mark><mark class="mark_section3">การเกิดคดี<br></mark></h1>
-            </div>
-            <div class="allbg1">
-                <div class="Column1">
-                    <h1 style="font-size: 60pt;" data-aos="fade-down">70 %</h1>
-                    <h3 style="font-size: 20pt; line-height: 25pt;" class="posih3sec1" data-aos="fade-right">
-                        เกิดจากผู้ใช้<br>รถจักยานยนต์</h3>
-                    <p class="Col1" data-aos="zoom-in">
-                        คดีผู้เสียชีวิตและบาดเจ็บจากการขับขี่รถจักยานยนต์<br>
-                        เกิดขึ้นในเขตชั้นนอกของกรุงเทพ ฯ กว่าร้อยละ 90<br>
-                        ซึ่งถือเป็นอันดับหนึ่งของกรุงเทพ ฯ และประเทศไทย
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+		<img src="pic/img/icon/ดึ้งๆ.png" id="dokdok" onclick="movee()">
 
+		<section id="section2" class="hide">
+			<img src="pic/img/icon/head.png" id="HeadHome" data-aos="fade-down-right">
+			<img src="pic\img\imgGIF\Home.png" id="ImgHome">
+			<div class="texthome">
+				<img src="pic/img/icon/jjBKK-04.png" id="jjbk" data-aos="zoom-out">
+				<h1 data-aos="fade-down" class="intro">ชีวิตดีๆที่ลงตัว</h1>
+				<p style="color: #f9f9f9;" data-aos="zoom-in">กรุงเทพมหานครหรือเมืองใหญ่ศูนย์กลางของประเทศ<br>
+					เมืองที่มีชีวิตชีวา มีสเน่ห์ สวยงาม นักท่องเที่ยวมากมาย<br>
+					ต่างตกหลุมรักในเมืองอันแสนศิวิไลซ์นี้ แต่ถ้าถามตัวคน<br>
+					กรุงเทพ ฯ จริง ๆ แล้วความเป็นอยู่ของชาวกรุงเทพ ฯ<br>
+					อาจไม่ได้สวยงามนัก แค่เพียงการเดินทางออกจากบ้าน<br>
+					ในแต่ละวัน ก็ทั้งเหนื่อยยากและเสี่ยงภัยอันตราย<br>
+					ที่อาจมาถึงเมื่อไหร่ก็ได้ เหมือนตัวคุณเองกําลังเดําเนิน<br>
+					ชีวิตอยู่ใน<mark style="background-color: #0037ff; color: #ffe91a;">สถานที่เกิดเหตุ...</mark></p>
+			</div>
+			<div class="move">
+			</div>
 
-    <section>
-        <div class="allbg2" style="z-index: -1;">
-            <img src="css/img/imgGIF/2.2 รถยนต์.png" class="motorcycle22" data-aos="fade-right">
-            <img src="css/img/icon/e.png" style="z-index: -1;" class="ee" data-aos="fade-right">
-            <img src="css/img/imgGIF/2.1 รถยนต์.png" class="motorcycle21" data-aos="fade-left">
-            <div class="Column2">
-                <h1 style="font-size: 60pt;" data-aos="fade-down">40%</h1>
-                <h3 style="font-size: 20pt; line-height: 25pt;" class="posih3sec2" data-aos="fade-right">
-                    เกิดจากผู้ใช้<br>รถยนต์ส่วนตัว</h3>
-                <p class="Col2" data-aos="zoom-in">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน<br>
-                    เกิดในลักษณะการชนระหว่างรถกับรถ<br>
-                    เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์<br>
-                    การชนระหว่างรถกับคน</p>
-            </div>
+			<div class="h1section" data-aos="fade-down">
+				<h1 style="font-size: 5.2vw; line-height:4.3vw; font-family: 'tavirajbold';" id="h1sec1"><mark
+						id="mark_stat" class="mark_section3">สถิติ<br></mark><mark
+						class="mark_section3">การเกิดคดี<br></mark></h1>
+			</div>
 
-        </div>
-    </section>
+			<img src="pic\img\icon\_.png" id="ImgPoliceLine" data-aos="fade-right">
 
-    <section>
-        <div class="Section5" style="z-index: -2;">
-            <img src="css\img\imgGIF\3.1 ทางเท้า.png" class="ImgSec5_1" data-aos="fade-down">
-            <img src="css\img\imgGIF\3.2 ทางเท้า.png" class="ImgSec5_2" data-aos="fade-left">
-            <div class="allbg5">
-                <div class="Column5">
-                    <h1 style="font-size: 60pt;" data-aos="fade-down">10 %</h1>
-                    <h3 style="font-size: 20pt; line-height: 25pt;" class="posih3sec3" data-aos="fade-right">
-                        เกิดจากผู้ใช้<br>ทางเท้า</h3>
-                    <p class="introCol1" style="color: #161616;" data-aos="zoom-in">
-                        มีคนเดินเท้าประสบอุบัติเหตุเฉลี่ยปีละ 821 ราย<br>
-                        โดยจํานวนอุบัติเหตุมีแนวโน้มเพิมขึ้น</p>
+			<img src="pic\img\imgGIF\1.4 มอไซต์.png" id="motorcycle14">
+			<img src="pic\img\imgGIF\1.3 มอไซต์.png" id="motorcycle13" data-aos="fade-right">
+			<img src="pic\img\imgGIF\1.2 มอไซต์.png" id="motorcycle12">
+			<img src="pic\img\imgGIF\1.1 มอไซต์.png" id="motorcycle11">
 
-                </div>
-            </div>
+			<img src="pic\img\imgGIF\2.1 รถยนต์.png" id="car21" data-aos="fade-left">
+			<img src="pic\img\imgGIF\2.2 รถยนต์.png" id="car22" data-aos="fade-right">
 
-        </div>
-    </section>
+			<img src="pic\img\icon\e.png" id="wheel" data-aos="fade-right">
 
-    <section>
-        <div class="Section6">
-            <img src="css\img\icon\ปุ่มไปหน้าต่อไป.png" width="15%" class="ImgButton"
-                onmouseover="this.src='css\\img\\icon\\ปุ่มตอนโดนเม้า.png'"
-                onmouseout="this.src='css\\img\\icon\\ปุ่มไปหน้าต่อไป.png'">
-            <img src="css\img\imgGIF\4.1 อื่นๆ.png" class="ImgSec6_1" data-aos="fade-up">
-            <div class="Column6">
-                <h1 style="font-size: 60pt;" data-aos="fade-right">6%</h1>
-                <h3 style="font-size: 20pt; line-height: 25pt;" class="posih3sec6" data-aos="fade-right">
-                    เกิดจากผู้ใช้<br>ยานพาหนะอื่นๆ</h3>
-                <p class="introCol1" style="color:#161616;" data-aos="zoom-in">
-                    เช่นเกิดกับผู้ขี่จักรยานและรถบรรทุกขนาดใหญ่</p>
-            </div>
-        </div>
-    </section>
+			<img src="pic\img\imgGIF\3.1 ทางเท้า.png" id="footpath31" data-aos="zoom-in-right">
+			<img src="pic\img\imgGIF\3.2 ทางเท้า.png" id="footpath32" data-aos="fade-left">
 
-    <footer style="text-align: center;">
-        <p>รายงานนี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์ คณะสถาปัตยกรรมศาสตร์และการโปรแกรมและสื่อประสม
-            แขนงวิชาการพัฒนาสื่อประสมและเกม<br>
-            คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ©2020</p>
-    </footer>
+			<img src="pic\img\imgGIF\4.1 อื่นๆ.png" id="bus" data-aos="fade-up">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"
-        integrity="sha512-6MT8e40N5u36Um5SXKtwZmoKcCSg1XaKtexnXZPpQ4iJDHrBEHXKz37fnDovXezsaCd4oKCH5Y+vrcl7qpLPoA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/Draggable.min.js"
-        integrity="sha512-8Ki7MoPkSTPMun9YO9ZLAIDQxquFppy8EQACCB0P6OvhKXv4h5mo8CAhTAqIZj7R1A/+wC4qk13on6kPEMhATw=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EasePack.min.js"
-        integrity="sha512-vQOiSJoxXnRHzc2GaliBf8GzngpkWqIpVS5O7SUcwrixAwUSbkRiVwtixXQgUxNPU8OD4rBFLpw58u9NbKT7pw=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EaselPlugin.min.js"
-        integrity="sha512-6mTijoDzjngYAkLkMLiRBXRYMHkXn65RqvuFjGPQftaJPR/myOhMiNd21jQdy6bGDP2mgha2D537Ux5UvexZsg=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/MotionPathPlugin.min.js"
-        integrity="sha512-2vgSeT4mD0azBGIp91Fnho9fbT8ZG8zu5c+mK//TGxj4YNX2mRAwEZHtZsMRwA7ObqH6Vl7mMOdvkzNVTuhUcA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/PixiPlugin.min.js"
-        integrity="sha512-HxCVV6ztUUQxy4YKONLIA2qjMsobBr0OVaXrVWqVcuDrlY9cFxQs9u346FLzDXQlrGKYTXfA+w5DbGyq2P5C+g=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"
-        integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
-        integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/TextPlugin.min.js"
-        integrity="sha512-2LEOQqARBlk67mYfoWcJah3Rt1Tan5TYsWUNBPtviIk206eyqQpUSpuBK5S77UFu3Pm+zlJOdw8uP5UfO/AtPw=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
-        integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"
-        integrity="sha512-+VS2+Nl1Qit71a/lbncmVsWOZ0BmPDkopw5sXAS2W+OfeceCEd9OGTQWjgVgP5QaMV4ddqOIW9XLW7UVFzkMAw=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js"
-        integrity="sha512-dHdYPMJdRE6BN86nkX0l+uKVrFJRLH+FgL8pxiJ0a3YzMTwIXb8OwaU7Ot5Y7nxqoAc/bZ1yNiLjEV5v4d9Xuw=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
-        integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
-        integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.velocity.min.js"
-        integrity="sha512-6Fw+pSuqmag+yYx0kMzlwVBy51GAIXyT1S4B0l5yRs+ku5LLKD/kfCOLA9Rer2Y/iBNAoPEiexwlsKKFChhk7Q=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
-        integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/jquery.ScrollMagic.min.js"
-        integrity="sha512-f031btWm661Twvo3JQ18X5z8epjTu5K4eNcOOYNJs3AKU0wOTGnY1mjXUmfsTJ96lYggbyIg9vdJ7nbjdddtvQ=="
-        crossorigin="anonymous"></script>
+			<div id="footer_div">
+				<p class="foot">รายงานนี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
+					คณะสถาปัตยกรรมศาสตร์และการโปรแกรมและสื่อประสมแขนงวิชาการพัฒนาสื่อประสมและเกม<br>
+					คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ©2020</p>
+			</div>
+			<h3 style="font-size: 1.73vw; line-height: 2vw;" class="Posih3s1" data-aos="fade-right">
+				เกิดจากผู้ใช้<br>รถจักยานยนต์</h3>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-        crossorigin="anonymous" />
+			<h3 style="font-size: 1.73vw; line-height: 2vw;" class="Posih3s2" data-aos="fade-right">
+				เกิดจากผู้ใช้<br>รถยนต์ส่วนตัว</h3>
 
-    <script>
+			<h3 style="font-size: 1.73vw; line-height: 2vw;" class="Posih3s3" data-aos="fade-right">
+				เกิดจากผู้ใช้<br>ทางเท้า</h3>
 
-        $(function () {
-            var expanded = false;
-            $('#sidebar').click(function () {
-                if (!expanded) {
-                    $(this).animate({ 'left': '0px' }, { duration: 400 });
-                    expanded = true;
-                }
-                else {
-                    $(this).animate({ 'left': '565px' }, { duration: 400 });
-                    expanded = false;
-                }
-            });
-        });
+			<h3 style="font-size: 1.73vw; line-height: 2vw;" class="Posih3s4" data-aos="fade-right">
+				เกิดจากผู้ใช้<br>ยานพาหนะอื่นๆ</h3>
 
-        AOS.init({
-            duration: 800,
-        })
+			<div class="column1">
+				<h1 class="percent" data-aos="fade-down">70%</h1>
+				<p data-aos="zoom-out">คดีผู้เสียชีวิตและบาดเจ็บจากการขับขี่รถจักยานยนต์<br>
+					เกิดขึนในเขตชั้นนนอกของกรุงเทพ ฯ กว่าร้อยละ 90<br>
+					ซึ่งถือเป็นอันดับหนึ่งของกรุงเทพ ฯ และประเทศไทย</p>
+			</div>
+
+			<div class="column2">
+				<h1 class="percent" data-aos="fade-down">40%</h1>
+				<p data-aos="zoom-out">เกิดอุบัติเหตุที่ได้รับแจ้งมากถึง 29,728 คัน<br>
+					เกิดในลักษณะการชนระหว่างรถกับรถ<br>
+					เป็นสําเหตุหลัก รองมาเป็นเหตุการณ์<br>
+					การชนระหว่างรถกับคน</p>
+			</div>
+
+			<div class="column3">
+				<h1 class="percent" data-aos="fade-down">10%</h1>
+				<p data-aos="zoom-out">มีคนเดินเท้าประสบอุบัติเหตุเฉลี่ยปีละ 821 ราย<br>
+					โดยจํานวนอุบัติเหตุมีแนวโน้มเพิมขึ่น</p>
+			</div>
+
+			<div class="column4">
+				<h1 class="percent" data-aos="fade-down">6%</h1>
+				<p data-aos="zoom-out">เช่นเกิดกับผู้ขี่จักรยานและรถบรรทุกขนาดใหญ่</p>
+			</div>
+
+			<div class="invest">
+				<img src="pic\img\icon\ปุ่มไปหน้าต่อไป.png" width="50%" class="ImgButton"
+					onmouseover="this.src='pic\\img\\icon\\ปุ่มตอนโดนเม้า.png'"
+					onmouseout="this.src='pic\\img\\icon\\ปุ่มไปหน้าต่อไป.png'">
+			</div>
+
+		</section>
+	</section>
 
 
 
-        var element = document.getElementById("ele");
-
-        TweenMax.to(element, 0.5, { y: "+=20", yoyo: true, repeat: -1 });
-        TweenMax.to(element, 0.5, { y: "-=20", yoyo: true, repeat: -1 });
 
 
-        /*gsap.to('#headd1', {
-            x: 0,
-            scrollTrigger: {
-                trigger: '#headd1',
-                start: 'top bottom',
-                end: 'center center',
-                scrub: true
-            }
-        });
-
-        gsap.to('#headd1', {
-            x: 200,
-            scrollTrigger: {
-                trigger: '#headd1',
-                start: 'center center',
-                end: 'bottom top',
-                scrub: true
-            }
-        });
-
-        const controller = new ScrollMagic.Controller();
-        const scene = new ScrollMagic.Scene({
-            triggerElement: ".animate1",
-            duration: 1700,
-            triggerHook: 0
-        })
-            .setTween("#headd1")
-            .setClassToggle(".headd", "visible")
-            .setPin(".animate1")
-            .addTo(controller);
-        const scene1 = new ScrollMagic.Scene({
-            triggerElement: ".animate1",
-            triggerHook: 0, // show, when scrolled 10% into view
-            duration: 1500
-        })
-            .setClassToggle(".IntroColumn", "visible") // add class to reveal // add indicators (requires plugin)
-            .addTo(controller);
 
 
-        /*const pol = gsap.utils.toArray('#policl');
-        pol.forEach(box => {
-            const anim = gsap.to(box, { x: 2500, paused: true });
 
-            ScrollTrigger.create({
-                trigger: box,
-                start: "center 90%",
-                onEnter: () => anim.play()
-            });
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+		integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"
+		integrity="sha512-6MT8e40N5u36Um5SXKtwZmoKcCSg1XaKtexnXZPpQ4iJDHrBEHXKz37fnDovXezsaCd4oKCH5Y+vrcl7qpLPoA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/Draggable.min.js"
+		integrity="sha512-8Ki7MoPkSTPMun9YO9ZLAIDQxquFppy8EQACCB0P6OvhKXv4h5mo8CAhTAqIZj7R1A/+wC4qk13on6kPEMhATw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EasePack.min.js"
+		integrity="sha512-vQOiSJoxXnRHzc2GaliBf8GzngpkWqIpVS5O7SUcwrixAwUSbkRiVwtixXQgUxNPU8OD4rBFLpw58u9NbKT7pw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EaselPlugin.min.js"
+		integrity="sha512-6mTijoDzjngYAkLkMLiRBXRYMHkXn65RqvuFjGPQftaJPR/myOhMiNd21jQdy6bGDP2mgha2D537Ux5UvexZsg=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/MotionPathPlugin.min.js"
+		integrity="sha512-2vgSeT4mD0azBGIp91Fnho9fbT8ZG8zu5c+mK//TGxj4YNX2mRAwEZHtZsMRwA7ObqH6Vl7mMOdvkzNVTuhUcA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/PixiPlugin.min.js"
+		integrity="sha512-HxCVV6ztUUQxy4YKONLIA2qjMsobBr0OVaXrVWqVcuDrlY9cFxQs9u346FLzDXQlrGKYTXfA+w5DbGyq2P5C+g=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"
+		integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
+		integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/TextPlugin.min.js"
+		integrity="sha512-2LEOQqARBlk67mYfoWcJah3Rt1Tan5TYsWUNBPtviIk206eyqQpUSpuBK5S77UFu3Pm+zlJOdw8uP5UfO/AtPw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+		integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+		integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"
+		integrity="sha512-+VS2+Nl1Qit71a/lbncmVsWOZ0BmPDkopw5sXAS2W+OfeceCEd9OGTQWjgVgP5QaMV4ddqOIW9XLW7UVFzkMAw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js"
+		integrity="sha512-dHdYPMJdRE6BN86nkX0l+uKVrFJRLH+FgL8pxiJ0a3YzMTwIXb8OwaU7Ot5Y7nxqoAc/bZ1yNiLjEV5v4d9Xuw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+		integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+		integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.velocity.min.js"
+		integrity="sha512-6Fw+pSuqmag+yYx0kMzlwVBy51GAIXyT1S4B0l5yRs+ku5LLKD/kfCOLA9Rer2Y/iBNAoPEiexwlsKKFChhk7Q=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+		integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/jquery.ScrollMagic.min.js"
+		integrity="sha512-f031btWm661Twvo3JQ18X5z8epjTu5K4eNcOOYNJs3AKU0wOTGnY1mjXUmfsTJ96lYggbyIg9vdJ7nbjdddtvQ=="
+		crossorigin="anonymous"></script>
 
-            ScrollTrigger.create({
-                trigger: box,
-                start: "top bottom",
-                onLeaveBack: () => anim.pause(0)
-            });
-        });*/
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+		integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+		integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+		crossorigin="anonymous" />
 
-        /*const boxes13 = gsap.utils.toArray('#mo13');
-        boxes13.forEach(box => {
-            const anim = gsap.to(box, { x: 400, paused: true });
-
-            ScrollTrigger.create({
-                trigger: box,
-                start: "center 80%",
-                onEnter: () => anim.play()
-            });
-
-            ScrollTrigger.create({
-                trigger: box,
-                start: "top bottom",
-                onLeaveBack: () => anim.pause(0)
-            });
-        });*/
+	<script>
 
 
-        /*const boxes = gsap.utils.toArray('#h1sec1');
-        boxes.forEach(box => {
-            const anim = gsap.to(box, { x: 1550, paused: true });
+		AOS.init({
+			duration: 800,
+		})
+		var element = document.getElementById("dokdok");
 
-            ScrollTrigger.create({
-                trigger: box,
-                start: "center 70%",
-                onEnter: () => anim.play()
-            });
+		TweenMax.to(element, 2, { y: "+=20", yoyo: true, repeat: -1 });
+		TweenMax.to(element, 1, { y: "-=20", yoyo: true, repeat: -1 });
 
-            ScrollTrigger.create({
-                trigger: box,
-                start: "top bottom",
-                onLeaveBack: () => anim.pause(0)
-            });
-        });*/
+		function movee() {
+			var element = document.querySelector(".move");
+			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+		}
 
-        ScrollTrigger.batch("#mo11", {
-            onEnter: batch => {
-                gsap.from(batch, { rotation: -5 })
-            },
-            start: "center 100%",
-            toggleActions: "play none none none"
-        })
 
-        const clickx = document.getElementById('pencet');
 
-        clickx.addEventListener('click', function () {
-            clickx.classList.toggle('Diam');
-        });
 
-        var check = 0;
-        function myfunction() {
-            if (check == 0) {
-                document.getElementById('manuham').style.visibility = "visible";
-                document.getElementById('manuham').style.animation="example 0.5s";
-                check += 1;
-            }
-            else {
-                document.getElementById('manuham').style.visibility = "hidden";
-                document.getElementById('manuham').style.animation="example2 0.5s";
-                document.getElementById('manuham').style.transition = "0.5s";
+		ScrollTrigger.batch("#motorcycle11", {
+			onEnter: batch => {
+				gsap.from(batch, { rotation: -5, duration: 2 })
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+		})
 
-                check = 0;
-            }
-        }
-    </script>
 
+		const clickx = document.getElementById('pencet');
+
+		clickx.addEventListener('click', function () {
+			clickx.classList.toggle('Diam');
+		});
+
+		var check = 0;
+		function myfunction() {
+			if (check == 0) {
+				document.getElementById('manmuha').style.visibility = "visible";
+				document.getElementById('manmuha').style.animation = "example 0.5s";
+				check += 1;
+			}
+			else {
+				document.getElementById('manmuha').style.visibility = "hidden";
+				document.getElementById('manmuha').style.animation = "example2 0.5s";
+				document.getElementById('manmuha').style.transition = "0.5s";
+
+				check = 0;
+			}
+		}
+
+
+	</script>
 
 </body>
 
