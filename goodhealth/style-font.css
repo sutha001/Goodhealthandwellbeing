@@ -12,10 +12,19 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'chakra_petchbold';
+    src: url('chakrapetch-bold-webfont.woff2') format('woff2'),
+         url('chakrapetch-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 p {
 	font-size: 1.1vw;
 	font-family: 'chakra_petchlight';
-	line-height: 25pt;
+	line-height: 2vw;
 }
 
 footer p {

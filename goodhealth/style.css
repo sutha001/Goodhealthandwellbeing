@@ -1,16 +1,15 @@
-html{
+html {
 	overflow-x: hidden;
 }
 
 body {
 	margin: 0;
 	overflow-x: visible;
-	background:#f4f0ea !important; 
+	background: #f4f0ea !important;
 }
 
-#BgMotion{
-	width:100vw;
-
+#BgMotion {
+	width: 100vw;
 }
 
 #section1 {
@@ -58,7 +57,7 @@ nav ul {
 
 .manubbb {
 	margin-top: 1.4%;
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .num1 {
@@ -91,7 +90,6 @@ nav ul {
 	margin-right: 0px;
 }
 
-
 nav ul li {
 	display: inline-block;
 	line-height: 90px;
@@ -105,7 +103,7 @@ nav ul li a {
 }
 
 #pencet span {
-	background-color:#ffe91a;
+	background-color: #ffe91a;
 	width: 2em;
 	height: .2em;
 	margin: 0.26em 0;
@@ -126,74 +124,80 @@ nav ul li a {
 	transform: rotate(-45deg) translate(1px, 0);
 }
 
-.move{
+.move {
 	background-color: #ffe91a;
 	width: 100px;
 	height: 100px;
 	position: absolute;
 	margin-top: 62%;
-	left:30%;
+	left: 30%;
 }
 
-.texthome{
+.texthome {
 	width: 100%;
 	z-index: 1000;
-	margin-top:42%;
+	margin-top: 42%;
 	margin-left: 60%;
 	position: relative;
 	position: absolute;
 }
-.intro{
-	font-family: 'tavirajbold'; 
-	color: #ffe91a; 
-	font-size: 2.77vw;
-}
-.percent{
-	font-size: 4.16vw;
+
+.intro {
 	font-family: 'tavirajbold';
-	color:#0037ff;
+	color: #ffe91a;
+	font-size: 3.4vw;
 }
-.column1{
-	margin-top:135%;
-	margin-left:43%;
+
+.percent {
+	font-size: 5.20vw;
+	font-family: 'tavirajbold';
+	color: #0037ff;
+}
+
+.column1 {
+	margin-top: 135%;
+	margin-left: 43%;
 	position: absolute;
 	z-index: 1200;
 	font-family: 'chakra_petchlight';
-	color:#161616;
+	color: #161616;
 	font-size: 1.11vw;
-	line-height: 25pt;
 }
-.column2{
-	margin-top:171%;
-	margin-left:15%;
+
+.column2 {
+	margin-top: 171%;
+	margin-left: 15%;
 	position: absolute;
 	z-index: 1300;
 	font-family: 'chakra_petchlight';
-	color:#161616;
+	color: #161616;
 	font-size: 1.11vw;
 	line-height: 25pt;
 }
-.column3{
-	margin-top:242%;
-	margin-left:67%;
+
+.column3 {
+	margin-top: 242%;
+	margin-left: 67%;
 	position: absolute;
 	z-index: 1400;
 	font-family: 'chakra_petchlight';
-	color:#161616;
+	color: #161616;
 	font-size: 1.11vw;
 	line-height: 25pt;
 }
-.column4{
-	margin-top:316%;
-	margin-left:65%;
+
+.column4 {
+	margin-top: 316%;
+	margin-left: 65%;
 	position: absolute;
 	z-index: 1500;
 	font-family: 'chakra_petchlight';
-	color:#161616;
+	color: #161616;
 	font-size: 1.11vw;
 	line-height: 25pt;
 }
-.foot{
+
+.foot {
 	font-family: 'chakra_petchlight';
 	font-size: 0.83vw;
 	line-height: 25pt;
@@ -201,47 +205,48 @@ nav ul li a {
 	margin-top: 4vh;
 }
 
-.Posih3s1{
-	position:absolute;
-	margin-left: 55%;
-	margin-top: 135.5%;
+.Posih3s1 {
+	position: absolute;
+	margin-left: 56%;
+	margin-top: 136%;
 }
 
-.Posih3s2{
+.Posih3s2 {
 	position: absolute;
-	margin-left: 26%;
-	margin-top: 171.5%;
+	margin-left: 28%;
+	margin-top: 172.5%;
 }
 
-.Posih3s3{
+.Posih3s3 {
 	position: absolute;
-	margin-left: 78%;
-	margin-top: 243%;
+	margin-left: 80%;
+	margin-top: 243.5%;
 }
 
-.Posih3s4{
+.Posih3s4 {
 	position: absolute;
-	margin-left: 73%;
-	margin-top: 316.5%;
+	margin-left: 75%;
+	margin-top: 317.5%;
 	z-index: 1800;
 }
-.h1section{
+
+.h1section {
 	margin-left: 10%;
 	margin-top: 85%;
 	position: absolute;
 	z-index: 1600;
 }
 
-#mark_stat{
+#mark_stat {
 	width: 45%;
 }
 
-.mark_section3{
+.mark_section3 {
 	padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    display: block;
-    color: #0037ff;
-    background-color: #ffe91a;
+	padding-left: 5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: block;
+	color: #0037ff;
+	background-color: #ffe91a;
 }
