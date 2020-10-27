@@ -199,8 +199,8 @@ nav ul li a {
 
 .foot {
 	font-family: 'chakra_petchlight';
-	font-size: 0.83vw;
-	line-height: 25pt;
+	font-size: 1.4vw;
+	line-height: 2vw;
 	text-align: center;
 	margin-top: 4vh;
 }
@@ -208,7 +208,7 @@ nav ul li a {
 .Posih3s1 {
 	position: absolute;
 	margin-left: 56%;
-	margin-top: 136%;
+	margin-top: 136.5%;
 }
 
 .Posih3s2 {
