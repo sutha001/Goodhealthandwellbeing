@@ -1,0 +1,168 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	overflow-x: visible;
+	background-color:#161616 !important;
+}
+.hide{
+	display: none;
+}
+#file1 {
+	width: 100vw;
+	z-index: 20;
+	position: absolute;
+
+}
+#file2 {
+	width: 100vw;
+	z-index: 30;
+	position: absolute;
+
+}
+#file3{
+	width: 100vw;
+	z-index: 30;
+	position: absolute;
+	margin-top: -0.2%;
+
+}
+#section1 {
+	height: 132.9vh;
+	position: relative;
+	z-index: 1;
+
+}
+#section2 {
+	height: 132.9vh;
+	margin-top: 0%;
+	z-index: 3;
+	background-color:green;
+	margin-top: 50%;
+}
+
+#footer_div {
+	position: relative;
+	width: 100%;
+	background-color: #161616;
+	color: #ffe91a;
+	height: 16vh;
+	border-top: 2px solid white;
+	z-index: 9;
+}
+
+nav {
+	height: 90px;
+	width: 100%;
+	position: fixed;
+}
+
+.pic {
+	padding: 25px 30px;
+}
+
+nav ul {
+	font-family: 'chakra_petchlight';
+	float: right;
+	margin-top: -1%;
+	margin-right: 1%;
+}
+
+#pencet {
+	display: flex;
+	float: right;
+	margin-top: 3%;
+	margin-right: 3%;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.manubbb {
+	margin-top: 1.4%;
+	visibility: hidden;
+}
+
+.num1 {
+	margin-right: 0px;
+}
+
+@keyframes example {
+	from {
+		margin-right: -1000px;
+	}
+	to {
+		margin-right: 0px;
+	}
+}
+
+@keyframes example2 {
+	from {
+		margin-right: 0px;
+	}
+	to {
+		margin-right: -1000px;
+	}
+}
+
+.num2 {
+	margin-right: 0px;
+}
+
+.num3 {
+	margin-right: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 90px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: #7c7b77;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+#pencet span {
+	background-color: #ffe91a;
+	width: 2em;
+	height: .2em;
+	margin: 0.26em 0;
+	display: block;
+	transition: all .4s ease;
+	transform-origin: 0 0;
+}
+
+.Diam span:nth-child(1) {
+	transform: rotate(45deg) translate(1px, -1px);
+}
+
+.Diam span:nth-child(2) {
+	Transform: scaleX(0);
+}
+
+.Diam span:nth-child(3) {
+	transform: rotate(-45deg) translate(1px, 0);
+}
+
+.move {
+	background-color: #ffe91a;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 62%;
+	left: 30%;
+}
+
+
+.foot {
+	font-family: 'chakra_petchlight';
+	font-size: 1vw;
+	line-height: 2vw;
+	text-align: center;
+	margin-top: 4vh;
+}
+

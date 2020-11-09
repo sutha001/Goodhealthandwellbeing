@@ -1,0 +1,73 @@
+.rope2_1{
+	margin-top:90%;
+	width: 95vw;
+	position: absolute;
+	z-index: 2;
+}
+.pic2_1_1{
+	width: 35vw;
+	position: absolute;
+	margin-top: 90%;
+	left:8%;
+	z-index:1;
+}
+.pic2_1_f{
+	width: 15vw;
+	position: absolute;
+	margin-top: 125%;
+	left:32.5%;
+	z-index:1;
+}
+.pic2_1_2{
+	width: 35vw;
+	position: absolute;
+	margin-top: 144%;
+	left:60%;
+	z-index:1;
+	transform: rotate(5deg);
+}
+.pic2_1_3{
+	width: 23vw;
+	position: absolute;
+	margin-top: 195%;
+	left:59%;
+	z-index:1;
+}
+.pic2_1_5{
+	width: 25vw;
+	position: absolute;
+	margin-top: 223%;
+	left:24%;
+	z-index:1;
+	transform: rotate(-5deg);
+}
+.pic2_1_circle{
+	width: 25vw;
+	position: absolute;
+	margin-top: 214%;
+	left:33%;
+	z-index:1;
+	transform: rotate(-5deg);
+}
+.pic2_1_mark{
+	width: 25vw;
+	position: absolute;
+	margin-top: 234%;
+	left:11%;
+	z-index:1;
+	transform: rotate(-5deg);
+}
+.pic2_1_6{
+	width: 41vw;
+	position: absolute;
+	margin-top: 250%;
+	right: 0%;
+	z-index:1;
+}
+.pic2_1_7{
+	width: 30vw;
+	position: absolute;
+	margin-top: 310%;
+	left: : 0%;
+	z-index:1;
+}
