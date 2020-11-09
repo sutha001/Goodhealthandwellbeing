@@ -41,7 +41,7 @@
 	z-index:1;
 	transform: rotate(-5deg);
 }
-.pic2_1_circle{
+.pic2_1_circle1{
 	width: 25vw;
 	position: absolute;
 	margin-top: 214%;
@@ -70,4 +70,42 @@
 	margin-top: 310%;
 	left: : 0%;
 	z-index:1;
+}
+.pic2_1_8{
+	width: 25vw;
+	position: absolute;
+	margin-top: 336%;
+	left:22%;
+	z-index:1;
+	transform: rotate(5deg);
+}
+.pic2_1_circle2{
+	width: 25vw;
+	position: absolute;
+	margin-top: 355%;
+	left:33%;
+	z-index:1;
+	transform: rotate(-5deg);
+}
+.pic2_1_end{
+	width: 70vw;
+	position: absolute;
+	margin-top: 410%;
+	z-index:1;
+	left:15%;
+}
+.pic2_1_group10{
+	width: 45vw;
+	position: absolute;
+	margin-top: 404%;
+	z-index:1;
+	left:44.5%;
+	transform: rotate(-1deg);
+}
+.pic2_1_arrow{
+	width: 5vw;
+	position: absolute;
+	margin-top: 455%;
+	z-index:1;
+	left:50%;
 }
