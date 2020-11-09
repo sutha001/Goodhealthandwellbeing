@@ -4,6 +4,13 @@
 	position: absolute;
 	z-index: 2;
 }
+.spray{
+	width: 60vw;
+	position: absolute;
+	margin-top: 22%;
+	right:-5%;
+	z-index:1;
+}
 .pic2_1_1{
 	width: 35vw;
 	position: absolute;
