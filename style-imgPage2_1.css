@@ -1,81 +1,90 @@
 .rope2_1{
-	margin-top:90%;
-	width: 95vw;
-	position: absolute;
-	z-index: 2;
+	margin-top: 103%;
+    width: 95vw;
+    position: absolute;
+    z-index: 2;
 }
 .spray{
 	width: 70vw;
-	position: absolute;
-	margin-top: 19%;
-	right:-11%;
-	z-index:1;
+    position: absolute;
+    margin-top: 19%;
+    right: 0;
+    z-index: 1;
 }
 .pic2_1_1{
 	width: 35vw;
-	position: absolute;
-	margin-top: 90%;
-	left:8%;
-	z-index:1;
+    position: absolute;
+    margin-top: 102.5%;
+    margin-left: 8%;
+	z-index: 1;
+	transform-origin: top right;
 }
 .pic2_1_f{
 	width: 15vw;
-	position: absolute;
-	margin-top: 125%;
-	left:32.5%;
-	z-index:1;
+    position: absolute;
+    margin-top: 139%;
+    margin-left: 32.5%;
+    z-index: 1;
 }
 .pic2_1_2{
 	width: 35vw;
-	position: absolute;
-	margin-top: 144%;
-	left:60%;
-	z-index:1;
-	transform: rotate(5deg);
+    position: absolute;
+    margin-top: 158%;
+    margin-left: 60%;
+    z-index: 1;
+    transform: rotate(5deg);
 }
 .pic2_1_3{
-	width: 23vw;
-	position: absolute;
-	margin-top: 195%;
-	left:59%;
-	z-index:1;
+	width: 28vw;
+    position: absolute;
+    margin-top: 207%;
+    margin-left: 58.5%;
+    z-index: 1;
+}
+
+.pic2_1_4{
+	width: 28vw;
+    position: absolute;
+    margin-top: 220%;
+    left: 0%;
+    z-index: 1;
 }
 .pic2_1_5{
 	width: 25vw;
-	position: absolute;
-	margin-top: 223%;
-	left:24%;
-	z-index:1;
-	transform: rotate(-5deg);
+    position: absolute;
+    margin-top: 237%;
+    margin-left: 24%;
+    z-index: 1;
+    transform: rotate(-5deg);
 }
 .pic2_1_circle1{
 	width: 25vw;
-	position: absolute;
-	margin-top: 214%;
-	left:33%;
-	z-index:1;
-	transform: rotate(-5deg);
+    position: absolute;
+    margin-top: 228%;
+    margin-left: 34%;
+    z-index: 1;
+    transform: rotate(-5deg);
 }
 .pic2_1_mark{
 	width: 25vw;
-	position: absolute;
-	margin-top: 234%;
-	left:11%;
-	z-index:1;
-	transform: rotate(-5deg);
+    position: absolute;
+    margin-top: 250%;
+    margin-left: 11%;
+    z-index: 1;
+    transform: rotate(-5deg);
 }
 .pic2_1_6{
-	width: 41vw;
-	position: absolute;
-	margin-top: 250%;
-	right: 0%;
-	z-index:1;
+	width: 45vw;
+    position: absolute;
+    margin-top: 261.5%;
+    right: 0%;
+    z-index: 1;
 }
 .pic2_1_7{
 	width: 30vw;
 	position: absolute;
 	margin-top: 310%;
-	left: : 0%;
+	left: 0%;
 	z-index:1;
 }
 .pic2_1_8{

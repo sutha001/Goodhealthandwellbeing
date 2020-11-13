@@ -5,36 +5,39 @@ html {
 body {
 	margin: 0;
 	overflow-x: visible;
-	background-color:#161616 !important;
+	background-color: #0e0d0b !important;
 }
-.hide{
+
+.hide {
 	display: none;
 }
+
 #file1 {
-	width: 100vw;
+	width: 90vw;
+	margin-left: 4%;
+	margin-top: 20%;
 	z-index: 20;
 	position: absolute;
 	z-index: 2;
-
 }
+
 #file2 {
 	width: 100vw;
 	z-index: 30;
 	position: absolute;
-
 }
-#file3{
+
+#file3 {
 	width: 100vw;
 	z-index: 30;
 	position: absolute;
 	margin-top: -0.2%;
-
 }
+
 #section1 {
 	height: 132.9vh;
 	position: relative;
 	z-index: 1;
-
 }
 
 #footer_div {
@@ -152,7 +155,6 @@ nav ul li a {
 	left: 30%;
 }
 
-
 .foot {
 	font-family: 'chakra_petchlight';
 	font-size: 1vw;
@@ -161,3 +163,18 @@ nav ul li a {
 	margin-top: 4vh;
 }
 
+.text1 {
+	width: 50vw;
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 25%;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.txt1 {
+	font-family: 'tavirajbold';
+	font-size: 3.45vw;
+	line-height: 4.36vw;
+	padding: 4.55vw 0;
+}

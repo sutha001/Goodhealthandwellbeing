@@ -100,11 +100,11 @@
 	z-index:1200;
 }
 .logo{
-	width:11vw;
-	position: absolute;
-	top: 3%;
-	left:3%;
-	z-index: 1;
+	width: 15vw;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    z-index: 1;
 }
 
 #dokdok:hover{
