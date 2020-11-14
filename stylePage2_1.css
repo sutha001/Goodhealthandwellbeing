@@ -20,19 +20,31 @@ body {
 	position: absolute;
 	z-index: 2;
 }
-
 #file2 {
-	width: 100vw;
-	z-index: 30;
+	width: 90vw;
+	margin-left: 4%;
+	margin-top: 20%;
+	z-index: 20;
 	position: absolute;
+	z-index: 3;
+}
+#file3{
+	width: 90vw;
+	margin-left: 4%;
+	margin-top: 20%;
+	z-index: 20;
+	position: absolute;
+	z-index: 2;
+}
+#file4 {
+	width: 90vw;
+	margin-left: 4%;
+	margin-top: 20%;
+	z-index: 20;
+	position: absolute;
+	z-index: 2;
 }
 
-#file3 {
-	width: 100vw;
-	z-index: 30;
-	position: absolute;
-	margin-top: -0.2%;
-}
 
 #section1 {
 	height: 132.9vh;
