@@ -1,0 +1,120 @@
+#footer_div2_3 {
+	position: absolute;
+	width: 100%;
+	background-color: #161616;
+	color: #ffe91a;
+	height: 16vh;
+	border-top: 2px solid white;
+	z-index: 9;
+	margin-top: 375%;
+}
+.rope2_3{
+	margin-top: 93.5%;
+    width: 100vw;
+    position: absolute;
+    z-index: 10;
+    left:0%;
+}
+.pic2_3_5{
+	width: 30vw;
+    position: absolute;
+    margin-top: 95%;
+    right: 10%;
+	z-index: 1;
+}
+.pic2_3_circle{
+	width: 18vw;
+    position: absolute;
+    margin-top: 91%;
+    margin-left: 79%;
+	z-index: 1;
+}
+.pic2_3_hole{
+	width: 18.5vw;
+    position: absolute;
+    margin-top: 124.5%;
+    left: 80%;
+	z-index: 1;
+	transform: rotate(-7.5deg);
+}
+.pic2_3_frame{
+	width: 50.5vw;
+    position: absolute;
+    margin-top: 91%;
+    margin-left: 0%;
+	z-index: 2;
+}
+.pic2_3_gif{
+	width: 36vw;
+    position: absolute;
+    margin-top: 146.5%;
+    margin-left:7.8%;
+	z-index: 2;
+	transform: rotate(-4.1deg);
+}
+.pic2_3_f{
+	width: 16.5vw;
+    position: absolute;
+    margin-top: 187%;
+    right:72%;
+	z-index: 2;
+}
+.pic2_3_2{
+	width: 19vw;
+    position: absolute;
+    margin-top: 195.5%;
+    left:63%;
+	z-index:2;
+	transform: rotate(5deg);
+}
+.pic2_3_s{
+	width: 45vw;
+    position: absolute;
+    margin-top: 207%;
+    left:27%;
+	z-index: 1;
+}
+.pic2_3_31{
+	width: 20.2vw;
+    position: absolute;
+    margin-top: 220%;
+    left:70%;
+	z-index: 1;
+	transform: rotate(-7deg);
+}
+.pic2_3_6{
+	width: 32vw;
+	position: absolute;
+	margin-top: 273.6%;
+	z-index:1;
+	left:33%;
+}
+.pic2_3_circle2{
+	width: 21vw;
+	position: absolute;
+	margin-top: 267%;
+	z-index:1;
+	left:29%;
+}
+.pic2_3_last{
+	width: 74vw;
+	position: absolute;
+	margin-top: 318%;
+	z-index:1;
+	left:10%;
+}
+.pic2_3_close{
+	width: 42vw;
+	position: absolute;
+	margin-top: 316%;
+	z-index:1;
+	left:49%;
+}
+.pic2_3_arrow{
+	width: 5vw;
+	position: absolute;
+	margin-top: 366%;
+	z-index:1;
+	left:48%;
+}
+
