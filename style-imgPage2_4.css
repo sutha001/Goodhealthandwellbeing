@@ -1,0 +1,109 @@
+#footer_div2_4 {
+	position: absolute;
+	width: 100%;
+	background-color: #161616;
+	color: #ffe91a;
+	height: 16vh;
+	border-top: 2px solid white;
+	z-index: 9;
+	margin-top: 405%;
+}
+.rope2_4{
+	margin-top: 100%;
+    width: 95vw;
+    position: absolute;
+    z-index: 10;
+    left:0%;
+}
+.pic2_4_1{
+	width: 45vw;
+    position: absolute;
+    margin-top: 123%;
+    right: -3%;
+	z-index: 1;
+	transform: rotate(1deg);
+}
+.pic2_4_2{
+	width: 35vw;
+    position: absolute;
+    margin-top: 101%;
+    margin-left: 10%;
+	z-index: 1;
+}
+.pic2_4_frame{
+	width: 45vw;
+    position: absolute;
+    margin-top: 160%;
+    left: 0%;
+	z-index: 1;
+}
+.pic2_4_gif{
+	width: 40vw;
+    position: absolute;
+    margin-top: 171%;
+    margin-left: -2%;
+	z-index: 1;
+	transform: rotate(7.2deg);
+}
+.pic2_4_h{
+	width: 30vw;
+    position: absolute;
+    margin-top: 218%;
+    margin-left:24%;
+	z-index: 3;
+}
+.pic2_4_12{
+	width: 45vw;
+    position: absolute;
+    margin-top: 235%;
+    right:-8%;
+	z-index: 1;
+	transform: rotate(-4deg);
+}
+.pic2_4_13{
+	width: 65vw;
+    position: absolute;
+    margin-top: 248%;
+    left:-5%;
+	z-index: 1;
+	transform: rotate(-4deg);
+}
+.pic2_4_33{
+	width: 40vw;
+    position: absolute;
+    margin-top: 268%;
+    left:45%;
+	z-index: 1;
+	transform: rotate(5deg);
+}
+.pic2_4_circle{
+	width: 25vw;
+    position: absolute;
+    margin-top: 289%;
+    left:68%;
+	z-index: 1;
+	transform: rotate(-5deg);
+}
+.pic2_4_last{
+	width: 75vw;
+	position: absolute;
+	margin-top: 353%;
+	z-index:1;
+	left:10%;
+}
+.pic2_4_close{
+	width: 50vw;
+	position: absolute;
+	margin-top: 348%;
+	z-index:1;
+	left:46%;
+	transform: rotate(-1deg);
+}
+.pic2_4_button{
+	width: 20vw;
+	position: absolute;
+	margin-top: 390%;
+	z-index:1;
+	left:40%;
+}
+

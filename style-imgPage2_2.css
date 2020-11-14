@@ -110,6 +110,12 @@
 	left:45%;
 	transform: rotate(3deg);
 }
+.pic2_2_light{
+	width: 100vw;
+	position: absolute;
+	margin-top: 160%;
+	z-index:11;
+}
 .pic2_2_last{
 	width: 70vw;
 	position: absolute;

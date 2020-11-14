@@ -26,7 +26,7 @@ body {
 	margin-top: 20%;
 	z-index: 20;
 	position: absolute;
-	z-index: 3;
+	z-index: 2;
 }
 #file3{
 	width: 90vw;
@@ -42,7 +42,7 @@ body {
 	margin-top: 20%;
 	z-index: 20;
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 }
 
 
