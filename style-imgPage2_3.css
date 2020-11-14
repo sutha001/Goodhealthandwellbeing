@@ -45,11 +45,11 @@
 	z-index: 2;
 }
 .pic2_3_gif{
-	width: 36vw;
+	width: 37vw;
     position: absolute;
     margin-top: 146.5%;
     margin-left:7.8%;
-	z-index: 2;
+	z-index: 1;
 	transform: rotate(-4.1deg);
 }
 .pic2_3_f{
