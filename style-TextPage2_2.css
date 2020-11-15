@@ -1,7 +1,6 @@
-/*-----COLUMN-----*/
-.page23_c1{
-	margin-top: 108%;
-	margin-left: 14%;
+.page22_c1{
+	margin-top: 105%;
+	margin-left: 60%;
 	position: absolute;
 	z-index: 3;
 	font-family: 'chakra_petchlight';
@@ -9,10 +8,9 @@
 	font-size: 1.11vw;
 	line-height: 25pt;
 }
-
-.page23_c2{
-	margin-top: 149%;
-	margin-left: 65%;
+.page22_c2{
+	margin-top: 199%;
+	margin-left: 53%;
 	position: absolute;
 	z-index: 3;
 	font-family: 'chakra_petchlight';
@@ -20,10 +18,9 @@
 	font-size: 1.11vw;
 	line-height: 25pt;
 }
-
-.page23_c3{
-	margin-top: 238%;
-	margin-left: 13%;
+.page22_c3{
+	margin-top: 285%;
+	margin-left: 23%;
 	position: absolute;
 	z-index: 3;
 	font-family: 'chakra_petchlight';
@@ -31,9 +28,8 @@
 	font-size: 1.11vw;
 	line-height: 25pt;
 }
-
-.page23_c4{
-	margin-top: 302%;
+.page22_c4{
+	margin-top: 317%;
 	margin-left: 23%;
 	position: absolute;
 	z-index: 3;
@@ -45,11 +41,7 @@
 }
 
 
-
-
-
-
 /*-----TABLE-----*/
-.tb23,.td23{
-	border: 1px solid #5ffd2f;
+.tb22,.td22{
+	border: 1px solid #ffe91a;
 }
