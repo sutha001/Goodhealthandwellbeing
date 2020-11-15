@@ -118,3 +118,62 @@
 	left:48%;
 }
 
+/*--PIN--*/
+.pin23-1{
+	width: 2.69vw;
+	position: absolute;
+	margin-top: 94%;
+	z-index:11;
+	left:75%;
+}
+.pin23-2{
+	width: 2.1vw;
+	position: absolute;
+	margin-top: 123%;
+	z-index:11;
+	left:84.5%;
+}
+.pin23-3{
+	width: 2.69vw;
+	position: absolute;
+	margin-top: 142%;
+	z-index:11;
+	left:22.5%;
+	transform: rotate(13deg);
+}
+.pin23-4{
+	width: 2.1vw;
+	position: absolute;
+	margin-top: 194%;
+	z-index:11;
+	left:74%;
+	transform: rotate(-4deg);
+}
+
+.pin23-5{
+	width: 2.56vw;
+	position: absolute;
+	margin-top: 217%;
+	z-index:11;
+	left:80.5%;
+	transform: rotate(31deg);
+}
+
+.pin23-6{
+	width: 2.69vw;
+	position: absolute;
+	margin-top: 204.5%;
+	z-index:11;
+	left:45.5%;
+	transform: rotate(-13deg);
+}
+.pin23-7{
+	width: 2.1vw;
+	position: absolute;
+	margin-top: 296.5%;
+	z-index:11;
+	left:50%;
+}
+
+
+
