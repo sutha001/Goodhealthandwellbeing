@@ -55,6 +55,11 @@
 		</nav>
 		<img src="pic\img\icon\logo.png" class="logo">
 
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\หัวปก1.png" id="headfile1" onclick="forder1()">
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก2\หัวปก2.png" id="headfile2" onclick="forder2()">
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก3\หัวปก3.png" id="headfile3" onclick="forder3()">
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก4\หัวปก4.png" id="headfile4" onclick="forder4()">
+
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\ปก1.png" id="file1">
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก2\ปก2.png" id="file2">
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก3\ปก3.png" id="file3">
@@ -63,7 +68,7 @@
 
 
 		<!------------------------------------ folder1 ------------------------------------------>
-		<div class="folder1 hide">
+		<div class="folder1" id="folder1">
 			<div class="text1">
 				<p class="txt1">แฟ้มรายงานคดี<br>ฉบับที่1</p>
 			</div>
@@ -107,7 +112,7 @@
 
 
 		<!------------------------------------ folder2 ------------------------------------------>
-		<div class="folder2 hide">
+		<div class="folder2" id="folder2">
 			<div class="text1">
 				<p class="txt1">แฟ้มรายงานคดี<br>ฉบับที่2</p>
 			</div>
@@ -147,7 +152,7 @@
 		<!-------------------------------------------------------------------------------------->
 
 		<!------------------------------------ folder3 ----------------------------------------->
-		<div class="folder3">
+		<div class="folder3" id="folder3">
 			<div class="text1" style="z-index: 99;">
 				<p class="txt1" style="color:#5ffd2f;">แฟ้มรายงานคดี<br>ฉบับที่3</p>
 			</div>
@@ -255,7 +260,7 @@
 		<!-------------------------------------------------------------------------------------->
 
 		<!------------------------------------ folder4 ----------------------------------------->
-		<div class="folder4 hide">
+		<div class="folder4" id="folder4">
 			<div class="text1">
 				<p class="txt1">แฟ้มรายงานคดี<br>ฉบับที่4</p>
 			</div>
@@ -391,6 +396,57 @@
 			start: "center 100%",
 			toggleActions: "play none none none"
 		})
+
+
+		function forder1(){
+			document.getElementById("file1").style.visibility = "visible";
+			document.getElementById("file2").style.visibility = "hidden";
+			document.getElementById("file3").style.visibility = "hidden";
+			document.getElementById("file4").style.visibility = "hidden";
+
+			document.getElementById("folder1").style.display = "block";
+			document.getElementById("folder2").style.display = "none";
+			document.getElementById("folder3").style.display = "none";
+			document.getElementById("folder4").style.display = "none";
+
+
+		}
+
+		function forder2(){
+			document.getElementById("file1").style.visibility = "hidden";
+			document.getElementById("file2").style.visibility = "visible";
+			document.getElementById("file3").style.visibility = "hidden";
+			document.getElementById("file4").style.visibility = "hidden";
+
+			document.getElementById("folder1").style.display = "none";
+			document.getElementById("folder2").style.display = "block";
+			document.getElementById("folder3").style.display = "none";
+			document.getElementById("folder4").style.display = "none";
+		}
+
+		function forder3(){
+			document.getElementById("file1").style.visibility = "hidden";
+			document.getElementById("file2").style.visibility = "hidden";
+			document.getElementById("file3").style.visibility = "visible";
+			document.getElementById("file4").style.visibility = "hidden";
+
+			document.getElementById("folder1").style.display = "none";
+			document.getElementById("folder2").style.display = "none";
+			document.getElementById("folder3").style.display = "block";
+			document.getElementById("folder4").style.display = "none";
+		}
+
+		function forder4(){
+			document.getElementById("file1").style.visibility = "hidden";
+			document.getElementById("file2").style.visibility = "hidden";
+			document.getElementById("file3").style.visibility = "hidden";
+			document.getElementById("file4").style.visibility = "visible";
+
+			document.getElementById("folder1").style.display = "none";
+			document.getElementById("folder2").style.display = "none";
+			document.getElementById("folder3").style.display = "none";
+			document.getElementById("folder4").style.display = "block";
+		}
 	</script>
 
 </body>

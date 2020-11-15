@@ -132,3 +132,19 @@
 	z-index:1;
 	left:0%;
 }
+
+#folder1{
+    display: block;
+}
+
+#folder2{
+    display: none;
+}
+
+#folder3{
+    display: none;
+}
+
+#folder4{
+    display: none;
+}
