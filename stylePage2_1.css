@@ -11,7 +11,34 @@ body {
 .hide {
 	display: none;
 }
-
+#headfile1{
+	width: 22vw;
+    margin-left: 4%;
+    margin-top: 15.9%;
+    position: absolute;
+    z-index: 2;
+}
+#headfile2{
+	width: 22vw;
+    margin-left: 24%;
+    margin-top: 15.9%;
+    position: absolute;
+    z-index: 2;
+}
+#headfile3{
+	width: 22vw;
+    margin-left: 45.8%;
+    margin-top: 15.97%;
+    position: absolute;
+    z-index: 2;
+}
+#headfile4{
+	width: 22vw;
+    margin-left: 66.3%;
+    margin-top: 15.9%;
+    position: absolute;
+    z-index: 2;
+}
 #file1 {
 	width: 90vw;
 	margin-left: 4%;
@@ -19,6 +46,7 @@ body {
 	z-index: 20;
 	position: absolute;
 	z-index: 2;
+	visibility: visible;
 }
 #file2 {
 	width: 90vw;
@@ -27,6 +55,7 @@ body {
 	z-index: 20;
 	position: absolute;
 	z-index: 2;
+	visibility: hidden;
 }
 #file3{
 	width: 90vw;
@@ -35,6 +64,7 @@ body {
 	z-index: 20;
 	position: absolute;
 	z-index: 2;
+	visibility: hidden;
 }
 #file4 {
 	width: 90vw;
@@ -43,6 +73,7 @@ body {
 	z-index: 20;
 	position: absolute;
 	z-index: 3;
+	visibility: hidden;
 }
 
 
