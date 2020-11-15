@@ -99,14 +99,14 @@
 .pic2_3_last{
 	width: 74vw;
 	position: absolute;
-	margin-top: 318%;
+	margin-top: 320%;
 	z-index:1;
 	left:10%;
 }
 .pic2_3_close{
 	width: 42vw;
 	position: absolute;
-	margin-top: 316%;
+	margin-top: 318%;
 	z-index:1;
 	left:49%;
 }

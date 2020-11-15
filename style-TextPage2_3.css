@@ -1,0 +1,55 @@
+/*-----COLUMN-----*/
+.page23_c1{
+	margin-top: 108%;
+	margin-left: 14%;
+	position: absolute;
+	z-index: 3;
+	font-family: 'chakra_petchlight';
+	color: #f9f9f9;
+	font-size: 1.11vw;
+	line-height: 25pt;
+}
+
+.page23_c2{
+	margin-top: 149%;
+	margin-left: 65%;
+	position: absolute;
+	z-index: 3;
+	font-family: 'chakra_petchlight';
+	color: #f9f9f9;
+	font-size: 1.11vw;
+	line-height: 25pt;
+}
+
+.page23_c3{
+	margin-top: 238%;
+	margin-left: 13%;
+	position: absolute;
+	z-index: 3;
+	font-family: 'chakra_petchlight';
+	color: #f9f9f9;
+	font-size: 1.11vw;
+	line-height: 25pt;
+}
+
+.page23_c4{
+	margin-top: 302%;
+	margin-left: 23%;
+	position: absolute;
+	z-index: 3;
+	font-family: 'chakra_petchlight';
+	color: #f9f9f9;
+	font-size: 1.11vw;
+	line-height: 25pt;
+	text-align: center;
+}
+
+
+
+
+
+
+/*-----TABLE-----*/
+.tb23,td{
+	border: 1px solid #5ffd2f;
+}
