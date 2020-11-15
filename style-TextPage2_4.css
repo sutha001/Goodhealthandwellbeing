@@ -1,6 +1,6 @@
 /*-----COLUMN-----*/
-.page23_c1{
-	margin-top: 108%;
+.page24_c1{
+	margin-top: 133%;
 	margin-left: 14%;
 	position: absolute;
 	z-index: 3;
@@ -10,9 +10,9 @@
 	line-height: 25pt;
 }
 
-.page23_c2{
-	margin-top: 149%;
-	margin-left: 65%;
+.page24_c2{
+	margin-top: 183%;
+	margin-left: 59%;
 	position: absolute;
 	z-index: 3;
 	font-family: 'chakra_petchlight';
@@ -21,8 +21,8 @@
 	line-height: 25pt;
 }
 
-.page23_c3{
-	margin-top: 238%;
+.page24_c3{
+	margin-top: 297%;
 	margin-left: 13%;
 	position: absolute;
 	z-index: 3;
@@ -32,8 +32,8 @@
 	line-height: 25pt;
 }
 
-.page23_c4{
-	margin-top: 302%;
+.page24_c4{
+	margin-top: 328%;
 	margin-left: 23%;
 	position: absolute;
 	z-index: 3;
@@ -50,6 +50,6 @@
 
 
 /*-----TABLE-----*/
-.tb23,.td23{
-	border: 1px solid #5ffd2f;
+.tb24,.td24{
+	border: 1px solid #fd5a1f;
 }
