@@ -175,38 +175,27 @@
 .pic2_1_end{
 	width: 70vw;
     position: absolute;
-    margin-top: 395%;
+    margin-top: 380%;
     z-index: 1;
     left: 15%;
 }
 .pic2_1_group10{
 	width: 45vw;
-	position: absolute;
-	margin-top: 389%;
-	z-index:1;
-	left:44.5%;
-	transform: rotate(-1deg);
+    position: absolute;
+    margin-top: 375%;
+    z-index: 1;
+    left: 44.5%;
+    transform: rotate(-1deg);
 }
 .pic2_1_arrow{
-	width: 5vw;
-	position: absolute;
-	margin-top: 440%;
-	z-index:1;
-    left:50%;
+    width: 5vw;
+    position: absolute;
+    margin-top: 424%;
+    z-index: 1;
+    left: 50%;
     animation: arrow21 2s infinite;
 }
-@keyframes arrow21{
-    0%{
-        margin-top: 440%;
-    }
-    50%{
-        margin-top: 438%;
-    }
 
-    100%{
-        margin-top: 440%;
-    }
-}
 .pic2_2_1{
 	width: 50vw;
 	position: absolute;
