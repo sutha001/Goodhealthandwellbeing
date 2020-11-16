@@ -33,35 +33,35 @@ body {
 }
 #headfile1{
 	width: 18vw;
-    margin-left: 11%;
+    margin-left: 12.5%;
     margin-top: 10.6%;
     position: absolute;
     z-index: 100;
 }
 #headfile2{
 	width: 18vw;
-    margin-left: 27.5%;
+    margin-left: 29%;
     margin-top: 10.6%;
     position: absolute;
     z-index: 100;
 }
 #headfile3{
 	width: 18vw;
-    margin-left: 45.5%;
+    margin-left: 47%;
     margin-top: 10.7%;
     position: absolute;
     z-index: 100;
 }
 #headfile4{
 	width: 18vw;
-    margin-left: 62.3%;
+    margin-left: 63.8%;
     margin-top: 10.6%;
     position: absolute;
     z-index: 100;
 }
 #file1 {
 	width: 75vw;
-    margin-left: 11%;
+    margin-left: 12.5%;
     margin-top: 14%;
     z-index: 20;
     position: absolute;
@@ -70,7 +70,7 @@ body {
 }
 #file2 {
 	width: 75vw;
-    margin-left: 11%;
+    margin-left: 12.5%;
     margin-top: 14%;
     z-index: 20;
     position: absolute;
@@ -79,7 +79,7 @@ body {
 }
 #file3{
 	width: 75vw;
-    margin-left: 11%;
+    margin-left: 12.5%;
     margin-top: 14%;
     z-index: 20;
     position: absolute;
@@ -88,7 +88,7 @@ body {
 }
 #file4 {
 	width: 75vw;
-    margin-left: 11%;
+    margin-left: 12.5%;
     margin-top: 14%;
     z-index: 20;
     position: absolute;
@@ -248,7 +248,7 @@ nav ul li a {
     font-size: 2.213vw;
     position: absolute;
     margin-top: 11.7%;
-    margin-left: 15%;
+    margin-left: 16.5%;
     z-index: 101;
 
 }
@@ -259,7 +259,7 @@ nav ul li a {
     font-size: 2.213vw;
     position: absolute;
     margin-top: 11.7%;
-    margin-left: 32%;
+    margin-left: 33.5%;
     z-index: 101;
 
 }
@@ -270,7 +270,7 @@ nav ul li a {
     font-size: 2.213vw;
     position: absolute;
     margin-top: 11.7%;
-    margin-left: 49.5%;
+    margin-left: 51%;
     z-index: 101;
 
 }
@@ -281,7 +281,7 @@ nav ul li a {
     font-size: 2.213vw;
     position: absolute;
     margin-top: 11.7%;
-    margin-left: 66%;
+    margin-left: 67.5%;
     z-index: 101;
 
 }
