@@ -22,25 +22,25 @@
 }
 
 .page3_h1 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 89%;
+    margin-left: 72%;
     position: absolute;
     z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 1.7vw;
+    font-family: 'Taviraj-SemiBold';
+    color: #0037ff;
+    font-size: 4.3vw;
+    line-height: 4vw;
 }
 
 .page3_c1 {
     margin-top: 163%;
-    margin-left: 13%;
+    margin-left: 14%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
 .page3_c2 {
     margin-top: 183%;
@@ -49,8 +49,8 @@
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
 .page3_c3 {
     margin-top:204%;
@@ -59,171 +59,122 @@
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
 .page3_h2 {
     margin-top: 228%;
-    margin-left: 17%;
+    margin-left: 16%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    color: #0037ff;
+    font-size: 4.3vw;
+    line-height: 4.5vw;
+}
+.page3_title2 {
+    margin-top: 248%;
+    margin-left: 16%;
     position: absolute;
     z-index: 3;
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 3.4vw;
-    line-height: 3.7vw;
-}
-.page3_title2 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    line-height: 3.5vw;
 }
 .page3_title2c1 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 259%;
+    margin-left: 16%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-size: 1.3vw;
+    line-height: 2.1vw;
 }
 .page3_title2c21 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 273%;
+    margin-left: 64%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
-.page3_title2c22 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
-}
-.page3_title2c23 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
-}
+
 
 
 
 .page3_title3 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 302%;
+    margin-left: 16%;
     position: absolute;
     z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-family: 'Taviraj-SemiBold';
+    color: #0037ff;
+    font-size: 3.4vw;
+    line-height: 3.5vw;
 }
 
 .page3_title3c1 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 313%;
+    margin-left: 16%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.page3_title3c21{
+    margin-top: 333%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+
 }
 
-.page3_title3c21 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
-}
-.page3_title3c22 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
-}
-
-.page3_title3c23 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
-}
 
 
 
 .page3_title4 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 361%;
+    margin-left: 16%;
     position: absolute;
     z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-family: 'Taviraj-SemiBold';
+    color: #0037ff;
+    font-size: 3.4vw;
+    line-height: 3.5vw;
 }
 
 .page3_title4c1 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 374%;
+    margin-left: 16%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color:#161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
 
 .page3_title4c21 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 396%;
+    margin-left: 55%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
 
-.page3_title4c22 {
-    margin-top: 105%;
-    margin-left: 50%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.11vw;
-    line-height: 25pt;
-}
 
 
 
