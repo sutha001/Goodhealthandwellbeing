@@ -6,10 +6,10 @@
 	height: 16vh;
 	border-top: 2px solid white;
 	z-index: 9;
-	margin-top: 400%;
+	margin-top: 385%;
 }
 .rope2_2{
-	margin-top: 112%;
+	margin-top: 97%;
     width: 95vw;
     position: absolute;
     z-index: 10;
@@ -17,72 +17,72 @@
 .pic2_2_1{
 	width: 55vw;
 	position: absolute;
-	margin-top: 78%;
+	margin-top: 63%;
 	z-index:1;
-	left:0%;
+	margin-left:0%;
 }
 .pic2_2_141{
 	width: 2.5vw;
 	position: absolute;
-	margin-top:112.5%;
+	margin-top:97.5%;
 	z-index:11;
-	left:22.5%;
+	margin-left:22.5%;
 }
 .pic2_2_21{
 	width: 30vw;
 	position: absolute;
-	margin-top: 137%;
+	margin-top: 122%;
 	z-index:1;
-	left:58%;
+	margin-left:58%;
 	transform: rotate(-5deg);
 }
 .pic2_2_22{
 	width: 28vw;
 	position: absolute;
-	margin-top: 158%;
+	margin-top: 143%;
 	z-index:1;
-	left:58%;
+	margin-left:58%;
 }
 .pic2_2_14{
 	width: 2.5vw;
 	position: absolute;
-	margin-top: 137%;
+	margin-top: 122%;
 	z-index:11;
-	left:64%;
+	margin-left:64%;
 }
 .pic2_2_121{
 	width: 2.5vw;
 	position: absolute;
-	margin-top: 156%;
+	margin-top: 141%;
 	z-index:11;
-	left:57%;
+	margin-left:57%;
 }
 .pic2_2_frame{
 	width: 50vw;
 	position: absolute;
-	margin-top: 160%;
+	margin-top: 145%;
 	z-index:2;
-	left:0%;
+	margin-left:0%;
 }
 .pic2_2_gif{
 	width: 35.8vw;
 	position: absolute;
-	margin-top: 172.6%;
+	margin-top: 157.6%;
 	z-index:1;
-	left:7.7%;
+	margin-left:7.7%;
 	transform: rotate(4deg);
 }
 .pic2_2_111{
 	width: 2.5vw;
 	position: absolute;
-	margin-top: 167.5%;
+	margin-top: 152.5%;
 	z-index:11;
-	left:28%;
+	margin-left:28%;
 }
 .pic2_2_f{
 	width: 13vw;
 	position: absolute;
-	margin-top: 190%;
+	margin-top: 175%;
 	z-index:11;
 	right:0%;
 	transform: rotate(-20deg);
@@ -90,51 +90,51 @@
 .pic2_2_31{
 	width: 25vw;
 	position: absolute;
-	margin-top: 230%;
+	margin-top: 215%;
 	z-index:1;
 	right:16%;
 }
 .pic2_2_32{
 	width: 20vw;
 	position: absolute;
-	margin-top: 253%;
+	margin-top: 238%;
 	z-index:1;
-	left:22%;
+	margin-left:22%;
 	transform: rotate(-3deg);
 }
 .pic2_2_33{
 	width: 18vw;
-	position: absolute;
-	margin-top: 264%;
-	z-index:1;
-	left:45%;
-	transform: rotate(3deg);
+    position: absolute;
+    margin-top: 253%;
+    z-index: 1;
+    margin-left: 45%;
+    transform: rotate(3deg);
 }
 .pic2_2_light{
 	width: 100vw;
 	position: absolute;
-	margin-top: 160%;
+	margin-top: 145%;
 	z-index:11;
 }
 .pic2_2_last{
-	width: 70vw;
-	position: absolute;
-	margin-top: 340%;
-	z-index:1;
-	left:10%;
+	width: 62vw;
+    position: absolute;
+    margin-top: 325%;
+    z-index: 1;
+    margin-left: 15%;
 }
 .pic2_2_arrow{
 	width: 5vw;
 	position: absolute;
-	margin-top: 392%;
+	margin-top: 377%;
 	z-index:1;
-	left:50%;
+	margin-left:50%;
 }
 .pic2_2_close{
 	width: 50vw;
 	position: absolute;
-	margin-top: 337%;
+	margin-top: 322%;
 	z-index:1;
-	left:43%;
+	margin-left:43%;
 	transform: rotate(-1deg);
 }

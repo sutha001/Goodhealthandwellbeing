@@ -12,67 +12,67 @@ body {
 	display: none;
 }
 #headfile1{
-	width: 22vw;
-    margin-left: 4%;
-    margin-top: 15.9%;
+	width: 18vw;
+    margin-left: 11%;
+    margin-top: 10.6%;
     position: absolute;
     z-index: 100;
 }
 #headfile2{
-	width: 22vw;
-    margin-left: 24%;
-    margin-top: 15.9%;
+	width: 18vw;
+    margin-left: 27.5%;
+    margin-top: 10.6%;
     position: absolute;
     z-index: 100;
 }
 #headfile3{
-	width: 22vw;
-    margin-left: 45.8%;
-    margin-top: 15.97%;
+	width: 18vw;
+    margin-left: 45.5%;
+    margin-top: 10.7%;
     position: absolute;
     z-index: 100;
 }
 #headfile4{
-	width: 22vw;
-    margin-left: 66.3%;
-    margin-top: 15.9%;
+	width: 18vw;
+    margin-left: 62.3%;
+    margin-top: 10.6%;
     position: absolute;
     z-index: 100;
 }
 #file1 {
-	width: 90vw;
-	margin-left: 4%;
-	margin-top: 20%;
-	z-index: 20;
-	position: absolute;
-	z-index: 2;
-	visibility: visible;
+	width: 75vw;
+    margin-left: 11%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
+    visibility: visible;
 }
 #file2 {
-	width: 90vw;
-	margin-left: 4%;
-	margin-top: 20%;
-	z-index: 20;
-	position: absolute;
-	z-index: 2;
+	width: 75vw;
+    margin-left: 11%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
 	visibility: hidden;
 }
 #file3{
-	width: 90vw;
-	margin-left: 4%;
-	margin-top: 20%;
-	z-index: 20;
-	position: absolute;
-	z-index: 2;
+	width: 75vw;
+    margin-left: 11%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
 	visibility: hidden;
 }
 #file4 {
-	width: 90vw;
-	margin-left: 4%;
-	margin-top: 20%;
-	z-index: 20;
-	position: absolute;
-	z-index: 3;
+	width: 75vw;
+    margin-left: 11%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
 	visibility: hidden;
 }
 
@@ -91,7 +91,7 @@ body {
 	height: 16vh;
 	border-top: 2px solid white;
 	z-index: 9;
-	margin-top: 463%;
+	margin-top: 448%;
 }
 
 nav {
@@ -209,7 +209,7 @@ nav ul li a {
 .text1 {
 	width: 50vw;
     position: absolute;
-    margin-top: 80%;
+    margin-top: 65%;
     margin-left: 25%;
     text-align: center;
     color: #f9f9f9;
@@ -225,10 +225,10 @@ nav ul li a {
 .posiheadforder1{
 	color: #161616;
     font-family: "PSPimpdeedIII";
-    font-size: 3.125vw;
+    font-size: 2.213vw;
     position: absolute;
-    margin-top: 17.5%;
-    margin-left: 9%;
+    margin-top: 11.7%;
+    margin-left: 15%;
     z-index: 101;
 
 }
@@ -236,10 +236,10 @@ nav ul li a {
 .posiheadforder2{
 	color: #161616;
     font-family: "PSPimpdeedIII";
-    font-size: 3.125vw;
+    font-size: 2.213vw;
     position: absolute;
-    margin-top: 17.5%;
-    margin-left: 30%;
+    margin-top: 11.7%;
+    margin-left: 32%;
     z-index: 101;
 
 }
@@ -247,10 +247,10 @@ nav ul li a {
 .posiheadforder3{
 	color: #161616;
     font-family: "PSPimpdeedIII";
-    font-size: 3.125vw;
+    font-size: 2.213vw;
     position: absolute;
-    margin-top: 17.5%;
-    margin-left: 51%;
+    margin-top: 11.7%;
+    margin-left: 49.5%;
     z-index: 101;
 
 }
@@ -258,10 +258,10 @@ nav ul li a {
 .posiheadforder4{
 	color: #161616;
     font-family: "PSPimpdeedIII";
-    font-size: 3.125vw;
+    font-size: 2.213vw;
     position: absolute;
-    margin-top: 17.5%;
-    margin-left: 72%;
+    margin-top: 11.7%;
+    margin-left: 66%;
     z-index: 101;
 
 }
