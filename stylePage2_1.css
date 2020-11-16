@@ -16,28 +16,28 @@ body {
     margin-left: 4%;
     margin-top: 15.9%;
     position: absolute;
-    z-index: 2;
+    z-index: 100;
 }
 #headfile2{
 	width: 22vw;
     margin-left: 24%;
     margin-top: 15.9%;
     position: absolute;
-    z-index: 2;
+    z-index: 100;
 }
 #headfile3{
 	width: 22vw;
     margin-left: 45.8%;
     margin-top: 15.97%;
     position: absolute;
-    z-index: 2;
+    z-index: 100;
 }
 #headfile4{
 	width: 22vw;
     margin-left: 66.3%;
     margin-top: 15.9%;
     position: absolute;
-    z-index: 2;
+    z-index: 100;
 }
 #file1 {
 	width: 90vw;
@@ -220,4 +220,48 @@ nav ul li a {
 	font-size: 3.45vw;
 	line-height: 4.36vw;
 	padding: 4.55vw 0;
+}
+
+.posiheadforder1{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 3.125vw;
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 9%;
+    z-index: 101;
+
+}
+
+.posiheadforder2{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 3.125vw;
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 30%;
+    z-index: 101;
+
+}
+
+.posiheadforder3{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 3.125vw;
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 51%;
+    z-index: 101;
+
+}
+
+.posiheadforder4{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 3.125vw;
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 72%;
+    z-index: 101;
+
 }

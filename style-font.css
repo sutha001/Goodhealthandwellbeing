@@ -21,6 +21,15 @@
 
 }
 
+@font-face {
+	font-family: "PSPimpdeedIII";
+  
+	src: url("PspimpdeedIII.woff") format("woff"), /* Modern Browsers */
+	  url("PspimpdeedIII.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }
+
 p {
 	font-size: 1.3vw;
 	font-family: 'chakra_petchlight';
