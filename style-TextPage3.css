@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'tavirajbold';
+    src: url('taviraj-bold-webfont.woff2') format('woff2'), url('taviraj-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chakra_petchlight';
+    src: url('chakrapetch-light-webfont.woff2') format('woff2'), url('chakrapetch-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Taviraj-SemiBold';
+    src: url('Taviraj-SemiBold.woff2') format('woff2'),
+         url('Taviraj-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .page3_h1 {
     margin-top: 105%;
     margin-left: 50%;
@@ -6,7 +29,7 @@
     font-family: 'chakra_petchlight';
     color: #7c7b77;
     font-size: 1.11vw;
-    line-height: 25pt;
+    line-height: 1.7vw;
 }
 
 .page3_c1 {
@@ -17,7 +40,7 @@
     font-family: 'chakra_petchlight';
     color: #7c7b77;
     font-size: 1.11vw;
-    line-height: 25pt;
+    line-height: 1.7vw;
 }
 .page3_c2 {
     margin-top: 183%;
@@ -27,7 +50,7 @@
     font-family: 'chakra_petchlight';
     color: #7c7b77;
     font-size: 1.11vw;
-    line-height: 25pt;
+    line-height: 1.7vw;
 }
 .page3_c3 {
     margin-top:204%;
@@ -37,17 +60,17 @@
     font-family: 'chakra_petchlight';
     color: #7c7b77;
     font-size: 1.11vw;
-    line-height: 25pt;
+    line-height: 1.7vw;
 }
 .page3_h2 {
-    margin-top: 105%;
-    margin-left: 50%;
+    margin-top: 228%;
+    margin-left: 17%;
     position: absolute;
     z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #7c7b77;
-    font-size: 1.11vw;
-    line-height: 25pt;
+    font-family: 'Taviraj-SemiBold';
+    color: #0037ff;
+    font-size: 3.4vw;
+    line-height: 3.7vw;
 }
 .page3_title2 {
     margin-top: 105%;
