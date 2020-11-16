@@ -272,8 +272,14 @@
 
 			<img src="page2\แฟ้ม2\3.1.png" class="pic2_2_31">
 			<img src="page2\แฟ้ม2\3.2.png" class="pic2_2_32">
+			<img src="page2\แฟ้ม2\14.1.png" class="pic2_2_141_2">
+			<img src="page2\แฟ้ม2\วง.png" class="pic2_2_circle">
+
 			<img src="page2\แฟ้ม2\3.3.png" class="pic2_2_33">
 			<img src="page2\แฟ้ม2\แสง.png" class="pic2_2_light">
+			<img src="page2\แฟ้ม2\13.1.png" class="pic2_2_131">
+
+			<img src="page2\แฟ้ม2\13.1.png" class="pic2_2_131_last">
 
 			<img src="page2\แฟ้ม2\รูปสุดท้าย.png" class="pic2_2_last">
 			<img src="page2\แฟ้ม2\close.png" class="pic2_2_close">
@@ -672,6 +678,13 @@
 		crossorigin="anonymous" />
 
 	<script>
+		var check1 = 0;
+		var check2 = 0;
+		var check3 = 0;
+		var check4 = 0;
+		var check5 = 0;
+		var check6 = 0;
+		var check7 = 0;
 
 		function myMove1() {
 			var elem = document.getElementById("rope2_11");
@@ -684,6 +697,7 @@
 					pos++;
 					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
 				}
+				check1 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -698,6 +712,7 @@
 					pos--;
 					elem.style.clip = "rect(auto, 46vw, auto, " + pos + "vw)";
 				}
+				check2 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -713,6 +728,7 @@
 					pos--;
 					elem.style.clip = "rect(auto, 39vw, auto, " + pos + "vw)";
 				}
+				check3 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -728,6 +744,7 @@
 					pos++;
 					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
 				}
+				check4 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -743,6 +760,7 @@
 					pos--;
 					elem.style.clip = "rect(auto, 52vw, auto, " + pos + "vw)";
 				}
+				check5 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -757,6 +775,7 @@
 					pos--;
 					elem.style.clip = "rect(auto, 28vw, auto, " + pos + "vw)";
 				}
+				check6 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -772,22 +791,28 @@
 					pos++;
 					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
 				}
+				check7 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
 
 		ScrollTrigger.batch("#rope2_11", {
 			onEnter: batch => {
-				myMove1()
+				if(check1 == 0){
+					myMove1();
+				}
 			},
 			start: "center 100%",
-			toggleActions: "restart pause reverse pause",
-			onLeaveBack: self => self.disable()
+			toggleActions: "play none none none"
+
 		})
+
 
 		ScrollTrigger.batch("#rope2_12", {
 			onEnter: batch => {
-				myMove2()
+				if(check2 == 0){
+					myMove2();
+				}
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
@@ -795,35 +820,45 @@
 
 		ScrollTrigger.batch("#rope2_13", {
 			onEnter: batch => {
-				myMove3()
+				if(check3 == 0){
+					myMove3();
+				}
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
 		})
 		ScrollTrigger.batch("#rope2_14", {
 			onEnter: batch => {
-				myMove4()
+				if(check4 == 0){
+					myMove4();
+				}
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
 		})
 		ScrollTrigger.batch("#rope2_15", {
 			onEnter: batch => {
-				myMove5()
+				if(check5 == 0){
+					myMove5();
+				}
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
 		})
 		ScrollTrigger.batch("#rope2_16", {
 			onEnter: batch => {
-				myMove6()
+				if(check6 == 0){
+					myMove6();
+				}
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
 		})
 		ScrollTrigger.batch("#rope2_17", {
 			onEnter: batch => {
-				myMove7()
+				if(check7 == 0){
+					myMove7();
+				}
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
@@ -865,7 +900,7 @@
 				gsap.from(batch, { rotation: -12, duration: 1 })
 			},
 			start: "center 100%",
-			toggleActions: "play none none none",
+			toggleActions: "play none none none"
 		})
 
 		ScrollTrigger.batch("#pic21_2", {
@@ -873,8 +908,7 @@
 				gsap.from(batch, { rotation: 12, duration: 1 })
 			},
 			start: "center 100%",
-			toggleActions: "play none none none",
-			onLeaveBack: self => self.disable()
+			toggleActions: "play none none none"
 		})
 
 		ScrollTrigger.batch("#pic21_3", {
@@ -882,8 +916,7 @@
 				gsap.from(batch, { rotation: 12, duration: 1 })
 			},
 			start: "center 100%",
-			toggleActions: "play none none none",
-			onLeaveBack: self => self.disable()
+			toggleActions: "play none none none"
 		})
 
 
@@ -892,8 +925,7 @@
 				gsap.from(batch, { rotation: 12, duration: 1 })
 			},
 			start: "center 100%",
-			toggleActions: "play none none none",
-			onLeaveBack: self => self.disable()
+			toggleActions: "play none none none"
 		})
 
 
@@ -902,8 +934,7 @@
 				gsap.from(batch, { rotation: -12, duration: 1 })
 			},
 			start: "center 100%",
-			toggleActions: "play none none none",
-			onLeaveBack: self => self.disable()
+			toggleActions: "play none none none"
 		})
 
 
