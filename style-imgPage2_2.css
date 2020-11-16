@@ -138,3 +138,35 @@
 	margin-left:43%;
 	transform: rotate(-1deg);
 }
+.pic2_2_131{
+	width: 2.5vw;
+	position: absolute;
+	margin-top: 213%;
+	z-index:11;
+	margin-left:67%;
+	transform: rotate(30deg);
+
+}
+.pic2_2_141_2{
+	width: 2.5vw;
+	position: absolute;
+	margin-top: 237%;
+	z-index:12;
+	margin-left:37%;
+	transform: rotate(-81deg);
+}
+.pic2_2_131_last{
+	width: 2.5vw;
+	position: absolute;
+	margin-top: 298%;
+	z-index:12;
+	margin-left:48%;
+}
+.pic2_2_circle{
+	width: 12vw;
+	position: absolute;
+	margin-top: 233.5%;
+	z-index:12;
+	margin-left:34%;
+	transform: rotate(-9deg);
+}
