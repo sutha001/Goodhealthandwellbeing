@@ -11,6 +11,26 @@ body {
 .hide {
 	display: none;
 }
+.linekill{
+	width: 11vw;
+    margin-left: 13%;
+    margin-top: 7.4%;
+    position: absolute;
+	z-index: 101;
+	display: none;
+}
+.a2{
+	margin-left: 30%;
+	display: none;
+}
+.a3{
+	margin-left: 48%;
+	display: none;
+}
+.a4{
+	margin-left: 64%;
+	display: none;
+}
 #headfile1{
 	width: 18vw;
     margin-left: 11%;
