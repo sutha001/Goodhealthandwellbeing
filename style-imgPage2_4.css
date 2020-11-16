@@ -6,10 +6,10 @@
 	height: 16vh;
 	border-top: 2px solid white;
 	z-index: 9;
-	margin-top: 405%;
+	margin-top: 390%;
 }
 .rope2_4{
-	margin-top: 100%;
+	margin-top: 85%;
     width: 95vw;
     position: absolute;
     z-index: 10;
@@ -18,7 +18,7 @@
 .pic2_4_1{
 	width: 45vw;
     position: absolute;
-    margin-top: 123%;
+    margin-top: 108%;
     right: -3%;
 	z-index: 1;
 	transform: rotate(1deg);
@@ -26,21 +26,21 @@
 .pic2_4_2{
 	width: 35vw;
     position: absolute;
-    margin-top: 101%;
+    margin-top: 86%;
     margin-left: 10%;
 	z-index: 1;
 }
 .pic2_4_frame{
 	width: 45vw;
     position: absolute;
-    margin-top: 160%;
+    margin-top: 145%;
     left: 0%;
 	z-index: 1;
 }
 .pic2_4_gif{
 	width: 40vw;
     position: absolute;
-    margin-top: 171%;
+    margin-top: 156%;
     margin-left: -2%;
 	z-index: 1;
 	transform: rotate(7.2deg);
@@ -48,14 +48,14 @@
 .pic2_4_h{
 	width: 30vw;
     position: absolute;
-    margin-top: 218%;
+    margin-top: 203%;
     margin-left:24%;
 	z-index: 3;
 }
 .pic2_4_12{
 	width: 45vw;
     position: absolute;
-    margin-top: 235%;
+    margin-top: 220%;
     right:-8%;
 	z-index: 1;
 	transform: rotate(-4deg);
@@ -63,7 +63,7 @@
 .pic2_4_13{
 	width: 65vw;
     position: absolute;
-    margin-top: 248%;
+    margin-top: 233%;
     left:-5%;
 	z-index: 1;
 	transform: rotate(-4deg);
@@ -71,7 +71,7 @@
 .pic2_4_33{
 	width: 40vw;
     position: absolute;
-    margin-top: 268%;
+    margin-top: 253%;
     left:45%;
 	z-index: 1;
 	transform: rotate(5deg);
@@ -79,7 +79,7 @@
 .pic2_4_circle{
 	width: 25vw;
     position: absolute;
-    margin-top: 289%;
+    margin-top: 274%;
     left:68%;
 	z-index: 1;
 	transform: rotate(-5deg);
@@ -87,22 +87,22 @@
 .pic2_4_last{
 	width: 75vw;
 	position: absolute;
-	margin-top: 353%;
+	margin-top: 338%;
 	z-index:1;
 	left:10%;
 }
 .pic2_4_close{
 	width: 50vw;
 	position: absolute;
-	margin-top: 348%;
+	margin-top: 333%;
 	z-index:1;
 	left:46%;
 	transform: rotate(-1deg);
 }
 .pic2_4_button{
-	width: 20vw;
+	width: 14.9vw;
 	position: absolute;
-	margin-top: 390%;
+	margin-top: 377%;
 	z-index:1;
 	left:40%;
 }
