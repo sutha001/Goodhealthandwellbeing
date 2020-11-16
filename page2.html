@@ -60,6 +60,10 @@
 		<img src="pic\img\icon\logo.png" class="logo">
 
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\หัวปก1.png" id="headfile1" onclick="forder1()" class="movetoforder">
+		<img src="page2/ขีดฆ่า.png" class="linekill" id=linekill1>
+		<img src="page2/ขีดฆ่า.png" class="linekill a2">
+		<img src="page2/ขีดฆ่า.png" class="linekill a3">
+		<img src="page2/ขีดฆ่า.png" class="linekill a4">
 		<p class="posiheadforder1">ช่องว่างปริศนา</p>
 		<p class="posiheadforder2">ระวังข้างหลัง</p>
 		<p class="posiheadforder3">หลุมยักษ์ทะลุมิติ</p>
@@ -991,6 +995,7 @@
 
 		function movetoforder1() {
 			var element = document.querySelector(".movetoforder");
+			document.getElementById("linekill1").style.display="block";
 			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
 		}
 	</script>
