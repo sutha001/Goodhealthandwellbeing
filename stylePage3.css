@@ -1,0 +1,149 @@
+.section3{
+	position: relative;
+	height: 100vh;
+}
+.pic3_bg1{
+	width: 100vw;
+	margin-top: 11%;
+	position: absolute;
+	z-index: 3;
+}
+.pic3_bg2{
+	width: 100vw;
+	position: absolute;
+	margin-top: 73%;
+	z-index: 2;
+}
+.pic3_bg3{
+	width: 100vw;
+	position: absolute;
+	margin-top: 431%;
+	z-index: 1;
+}
+.pic3_bg_between{
+	width: 100vw;
+	position: absolute;
+	margin-top: 432%;
+	z-index: 3;
+}
+.page3_footer{
+	position: absolute;
+	width: 100%;
+	background-color: #161616;
+	color: #ffe91a;
+	height: 16vh;
+	border-top: 2px solid white;
+	z-index: 9;
+	margin-top: 564%;
+}
+.jp_img{
+	width: 24vw;
+	position: absolute;
+	margin-top:109%;
+	left: 10%;
+	z-index:3 
+}
+.jp_head{
+	width: 32vw;
+	position: absolute;
+	margin-top:101.5%;
+	left: 3.5%;
+	z-index:3 
+}
+.arrow_blue_jp{
+	width: 10vw;
+	left:1%;
+	position:absolute;
+	z-index:4;
+	margin-top: 156%;
+	transform: scaleX(-1) rotate(50deg);
+}
+.vt_img{
+	width: 24vw;
+	position: absolute;
+	margin-top:129%;
+	left: 38%;
+	z-index:3 
+}
+.vt_head{
+	width: 32vw;
+	position: absolute;
+	margin-top:121%;
+	left: 35%;
+	z-index:3 
+}
+.arrow_blue_vt{
+	width: 10vw;
+	left:29%;
+	position:absolute;
+	z-index:4;
+	margin-top: 176%;
+	transform: scaleX(-1) rotate(50deg);
+}
+.eng_img{
+	width: 24vw;
+	position: absolute;
+	margin-top:150%;
+	right: 10%;
+	z-index:3 
+}
+.eng_head{
+	width: 32vw;
+	position: absolute;
+	margin-top:139%;
+	right: 4%;
+	z-index:3 
+}
+.arrow_blue_eng{
+	width: 10vw;
+	right:33%;
+	position:absolute;
+	z-index:4;
+	margin-top: 196%;
+	transform: scaleX(-1) rotate(50deg);
+}
+.text_underJP{
+	width: 27vw;
+	position: absolute;
+	z-index: 3;
+	margin-top:183%;
+	left: 5%;
+}
+.text_underVT{
+	width: 27vw;
+	position: absolute;
+	z-index: 3;
+	margin-top:208%;
+	left: 32%;
+}
+.doc_left{
+	width: 50vw;
+	left: -38%;
+	position: absolute;
+	margin-top: 277.5%;
+	z-index: 3;
+	transform:  rotate(-8deg);
+}
+.doc_right{
+	width: 40vw;
+	right: -24%;
+	position: absolute;
+	margin-top: 338%;
+	z-index: 3;
+	transform:  rotate(9deg);
+}
+.star{
+	width: 10vw;
+	right: 9%;
+	position: absolute;
+	margin-top: 319%;
+	z-index: 3;
+}
+.arrow_yellow_left{
+	width: 10vw;
+	left:10%;
+	position:absolute;
+	z-index:4;
+	margin-top: 450%;
+	transform: scaleX(-1) ;
+}
