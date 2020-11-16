@@ -70,7 +70,11 @@
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 4.3vw;
-    line-height: 4.5vw;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: block;
 }
 .page3_title2 {
     margin-top: 248%;
@@ -80,7 +84,9 @@
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 3.4vw;
-    line-height: 3.5vw;
+    display: block;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 .page3_title2c1 {
     margin-top: 259%;
