@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="style-TextPage2_3.css">
 	<link rel="stylesheet" type="text/css" href="style-TextPage2_4.css">
 	<link rel="stylesheet" type="text/css" href="style-TextPage2_1.css">
+	<link rel="stylesheet" type="text/css" href="dist/aos.css">
 	<link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@700&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
@@ -674,12 +675,7 @@
 		integrity="sha512-f031btWm661Twvo3JQ18X5z8epjTu5K4eNcOOYNJs3AKU0wOTGnY1mjXUmfsTJ96lYggbyIg9vdJ7nbjdddtvQ=="
 		crossorigin="anonymous"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-		integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-		crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-		integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-		crossorigin="anonymous" />
+	<script type="text/javascript" src="dist/aos.js"></script>
 
 	<script>
 		var check1 = 0;
@@ -802,7 +798,7 @@
 
 		ScrollTrigger.batch("#rope2_11", {
 			onEnter: batch => {
-				if(check1 == 0){
+				if (check1 == 0) {
 					myMove1();
 				}
 			},
@@ -814,7 +810,7 @@
 
 		ScrollTrigger.batch("#rope2_12", {
 			onEnter: batch => {
-				if(check2 == 0){
+				if (check2 == 0) {
 					myMove2();
 				}
 			},
@@ -824,7 +820,7 @@
 
 		ScrollTrigger.batch("#rope2_13", {
 			onEnter: batch => {
-				if(check3 == 0){
+				if (check3 == 0) {
 					myMove3();
 				}
 			},
@@ -833,7 +829,7 @@
 		})
 		ScrollTrigger.batch("#rope2_14", {
 			onEnter: batch => {
-				if(check4 == 0){
+				if (check4 == 0) {
 					myMove4();
 				}
 			},
@@ -842,7 +838,7 @@
 		})
 		ScrollTrigger.batch("#rope2_15", {
 			onEnter: batch => {
-				if(check5 == 0){
+				if (check5 == 0) {
 					myMove5();
 				}
 			},
@@ -851,7 +847,7 @@
 		})
 		ScrollTrigger.batch("#rope2_16", {
 			onEnter: batch => {
-				if(check6 == 0){
+				if (check6 == 0) {
 					myMove6();
 				}
 			},
@@ -860,7 +856,7 @@
 		})
 		ScrollTrigger.batch("#rope2_17", {
 			onEnter: batch => {
-				if(check7 == 0){
+				if (check7 == 0) {
 					myMove7();
 				}
 			},
@@ -995,7 +991,7 @@
 
 		function movetoforder1() {
 			var element = document.querySelector(".movetoforder");
-			document.getElementById("linekill1").style.display="block";
+			document.getElementById("linekill1").style.display = "block";
 			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
 		}
 	</script>
