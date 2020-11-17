@@ -34,7 +34,7 @@
 	height: 16vh;
 	border-top: 2px solid white;
 	z-index: 9;
-	margin-top: 564%;
+	margin-top: 540%;
 }
 .jp_img{
 	width: 24vw;
@@ -168,4 +168,63 @@
 	z-index:4;
 	margin-top: 286%;
 	transform: rotate(-9deg);
+}
+.page3_circle{
+	width: 33vw;
+	left:30%;
+	position:absolute;
+	z-index:4;
+	margin-top: 234%;
+}
+.arrow_yellow_04{
+	width: 10vw;
+	left:43%;
+	position:absolute;
+	z-index:4;
+	margin-top: 329%;
+}
+
+.arrow_yellow_05{
+	width: 10vw;
+	left:42%;
+	position:absolute;
+	z-index:4;
+	margin-top: 335%;
+}
+
+.arrow_yellow_06{
+	width: 10vw;
+	left:42%;
+	position:absolute;
+	z-index:4;
+	margin-top: 342%;
+}
+.arrow_yellow_07{
+	width: 9vw;
+	left:44%;
+	position:absolute;
+	z-index:4;
+	margin-top: 392%;
+}
+.arrow_yellow_08{
+	width: 10vw;
+	left:42%;
+	position:absolute;
+	z-index:4;
+	margin-top: 396%;
+}
+.line_under{
+	width: 34vw;
+	left:12%;
+	position:absolute;
+	z-index:4;
+	margin-top: 292%;
+	z-index: 1;
+}
+.page3_circle2{
+	width: 28vw;
+	left:13%;
+	position:absolute;
+	z-index:4;
+	margin-top: 354%;
 }

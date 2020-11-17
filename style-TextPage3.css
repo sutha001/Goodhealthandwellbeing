@@ -147,10 +147,6 @@
     line-height: 2.14vw;
 
 }
-
-
-
-
 .page3_title4 {
     margin-top: 361%;
     margin-left: 16%;
@@ -159,7 +155,7 @@
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 3.4vw;
-    line-height: 3.5vw;
+    line-height: 5vw;
 }
 
 .page3_title4c1 {
@@ -180,6 +176,26 @@
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.page3_h3{
+    margin-top: 445%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    color: #ffe91a;
+    font-size: 4.3vw;
+    line-height: 4vw;
+}
+.page3_title5c22{
+    margin-top: 450%;
+    margin-left: 60%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #f9f9f9;
     font-size: 1.3vw;
     line-height: 2.14vw;
 }
