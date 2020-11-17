@@ -9,7 +9,7 @@ body {
 }
 
 #BgMotion {
-	width: 100vw;
+	width: 100.5%;
 }
 
 #section1 {
@@ -134,7 +134,6 @@ nav ul li a {
 }
 
 .texthome {
-	width: 100%;
 	z-index: 1000;
 	margin-top: 42%;
 	margin-left: 60%;
