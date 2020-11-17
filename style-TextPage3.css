@@ -199,7 +199,90 @@
     font-size: 1.3vw;
     line-height: 2.14vw;
 }
-
-
+.page3_title6h2up{
+    color: #0037ff;
+    font-size:2.6vw;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    line-height: 3.6vw;
+    margin-top: 452.5%;
+    position: absolute;
+    left:16%;
+}
+.page3_title6h2under{
+    color: #0037ff;
+    font-size:2.6vw;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    line-height: 3.6vw;
+    margin-top: 456.2%;
+    position: absolute;
+    left:25.5%;
+}
+.page3_title6h3{
+    color: #0037ff;
+    font-size:2.6vw;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    line-height: 3.6vw;
+    margin-top: 465%;
+    position: absolute;
+    left:67%;
+}
+.page3_title6h4{
+    color: #0037ff;
+    font-size:2.6vw;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    line-height: 3.6vw;
+    margin-top: 480.5%;
+    position: absolute;
+    left:39.5%;
+}
+.page3_tittle6h2c1{
+    margin-top: 464%;
+    margin-left: 15%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #f9f9f9;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.page3_tittle6h3c1{
+    margin-top: 472%;
+    margin-left: 64%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #f9f9f9;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.page3_tittle6h4c1{
+    margin-top: 487%;
+    margin-left: 36%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #f9f9f9;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.page3_tittle7{
+    margin-top: 520%;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'Taviraj-SemiBold';
+    color: #0037ff;
+    font-size: 2.6vw;
+    line-height: 4vw;
+    text-align: center;
+}
+.mark_title7{
+    padding-top:6px;
+    padding-bottom: 6px;
+}
 
 
