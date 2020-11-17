@@ -694,6 +694,7 @@
 		crossorigin="anonymous"></script>
 
 	<script type="text/javascript" src="dist/aos.js"></script>
+	<script type="text/javascript" src="sessionlocal.js"></script>
 
 	<script>
 		var check1 = 0;
@@ -1030,31 +1031,6 @@
 			document.getElementById("folder4").style.display = "block";
 		}
 
-		var killline1 = "";
-		clickCounter();
-		function movetoforder1() {
-			var element = document.querySelector(".movetoforder");
-			clickCounter();
-			document.getElementById("linekill1").style.display = "block";
-			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
-		}
-
-		if(killline1 == "ture"){
-			document.getElementById("linekill1").style.display = "block";
-		}
-
-
-		function clickCounter() {
-			if (typeof (Storage) !== "undefined") {
-				if (sessionStorage.clickcount) {
-					sessionStorage.clickcount ="ture";
-				} else {
-					sessionStorage.clickcount = "01";
-				}
-				killline1 = sessionStorage.clickcount;
-			} else {
-			}
-		}
 	</script>
 
 </body>
