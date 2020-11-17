@@ -70,11 +70,14 @@
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 4.3vw;
-    padding-right: 1px;
-    padding-left: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    display: block;
+    line-height: 3vw;
+}
+.markh2{
+    background-color: #ffe91a;
+    color:#0037ff;
+    display: inline-block; 
+    height: 1.15em;
+    line-height: 1.15;
 }
 .page3_title2 {
     margin-top: 248%;

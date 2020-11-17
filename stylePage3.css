@@ -12,18 +12,18 @@
 	width: 100vw;
 	position: absolute;
 	margin-top: 73%;
-	z-index: 2;
+	z-index: 1;
 }
 .pic3_bg3{
 	width: 100vw;
 	position: absolute;
-	margin-top: 431%;
-	z-index: 1;
+	margin-top: 409%;
+	z-index: 2;
 }
 .pic3_bg_between{
 	width: 100vw;
 	position: absolute;
-	margin-top: 432%;
+	margin-top: 409%;
 	z-index: 3;
 }
 .page3_footer{
@@ -122,15 +122,15 @@
 	position: absolute;
 	margin-top: 277.5%;
 	z-index: 3;
-	transform:  rotate(-8deg);
+	transform:  rotate(-7deg);
 }
 .doc_right{
 	width: 40vw;
-	right: -24%;
+	right: -23.5%;
 	position: absolute;
 	margin-top: 338%;
 	z-index: 3;
-	transform:  rotate(9deg);
+	transform:  rotate(11deg);
 }
 .star{
 	width: 10vw;
@@ -146,4 +146,26 @@
 	z-index:4;
 	margin-top: 450%;
 	transform: scaleX(-1) ;
+}
+.arrow_yellow_01{
+	width: 10vw;
+	left:53%;
+	position:absolute;
+	z-index:4;
+	margin-top: 271%;
+}
+.arrow_yellow_02{
+	width: 10vw;
+	left:53%;
+	position:absolute;
+	z-index:4;
+	margin-top: 277%;
+}
+.arrow_yellow_03{
+	width: 10vw;
+	left:51%;
+	position:absolute;
+	z-index:4;
+	margin-top: 286%;
+	transform: rotate(-9deg);
 }
