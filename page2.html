@@ -99,8 +99,8 @@
 
 			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส.png" class="foothead" data-aos="zoom-out" data-aos-delay="700">
 			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-1.png" class="foothead2" data-aos="zoom-out" data-aos-delay="800">
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-2.png" class="foothead3" data-aos="zoom-out" >
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-3.png" class="foothead4" data-aos="zoom-out" >
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-2.png" class="foothead3" data-aos="zoom-out">
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-3.png" class="foothead4" data-aos="zoom-out">
 
 
 			<!--<img src="page2\แฟ้ม1\เชือก.png" class="rope2_1">-->
@@ -539,7 +539,7 @@
 			<img src="page2\แฟ้ม4\รูปปิดคดี.png" class="pic2_4_last">
 			<img src="page2\แฟ้ม4\ปิดคดี4.png" class="pic2_4_close">
 			<a href="page3.html"><img src="page2\แฟ้ม4\button.png" class="pic2_4_button"></a>
-			
+
 
 			<div id="footer_div2_4">
 				<p class="foot">รายงานนี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
@@ -966,7 +966,7 @@
 			document.getElementById("file4").style.visibility = "hidden";
 
 			document.getElementById("headfile1").style.opacity = OpacityHeadForderBlock;
-			document.getElementById("headfile2").style.opacity = OpacityHeadForderNone ;
+			document.getElementById("headfile2").style.opacity = OpacityHeadForderNone;
 			document.getElementById("headfile3").style.opacity = OpacityHeadForderNone;
 			document.getElementById("headfile4").style.opacity = OpacityHeadForderNone;
 
@@ -1001,7 +1001,7 @@
 			document.getElementById("file2").style.visibility = "hidden";
 			document.getElementById("file3").style.visibility = "visible";
 			document.getElementById("file4").style.visibility = "hidden";
-			
+
 			document.getElementById("headfile1").style.opacity = OpacityHeadForderNone;
 			document.getElementById("headfile2").style.opacity = OpacityHeadForderNone;
 			document.getElementById("headfile3").style.opacity = OpacityHeadForderBlock;
@@ -1030,10 +1030,30 @@
 			document.getElementById("folder4").style.display = "block";
 		}
 
+		var killline1 = "";
+		clickCounter();
 		function movetoforder1() {
 			var element = document.querySelector(".movetoforder");
+			clickCounter();
 			document.getElementById("linekill1").style.display = "block";
 			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+		}
+
+		if(killline1 == "ture"){
+			document.getElementById("linekill1").style.display = "block";
+		}
+
+
+		function clickCounter() {
+			if (typeof (Storage) !== "undefined") {
+				if (sessionStorage.clickcount) {
+					sessionStorage.clickcount ="ture";
+				} else {
+					sessionStorage.clickcount = "01";
+				}
+				killline1 = sessionStorage.clickcount;
+			} else {
+			}
 		}
 	</script>
 
