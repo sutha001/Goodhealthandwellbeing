@@ -55,7 +55,7 @@
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num3"><a href="#" style="color:#ffe91a;">CASE SOLVED</a></li>
+				<li class="num3"><a href="page3.html" style="color:#ffe91a;">CASE SOLVED</a></li>
 			</ul>
 		</nav>
 		<img src="pic\img\icon\logo.png" class="logo">
@@ -65,10 +65,10 @@
 		<img src="page2/ขีดฆ่า.png" class="linekill a2">
 		<img src="page2/ขีดฆ่า.png" class="linekill a3">
 		<img src="page2/ขีดฆ่า.png" class="linekill a4">
-		<p class="posiheadforder1">ช่องว่างปริศนา</p>
-		<p class="posiheadforder2">ระวังข้างหลัง</p>
-		<p class="posiheadforder3">หลุมยักษ์ทะลุมิติ</p>
-		<p class="posiheadforder4">แยกมรณะ</p>
+		<p class="posiheadforder1" onclick="forder1()">ช่องว่างปริศนา</p>
+		<p class="posiheadforder2" onclick="forder2()">ระวังข้างหลัง</p>
+		<p class="posiheadforder3" onclick="forder3()">หลุมยักษ์ทะลุมิติ</p>
+		<p class="posiheadforder4" onclick="forder4()">แยกมรณะ</p>
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก2\หัวปก2.png" id="headfile2" onclick="forder2()">
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก3\หัวปก3.png" id="headfile3" onclick="forder3()">
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก4\หัวปก4.png" id="headfile4" onclick="forder4()">
@@ -97,6 +97,11 @@
 			<img src="page2\แฟ้ม1\14.png" class="pin7">
 			<img src="page2/แฟ้ม1/12.1.png" class="pin8">
 
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส.png" class="foothead" data-aos="zoom-out" data-aos-delay="200">
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-1.png" class="foothead2" data-aos="zoom-out" data-aos-delay="400">
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-2.png" class="foothead3" data-aos="zoom-out" data-aos-delay="600">
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-3.png" class="foothead4" data-aos="zoom-out" data-aos-delay="800">
+
 
 			<!--<img src="page2\แฟ้ม1\เชือก.png" class="rope2_1">-->
 			<img src="page2/แฟ้ม1/เชือก1.png" class="rope2_11" id="rope2_11">
@@ -109,7 +114,7 @@
 
 			<img src="page2\แฟ้ม1\spray.png" class="spray">
 
-			<img src="page2\แฟ้ม1\1.png" class="pic2_1_1" id="pic21_1" data-aos="zoom-out-left">
+			<img src="page2\แฟ้ม1\1.png" class="pic2_1_1" id="pic21_1" data-aos="zoom-out">
 			<img src="page2\แฟ้ม1\f.png" class="pic2_1_f">
 
 			<div class="page21_c1">
@@ -521,7 +526,8 @@
 
 			<img src="page2\แฟ้ม4\รูปปิดคดี.png" class="pic2_4_last">
 			<img src="page2\แฟ้ม4\ปิดคดี4.png" class="pic2_4_close">
-			<img src="page2\แฟ้ม4\button.png" class="pic2_4_button">
+			<a href="page3.html"><img src="page2\แฟ้ม4\button.png" class="pic2_4_button"></a>
+			
 
 			<div id="footer_div2_4">
 				<p class="foot">รายงานนี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
@@ -938,12 +944,20 @@
 		})
 
 
+		var OpacityHeadForderNone = "0.5"
+		var OpacityHeadForderBlock = "1"
 
 		function forder1() {
 			document.getElementById("file1").style.visibility = "visible";
 			document.getElementById("file2").style.visibility = "hidden";
 			document.getElementById("file3").style.visibility = "hidden";
 			document.getElementById("file4").style.visibility = "hidden";
+
+			document.getElementById("headfile1").style.opacity = OpacityHeadForderBlock;
+			document.getElementById("headfile2").style.opacity = OpacityHeadForderNone ;
+			document.getElementById("headfile3").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile4").style.opacity = OpacityHeadForderNone;
+
 
 			document.getElementById("folder1").style.display = "block";
 			document.getElementById("folder2").style.display = "none";
@@ -959,6 +973,11 @@
 			document.getElementById("file3").style.visibility = "hidden";
 			document.getElementById("file4").style.visibility = "hidden";
 
+			document.getElementById("headfile1").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile2").style.opacity = OpacityHeadForderBlock;
+			document.getElementById("headfile3").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile4").style.opacity = OpacityHeadForderNone;
+
 			document.getElementById("folder1").style.display = "none";
 			document.getElementById("folder2").style.display = "block";
 			document.getElementById("folder3").style.display = "none";
@@ -970,6 +989,11 @@
 			document.getElementById("file2").style.visibility = "hidden";
 			document.getElementById("file3").style.visibility = "visible";
 			document.getElementById("file4").style.visibility = "hidden";
+			
+			document.getElementById("headfile1").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile2").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile3").style.opacity = OpacityHeadForderBlock;
+			document.getElementById("headfile4").style.opacity = OpacityHeadForderNone;
 
 			document.getElementById("folder1").style.display = "none";
 			document.getElementById("folder2").style.display = "none";
@@ -982,6 +1006,11 @@
 			document.getElementById("file2").style.visibility = "hidden";
 			document.getElementById("file3").style.visibility = "hidden";
 			document.getElementById("file4").style.visibility = "visible";
+
+			document.getElementById("headfile1").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile2").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile3").style.opacity = OpacityHeadForderNone;
+			document.getElementById("headfile4").style.opacity = OpacityHeadForderBlock;
 
 			document.getElementById("folder1").style.display = "none";
 			document.getElementById("folder2").style.display = "none";

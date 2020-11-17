@@ -1,3 +1,8 @@
+:root {
+	--opaheadfordernone:0.5;
+	--opaheadforderBlock: 1; 
+  }
+
 html {
 	overflow-x: hidden;
 }
@@ -36,28 +41,36 @@ body {
     margin-left: 12.5%;
     margin-top: 10.6%;
     position: absolute;
-    z-index: 100;
+	z-index: 100;
+	opacity: var(--opaheadforderBlock);
+	cursor: pointer;
 }
 #headfile2{
 	width: 18vw;
     margin-left: 29%;
     margin-top: 10.6%;
     position: absolute;
-    z-index: 100;
+	z-index: 100;
+	opacity: var(--opaheadfordernone);
+	cursor: pointer;
 }
 #headfile3{
 	width: 18vw;
     margin-left: 47%;
     margin-top: 10.7%;
     position: absolute;
-    z-index: 100;
+	z-index: 100;
+	opacity: var(--opaheadfordernone);
+	cursor: pointer;
 }
 #headfile4{
 	width: 18vw;
     margin-left: 63.8%;
     margin-top: 10.6%;
     position: absolute;
-    z-index: 100;
+	z-index: 100;
+	opacity: var(--opaheadfordernone);
+	cursor: pointer;
 }
 #file1 {
 	width: 75vw;
@@ -249,7 +262,8 @@ nav ul li a {
     position: absolute;
     margin-top: 11.7%;
     margin-left: 16.5%;
-    z-index: 101;
+	z-index: 101;
+	cursor: pointer;
 
 }
 
@@ -260,7 +274,8 @@ nav ul li a {
     position: absolute;
     margin-top: 11.7%;
     margin-left: 33.5%;
-    z-index: 101;
+	z-index: 101;
+	cursor: pointer;
 
 }
 
@@ -271,7 +286,8 @@ nav ul li a {
     position: absolute;
     margin-top: 11.7%;
     margin-left: 51%;
-    z-index: 101;
+	z-index: 101;
+	cursor: pointer;
 
 }
 
@@ -282,6 +298,6 @@ nav ul li a {
     position: absolute;
     margin-top: 11.7%;
     margin-left: 67.5%;
-    z-index: 101;
-
+	z-index: 101;
+	cursor: pointer;
 }

@@ -192,10 +192,22 @@
     position: absolute;
     margin-top: 424%;
     z-index: 1;
+    cursor: pointer;
     left: 50%;
     animation: arrow21 2s infinite;
 }
+@keyframes arrow21 {
+    0%{
+        margin-top:424%;
+    }
+    25%{
+        margin-top:422%;
+    }
+    100%{
+        margin-top:424%;
+    }
 
+}
 .pic2_2_1{
 	width: 50vw;
 	position: absolute;
@@ -279,4 +291,36 @@
     margin-top: 318%;
     margin-left: 4%;
     z-index: 100;
+}
+
+.foothead{
+    margin-top: 20%;
+    margin-left: 41%;
+    width: 8vw;
+    position: absolute;
+    z-index: 103;
+}
+
+.foothead2{
+    margin-top: 34%;
+    margin-left: 64%;
+    width: 9vw;
+    position: absolute;
+    z-index: 103;
+}
+
+.foothead3{
+    margin-top: 42%;
+    margin-left: 69%;
+    width: 8vw;
+    position: absolute;
+    z-index: 103;
+}
+
+.foothead4{
+    margin-top: 43%;
+    margin-left: 79%;
+    width: 9vw;
+    position: absolute;
+    z-index: 103;
 }
