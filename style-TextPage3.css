@@ -143,17 +143,7 @@
     font-size: 1.3vw;
     line-height: 2.14vw;
 }
-.page3_title3c21{
-    margin-top: 333%;
-    margin-left: 55%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.3vw;
-    line-height: 2.14vw;
 
-}
 .page3_title4 {
     margin-top: 361%;
     margin-left: 16%;
@@ -176,16 +166,6 @@
     line-height: 2.14vw;
 }
 
-.page3_title4c21 {
-    margin-top: 396%;
-    margin-left: 55%;
-    position: absolute;
-    z-index: 3;
-    font-family: 'chakra_petchlight';
-    color: #161616;
-    font-size: 1.3vw;
-    line-height: 2.14vw;
-}
 .page3_h3{
     margin-top: 445%;
     margin-left: 55%;
@@ -255,6 +235,8 @@
     color: #f9f9f9;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    visibility: hidden;
+    height: 14vw;
 }
 .page3_tittle6h3c1{
     margin-top: 472%;
@@ -265,6 +247,8 @@
     color: #f9f9f9;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    visibility: hidden;
+    height: 14vw;
 }
 .page3_tittle6h4c1{
     margin-top: 487%;
@@ -275,6 +259,8 @@
     color: #f9f9f9;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    visibility: hidden;
+    height: 14vw;
 }
 .page3_tittle7{
     margin-top: 519%;
@@ -328,4 +314,67 @@
     visibility: hidden;
 }
 
+.c3p1{
+    margin-top: 332%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+    width: 30vw;
+    visibility: hidden;
+}
+.c3p2{
+    margin-top: 336%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+    width: 30vw;
+    visibility: hidden;
+
+}
+.c3p3{
+    margin-top: 344%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+    width: 30vw;
+    visibility: hidden;
+}
+.c4p1{
+    margin-top: 394%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+    width: 30vw;
+    height: auto;
+    visibility: hidden;
+}
+.c4p2{
+    margin-top: 399%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+    width:43vw;
+    height: auto;
+    visibility: hidden;
+}
 

@@ -57,6 +57,7 @@
 	z-index:4;
 	margin-top: 156%;
 	transform: scaleX(-1) rotate(50deg);
+	visibility: hidden;
 }
 .vt_img{
 	width: 24vw;
@@ -79,6 +80,7 @@
 	z-index:4;
 	margin-top: 176%;
 	transform: scaleX(-1) rotate(50deg);
+	visibility: hidden;
 }
 .eng_img{
 	width: 24vw;
@@ -101,6 +103,7 @@
 	z-index:4;
 	margin-top: 196%;
 	transform: scaleX(-1) rotate(50deg);
+	visibility: hidden;
 }
 .text_underJP{
 	width: 27vw;
@@ -153,6 +156,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 271%;
+	visibility: hidden;
 }
 .arrow_yellow_02{
 	width: 10vw;
@@ -160,6 +164,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 277%;
+	visibility: hidden;
 }
 .arrow_yellow_03{
 	width: 10vw;
@@ -168,6 +173,7 @@
 	z-index:4;
 	margin-top: 286%;
 	transform: rotate(-9deg);
+	visibility: hidden;
 }
 .page3_circle{
 	width: 33vw;
@@ -182,6 +188,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 329%;
+	visibility: hidden;
 }
 
 .arrow_yellow_05{
@@ -190,6 +197,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 335%;
+	visibility: hidden;
 }
 
 .arrow_yellow_06{
@@ -198,6 +206,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 342%;
+	visibility: hidden;
 }
 .arrow_yellow_07{
 	width: 9vw;
@@ -205,6 +214,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 392%;
+	visibility: hidden;
 }
 .arrow_yellow_08{
 	width: 10vw;
@@ -212,6 +222,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 396%;
+	visibility: hidden;
 }
 .line_under{
 	width: 34vw;
@@ -234,6 +245,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 456%;
+	visibility: hidden;
 }
 .arrow_yellow_title6h3{
 	width: 15vw;
@@ -241,6 +253,7 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 467%;
+	visibility: hidden;
 }
 .arrow_yellow_title6h4{
 	width: 15vw;
@@ -248,4 +261,5 @@
 	position:absolute;
 	z-index:4;
 	margin-top: 481%;
+	visibility: hidden;
 }
