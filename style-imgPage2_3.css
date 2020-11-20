@@ -124,21 +124,21 @@
 	position: absolute;
 	margin-top: 79%;
 	z-index:11;
-	left:75%;
+	margin-left:75%;
 }
 .pin23-2{
 	width: 2.1vw;
 	position: absolute;
 	margin-top: 108%;
 	z-index:11;
-	left:84.5%;
+	margin-left:84.5%;
 }
 .pin23-3{
 	width: 2.69vw;
 	position: absolute;
 	margin-top: 127%;
 	z-index:11;
-	left:22.5%;
+	margin-left:22.5%;
 	transform: rotate(13deg);
 }
 .pin23-4{
@@ -146,7 +146,7 @@
 	position: absolute;
 	margin-top: 179%;
 	z-index:11;
-	left:74%;
+	margin-left:74%;
 	transform: rotate(-4deg);
 }
 
@@ -155,7 +155,7 @@
 	position: absolute;
 	margin-top: 202%;
 	z-index:11;
-	left:80.5%;
+	margin-left:80.5%;
 	transform: rotate(31deg);
 }
 
@@ -164,7 +164,7 @@
 	position: absolute;
 	margin-top: 189.5%;
 	z-index:11;
-	left:45.5%;
+	margin-left:45.5%;
 	transform: rotate(-13deg);
 }
 .pin23-7{
@@ -172,7 +172,7 @@
 	position: absolute;
 	margin-top: 281.5%;
 	z-index:11;
-	left:50%;
+	margin-left:50%;
 }
 
 

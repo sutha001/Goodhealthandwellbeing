@@ -96,7 +96,7 @@
 			<p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><mark
 					style="background-color: #ffe91a;color:#0037ff;">คดีแก้ได้</mark></p>
 		</div>
-		<div class="page3_c1">
+		<div class="page3_c1" id="c1p1">
 			<p>
 				ญี่ปุ่น ซึ่งเป็นประเทศที่ ‘ดื่มหนัก’<br>
 				อันดับ 3 ของเอเชีย แต่เพราะ<br>
@@ -108,7 +108,7 @@
 				ถนนน้อยมาก<br>
 			</p>
 		</div>
-		<div class="page3_c2">
+		<div class="page3_c2" id="c1p2">
 			<p>
 				ในเวียดนาม มีการจัดตั้งหน่วย<br>
 				งานกลางในการขับเคลื่อนการ<br>
@@ -122,7 +122,7 @@
 				ลงโทษผู้ฝ่าฝืนเข้มข้นขึน้<br>
 			</p>
 		</div>
-		<div class="page3_c3">
+		<div class="page3_c3" id="c1p3">
 			<p>
 				นโยบายการลดอุบัติเหตุบนท้อง<br>
 				ถนนในประเทศอังกฤษ นอกจากจะ<br>
@@ -157,12 +157,12 @@
 			<p>- มีความรับผิดชอบต่อสังคมส่วนรวม ต้องเข้าใจและ<br>
 				ปฏิบัติตามบทบาทหน้าที่ของตนเอง</p>
 		</div>
-		<div class="c2p2">
+		<div class="c2p2" id=c2p2>
 			<p>- ให้ความสําคัญกับเรื่องระเบียบวินัยและความ<br>
 				ปลอดภัยให้มากขึ้น โดยการปฏิบัติตามกฎหมาย<br>
 				อย่างเคร่งครัด</p>
 		</div>
-		<div class="c2p3">
+		<div class="c2p3" id="c2p3">
 			<p>- ปลูกฝังให้ความเข้าใจ ถึงความร้ายแรงของอุบัติเหตุ<br>
 				บนท้องถนน ทังในสถานศึกษาและสถาบันครอบครัว</p>
 		</div>
@@ -402,7 +402,89 @@
 		}
 	</script>
 
-	<script>
+
+
+	<!-- COLUMN1 -->
+	<script> 
+			ScrollTrigger.batch("#c1p1", {
+				onEnter: batch => {
+					tex1p1();
+				},
+				start: "center 100%",
+				toggleActions: "play none none none"
+				
+			})
+	
+			function tex1p1() {
+				var elem = document.getElementById("c1p1");
+				var pos = 0;
+				var id = setInterval(frame, 50);
+				function frame() {
+					if (pos == 20) {
+						clearInterval(id);
+					} else {
+						pos+=0.5;
+						elem.style.clip = "rect(auto,auto," +pos +"vw, auto)";
+					}
+					check7 = 1;
+					elem.style.visibility = "visible";
+				}
+			}
+	
+			ScrollTrigger.batch("#c1p2", {
+				onEnter: batch => {
+					tex1p2();
+				},
+				start: "center 100%",
+				toggleActions: "play none none none"
+				
+			})
+	
+			function tex1p2() {
+				var elem = document.getElementById("c1p2");
+				var pos = 0;
+				var id = setInterval(frame, 50);
+				function frame() {
+					if (pos == 22) {
+						clearInterval(id);
+					} else {
+						pos+=0.5;
+						elem.style.clip = "rect(auto,auto," +pos +"vw, auto)";
+					}
+					check7 = 1;
+					elem.style.visibility = "visible";
+				}
+			}
+	
+			ScrollTrigger.batch("#c1p3", {
+				onEnter: batch => {
+					tex1p3();
+				},
+				start: "center 100%",
+				toggleActions: "play none none none"
+				
+			})
+	
+			function tex1p3() {
+				var elem = document.getElementById("c1p3");
+				var pos = 0;
+				var id = setInterval(frame, 50);
+				function frame() {
+					if (pos == 20) {
+						clearInterval(id);
+					} else {
+						pos+=0.5;
+						elem.style.clip = "rect(auto,auto," +pos +"vw, auto)";
+					}
+					check7 = 1;
+					elem.style.visibility = "visible";
+				}
+			}
+		</script>
+	<!-- COLUMN1 -->
+	
+	<!-- SUBCOLUMN1 -->
+	<script> 
 		ScrollTrigger.batch("#c2p1", {
 			onEnter: batch => {
 				tex2p1();
@@ -427,7 +509,58 @@
 				elem.style.visibility = "visible";
 			}
 		}
+
+		ScrollTrigger.batch("#c2p2", {
+			onEnter: batch => {
+				tex2p2();
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+			
+		})
+
+		function tex2p2() {
+			var elem = document.getElementById("c2p2");
+			var pos = 0;
+			var id = setInterval(frame, 50);
+			function frame() {
+				if (pos == 30) {
+					clearInterval(id);
+				} else {
+					pos+=0.5;
+					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#c2p3", {
+			onEnter: batch => {
+				tex2p3();
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+			
+		})
+
+		function tex2p3() {
+			var elem = document.getElementById("c2p3");
+			var pos = 0;
+			var id = setInterval(frame, 50);
+			function frame() {
+				if (pos == 30) {
+					clearInterval(id);
+				} else {
+					pos+=0.5;
+					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
 	</script>
+	<!-- SUBCOLUMN1 -->
 
 </body>
 

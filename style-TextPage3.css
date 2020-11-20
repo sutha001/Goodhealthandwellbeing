@@ -41,6 +41,8 @@
     color: #7c7b77;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    height: 20vw;
+    visibility: hidden;
 }
 .page3_c2 {
     margin-top: 183%;
@@ -51,6 +53,8 @@
     color: #7c7b77;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    height: 22vw;
+    visibility: hidden;
 }
 .page3_c3 {
     margin-top:204%;
@@ -61,6 +65,8 @@
     color: #7c7b77;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    height: 20vw;
+    visibility: hidden;
 }
 .page3_h2 {
     margin-top: 228%;
@@ -295,10 +301,10 @@
     color: #161616;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    visibility: hidden;
 }
 .c2p2{
     width:30vw;
-    background-color:green;
     margin-top: 279%;
     margin-left: 64%;
     position: absolute;
@@ -307,10 +313,10 @@
     color: #161616;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    visibility: hidden;
 }
 .c2p3{
     width:30vw;
-    background-color:blue;
     margin-top: 287%;
     margin-left: 64%;
     position: absolute;
@@ -319,6 +325,7 @@
     color: #161616;
     font-size: 1.3vw;
     line-height: 2.14vw;
+    visibility: hidden;
 }
 
 
