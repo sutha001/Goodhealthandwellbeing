@@ -88,6 +88,7 @@
     color: #0037ff;
     font-size: 3.4vw;
     display: block;
+    line-height: 4.5vw;
     padding-top:5px;
     padding-bottom: 5px;
 }
@@ -123,7 +124,7 @@
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 3.4vw;
-    line-height: 3.5vw;
+    line-height: 4.5vw;
 }
 
 .page3_title3c1 {
@@ -155,7 +156,7 @@
     font-family: 'Taviraj-SemiBold';
     color: #0037ff;
     font-size: 3.4vw;
-    line-height: 5vw;
+    line-height: 4.5vw;
 }
 
 .page3_title4c1 {
@@ -191,7 +192,7 @@
 }
 .page3_title5c22{
     margin-top: 450%;
-    margin-left: 60%;
+    margin-left: 55%;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
@@ -205,7 +206,7 @@
     z-index: 3;
     font-family: 'Taviraj-SemiBold';
     line-height: 3.6vw;
-    margin-top: 452.5%;
+    margin-top: 452%;
     position: absolute;
     left:16%;
 }
@@ -215,9 +216,9 @@
     z-index: 3;
     font-family: 'Taviraj-SemiBold';
     line-height: 3.6vw;
-    margin-top: 456.2%;
+    margin-top: 455.5%;
     position: absolute;
-    left:25.5%;
+    left:26.5%;
 }
 .page3_title6h3{
     color: #0037ff;
@@ -225,7 +226,7 @@
     z-index: 3;
     font-family: 'Taviraj-SemiBold';
     line-height: 3.6vw;
-    margin-top: 465%;
+    margin-top: 464%;
     position: absolute;
     left:67%;
 }
@@ -235,7 +236,7 @@
     z-index: 3;
     font-family: 'Taviraj-SemiBold';
     line-height: 3.6vw;
-    margin-top: 480.5%;
+    margin-top: 479.8%;
     position: absolute;
     left:39.5%;
 }
@@ -270,7 +271,7 @@
     line-height: 2.14vw;
 }
 .page3_tittle7{
-    margin-top: 520%;
+    margin-top: 519%;
     margin-left: 20%;
     position: absolute;
     z-index: 3;
@@ -283,6 +284,41 @@
 .mark_title7{
     padding-top:6px;
     padding-bottom: 6px;
+}
+.c2p1{
+    width:30vw;
+    margin-top: 273%;
+    margin-left: 64%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.c2p2{
+    width:30vw;
+    background-color:green;
+    margin-top: 279%;
+    margin-left: 64%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
+}
+.c2p3{
+    width:30vw;
+    background-color:blue;
+    margin-top: 287%;
+    margin-left: 64%;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #161616;
+    font-size: 1.3vw;
+    line-height: 2.14vw;
 }
 
 

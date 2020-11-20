@@ -3,25 +3,25 @@
 	height: 100vh;
 }
 .pic3_bg1{
-	width: 100vw;
+	width: 100%;
 	margin-top: 11%;
 	position: absolute;
 	z-index: 3;
 }
 .pic3_bg2{
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	margin-top: 73%;
 	z-index: 1;
 }
 .pic3_bg3{
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	margin-top: 409%;
 	z-index: 2;
 }
 .pic3_bg_between{
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	margin-top: 409%;
 	z-index: 3;
@@ -218,7 +218,7 @@
 	left:12%;
 	position:absolute;
 	z-index:4;
-	margin-top: 292%;
+	margin-top: 293.8%;
 	z-index: 1;
 }
 .page3_circle2{
