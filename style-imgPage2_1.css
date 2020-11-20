@@ -205,20 +205,20 @@
 }
 
 .pic2_1_arrow {
-    width: 5vw;
+    width: 4vw;
     position: absolute;
     margin-top: 424%;
     z-index: 1;
     cursor: pointer;
-    left: 50%;
-    animation: arrow21 2s infinite;
+    margin-left: 48vw;
+    animation: arrow21 3s infinite;
     animation-play-state: playing;
     transition: 0.2s;
 }
 
 @keyframes arrow21 {
     50% {
-        transform: translateY(30px);
+        transform: translateY(2vw);
     }
 }
 

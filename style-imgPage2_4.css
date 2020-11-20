@@ -101,14 +101,14 @@
 	transform: rotate(-5deg);
 }
 .pic2_4_last{
-	width: 75vw;
+	width: 70vw;
 	position: absolute;
 	margin-top: 338%;
 	z-index:1;
 	left:10%;
 }
 .pic2_4_close{
-	width: 50vw;
+	width: 45vw;
 	position: absolute;
 	margin-top: 333%;
 	z-index:1;

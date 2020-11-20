@@ -21,6 +21,15 @@
 
 }
 
+@font-face {
+    font-family: 'chakra_petchbold';
+    src: url('chakrapetch-bold-webfont.woff2') format('woff2'),
+         url('chakrapetch-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .page3_h1 {
     margin-top: 89%;
     margin-left: 72%;

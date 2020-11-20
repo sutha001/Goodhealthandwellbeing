@@ -42,7 +42,8 @@
 }
 .page21_c5{
     margin-top: 355%;
-    margin-left: 23%;
+    margin-left: auto;
+    width:100vw;
     position: absolute;
     z-index: 3;
     font-family: 'tavirajbold';
@@ -53,13 +54,14 @@
 }
 .page21_c6{
     margin-top: 429%;
-    margin-left: 50%;
+    margin-left: auto;
     position: absolute;
     z-index: 3;
     font-family: 'chakra_petchlight';
     color: #ffe91f;
     font-size: 1.041vw;
     text-align: center;
+    width: 100vw;
 }
 
 
