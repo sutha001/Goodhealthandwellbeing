@@ -23,6 +23,22 @@
 	z-index: 1;
 	transform: rotate(1deg);
 }
+.pic2_4_circle2{
+	width: 20vw;
+    position: absolute;
+    margin-top: 106%;
+    left:55%;
+	z-index: 1;
+	transform: rotate(-16deg);
+}
+.pic2_4_f{
+	width: 10vw;
+    position: absolute;
+    margin-top: 133%;
+    right:3%;
+	z-index: 4;
+	transform: rotate(1deg);
+}
 .pic2_4_2{
 	width: 35vw;
     position: absolute;

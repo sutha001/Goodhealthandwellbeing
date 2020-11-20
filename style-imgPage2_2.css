@@ -117,7 +117,7 @@
 	z-index:11;
 }
 .pic2_2_last{
-	width: 62vw;
+	width: 70vw;
     position: absolute;
     margin-top: 325%;
     z-index: 1;
@@ -131,11 +131,11 @@
 	margin-left:50%;
 }
 .pic2_2_close{
-	width: 50vw;
+	width: 45vw;
 	position: absolute;
-	margin-top: 322%;
+	margin-top: 321.5%;
 	z-index:1;
-	margin-left:43%;
+	margin-left:45%;
 	transform: rotate(-1deg);
 }
 .pic2_2_131{
