@@ -1,0 +1,318 @@
+:root {
+	--opaheadfordernone:0.7;
+	--opaheadforderBlock: 1; 
+  }
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	overflow-x: visible;
+	background-color: #121110 !important;
+}
+
+#folder1 {
+    display: none;
+}
+
+#folder2 {
+    display: none;
+}
+
+#folder3 {
+    display: none;
+}
+
+#folder4 {
+    display: block;
+}
+.hide {
+	display: none;
+}
+.linekill{
+	width: 11vw;
+    margin-left: 13%;
+    margin-top: 7.4%;
+    position: absolute;
+	z-index: 101;
+	display: none;
+}
+.a2{
+	margin-left: 30%;
+	display: none;
+}
+.a3{
+	margin-left: 48%;
+	display: none;
+}
+.a4{
+	margin-left: 64%;
+	display: none;
+}
+#headfile1{
+	width: 18vw;
+    margin-left: 12.5%;
+    margin-top: 10.6%;
+    position: absolute;
+	z-index: 100;
+	opacity: var(--opaheadfordernone);
+	cursor: pointer;
+}
+#headfile2{
+	width: 18vw;
+    margin-left: 29%;
+    margin-top: 10.6%;
+    position: absolute;
+	z-index: 100;
+	opacity: var(--opaheadfordernone);
+	cursor: pointer;
+}
+#headfile3{
+	width: 18vw;
+    margin-left: 47%;
+    margin-top: 10.7%;
+    position: absolute;
+	z-index: 100;
+	opacity: var(--opaheadfordernone);
+	cursor: pointer;
+}
+#headfile4{
+	width: 18vw;
+    margin-left: 63.8%;
+    margin-top: 10.6%;
+    position: absolute;
+	z-index: 100;
+	opacity: var(--opaheadforderBlock);
+	cursor: pointer;
+}
+#file1 {
+	width: 75vw;
+    margin-left: 12.5%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
+    visibility: hidden;
+}
+#file2 {
+	width: 75vw;
+    margin-left: 12.5%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
+	visibility: hidden;
+}
+#file3{
+	width: 75vw;
+    margin-left: 12.5%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
+	visibility: hidden;
+}
+#file4 {
+	width: 75vw;
+    margin-left: 12.5%;
+    margin-top: 14%;
+    z-index: 20;
+    position: absolute;
+    z-index: 2;
+	visibility: visible;
+}
+
+
+#section1 {
+	height: 132.9vh;
+	position: relative;
+	z-index: 1;
+}
+
+#footer_div {
+	position: absolute;
+    width: 100%;
+    background-color: #161616;
+    color: #7c7b77;
+    height: 16vh;
+    border-top: 1px solid white;
+    z-index: 9;
+    margin-top: 435%;
+}
+
+nav {
+	height: 90px;
+	width: 100%;
+	position: fixed;
+}
+
+.pic {
+	padding: 25px 30px;
+}
+
+nav ul {
+	font-family: 'chakra_petchlight';
+	float: right;
+	margin-top: -1%;
+	margin-right: 1%;
+}
+
+#pencet {
+	display: flex;
+	float: right;
+	margin-top: 3%;
+	margin-right: 3%;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.manubbb {
+	margin-top: 1.4%;
+	visibility: hidden;
+}
+
+.num1 {
+	margin-right: 0px;
+}
+
+@keyframes example {
+	from {
+		margin-right: -1000px;
+	}
+	to {
+		margin-right: 0px;
+	}
+}
+
+@keyframes example2 {
+	from {
+		margin-right: 0px;
+	}
+	to {
+		margin-right: -1000px;
+	}
+}
+
+.num2 {
+	margin-right: 0px;
+}
+
+.num3 {
+	margin-right: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 90px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: #7c7b77;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+#pencet span {
+	background-color: #ffe91a;
+	width: 2em;
+	height: .2em;
+	margin: 0.26em 0;
+	display: block;
+	transition: all .4s ease;
+	transform-origin: 0 0;
+}
+
+.Diam span:nth-child(1) {
+	transform: rotate(45deg) translate(1px, -1px);
+}
+
+.Diam span:nth-child(2) {
+	Transform: scaleX(0);
+}
+
+.Diam span:nth-child(3) {
+	transform: rotate(-45deg) translate(1px, 0);
+}
+
+.move {
+	background-color: #ffe91a;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 62%;
+	left: 30%;
+}
+
+.foot {
+	font-family: 'chakra_petchlight';
+	font-size: 1vw;
+	line-height: 2vw;
+	text-align: center;
+	margin-top: 4vh;
+}
+
+.text1 {
+	width: 50vw;
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 25%;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.txt1 {
+	font-family: 'tavirajbold';
+	font-size: 3.45vw;
+	line-height: 4.36vw;
+	padding: 4.55vw 0;
+}
+
+.posiheadforder1{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 2.213vw;
+    position: absolute;
+    margin-top: 11.7%;
+    margin-left: 16.5%;
+	z-index: 101;
+	cursor: pointer;
+
+}
+
+.posiheadforder2{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 2.213vw;
+    position: absolute;
+    margin-top: 11.7%;
+    margin-left: 33.5%;
+	z-index: 101;
+	cursor: pointer;
+
+}
+
+.posiheadforder3{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 2.213vw;
+    position: absolute;
+    margin-top: 11.7%;
+    margin-left: 51%;
+	z-index: 101;
+	cursor: pointer;
+
+}
+
+.posiheadforder4{
+	color: #161616;
+    font-family: "PSPimpdeedIII";
+    font-size: 2.213vw;
+    position: absolute;
+    margin-top: 11.7%;
+    margin-left: 67.5%;
+	z-index: 101;
+	cursor: pointer;
+}
