@@ -228,10 +228,35 @@
 	width: 34vw;
 	left:12%;
 	position:absolute;
-	z-index:4;
 	margin-top: 293.8%;
-	z-index: 1;
+	z-index: 4;
+	visibility: hidden;
 }
+.line_under2{
+	width: 22vw;
+	left:14.5%;
+	position:absolute;
+	margin-top: 471%;
+	z-index: 2;
+	visibility: hidden;
+}
+.line_under3{
+	width: 22vw;
+	left:36%;
+	position:absolute;
+	margin-top: 490.8%;
+	z-index: 2;
+	visibility: hidden;
+}
+.line_under4{
+	width: 22vw;
+	left:64%;
+	position:absolute;
+	z-index:2;
+	margin-top: 481.2%;
+	visibility: hidden;
+}
+
 .page3_circle2{
 	width: 28vw;
 	left:13%;

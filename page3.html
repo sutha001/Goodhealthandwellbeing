@@ -94,7 +94,8 @@
 
 		<div class="page3_h1">
 			<p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600"><mark
-					style="background-color: #ffe91a;color:#0037ff;">คดีแก้ได้</mark></p>
+					style="background-color: #ffe91a;color:#0037ff; display: inline-block; line-height: 1.15;">คดีแก้ได้</mark>
+			</p>
 		</div>
 		<div class="page3_c1" id="c1p1">
 			<p>
@@ -169,7 +170,7 @@
 
 
 
-		<img src="page3\รูปทั้งหมด\ของตกแต่ง\ถ้าคดีปิดได้หมด\ล14.png" class="line_under">
+		<img src="page3\รูปทั้งหมด\ของตกแต่ง\ถ้าคดีปิดได้หมด\ล14.png" class="line_under" id="line_under1">
 
 		<div class="page3_title3">
 			<p>แก้ไขกฎหมาย<br>
@@ -236,8 +237,8 @@
 
 		<div class="page3_title5c22" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="700">
 			<p>
-				<mark
-					style="background-color: #ffe91a; color: #161616;">ถ้ากรุงเทพไม่ต้องตกเป็นสถานที่เกิดเหตุ</mark>ของอุบัติเหตุ<br>
+				<mark style="background-color: #ffe91a; color: #161616;display: inline-block; line-height: 1;">
+					ถ้ากรุงเทพไม่ต้องตกเป็นสถานที่เกิดเหตุ</mark>ของอุบัติเหตุ<br>
 				จากการเดินทางอีกต่อไป จะนำผลดีมาสู่คนเมือง มากในหลายด้าน<br>
 			</p>
 		</div>
@@ -263,6 +264,11 @@
 		</div>
 
 		<img src="page3\รูปทั้งหมด\ของตกแต่ง\ถ้าคดีปิดได้หมด\ล13.png" class="arrow_yellow_title6h4" id="arr06">
+
+		<img src="page3\รูปทั้งหมด\ของตกแต่ง\ถ้าคดีปิดได้หมด\1สภาพชีวิต.png" class="line_under2" id="line_under2">
+		<img src="page3\รูปทั้งหมด\ของตกแต่ง\ถ้าคดีปิดได้หมด\1สังคม.png" class="line_under3" id="line_under3">
+		<img src="page3\รูปทั้งหมด\ของตกแต่ง\ถ้าคดีปิดได้หมด\1เศรฐกิจ.png" class="line_under4" id="line_under4">
+
 
 		<div class="page3_tittle6h2c1" id="c5p1">
 			<p>ผู้คนจะได้ออกจากบ้านอย่างสบายใจ<br>
@@ -292,10 +298,10 @@
 
 		<div class="page3_tittle7">
 			<p>การปิดคดีมีความสําคัญมากกับอนาคตของเรา<br>
-				และหวังว่า<mark style="background-color: #ffe91a;color:#0037ff;"
+				และหวังว่า<mark style="background-color: #ffe91a;color:#0037ff; display: inline-block; line-height: 1;"
 					class="mark_title7">กรุงเทพจะไม่ใช่สถานที่เกิดเหตุของคดีอีกต่อไป</mark></p>
 		</div>
-		
+
 
 
 
@@ -577,7 +583,7 @@
 			onEnter: batch => {
 				tex2p1();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -602,7 +608,7 @@
 			onEnter: batch => {
 				tex2p2();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -627,7 +633,7 @@
 			onEnter: batch => {
 				tex2p3();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -656,7 +662,7 @@
 			onEnter: batch => {
 				tex3p1();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -681,7 +687,7 @@
 			onEnter: batch => {
 				tex3p2();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -706,7 +712,7 @@
 			onEnter: batch => {
 				tex3p3();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -735,7 +741,7 @@
 			onEnter: batch => {
 				tex4p1();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -760,7 +766,7 @@
 			onEnter: batch => {
 				tex4p2();
 			},
-			start: "center 100%",
+			start: "bottom bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -1159,6 +1165,120 @@
 
 	</script>
 	<!-- ARROW-5 -->
+
+	<!-- LINEUNDER -->
+
+	<script>
+		ScrollTrigger.batch("#line_under1", {
+			onEnter: batch => {
+				lin1();
+			},
+			start: "center bottom",
+			toggleActions: "play none none none"
+
+		})
+
+		function lin1() {
+			var elem = document.getElementById("line_under1");
+			var pos = 0;
+			var id = setInterval(frame, 40);
+			function frame() {
+				if (pos == 34) {
+					clearInterval(id);
+				} else {
+					pos += 1;
+					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+	</script>
+
+
+	<script>
+		ScrollTrigger.batch("#line_under2", {
+			onEnter: batch => {
+				lin2();
+			},
+			start: "250px bottom",
+			toggleActions: "play none none none"
+
+		})
+
+		function lin2() {
+			var elem = document.getElementById("line_under2");
+			var pos = 0;
+			var id = setInterval(frame, 50);
+			function frame() {
+				if (pos == 22) {
+					clearInterval(id);
+				} else {
+					pos += 0.8;
+					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+	</script>
+
+	<script>
+		ScrollTrigger.batch("#line_under3", {
+			onEnter: batch => {
+				lin3();
+			},
+			start: "250px bottom",
+			toggleActions: "play none none none"
+
+		})
+
+		function lin3() {
+			var elem = document.getElementById("line_under3");
+			var pos = 0;
+			var id = setInterval(frame, 50);
+			function frame() {
+				if (pos == 22) {
+					clearInterval(id);
+				} else {
+					pos += 0.8;
+					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+	</script>
+
+	<script>
+		ScrollTrigger.batch("#line_under4", {
+			onEnter: batch => {
+				lin4();
+			},
+			start: "250px bottom",
+			toggleActions: "play none none none"
+
+		})
+
+		function lin4() {
+			var elem = document.getElementById("line_under4");
+			var pos = 0;
+			var id = setInterval(frame, 50);
+			function frame() {
+				if (pos == 22) {
+					clearInterval(id);
+				} else {
+					pos += 0.8;
+					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+	</script>
+
+
+	<!-- LINEUNDER -->
 
 
 
