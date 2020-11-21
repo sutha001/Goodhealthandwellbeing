@@ -24,10 +24,10 @@
 	transform: rotate(1deg);
 }
 .pic2_4_circle2{
-	width: 20vw;
+	width: 22vw;
     position: absolute;
-    margin-top: 106%;
-    left:55%;
+    margin-top: 103%;
+    left:54.5%;
 	z-index: 1;
 	transform: rotate(-16deg);
 }
