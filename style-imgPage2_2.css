@@ -186,5 +186,6 @@
     margin-left: 21%;
     position: absolute;
     z-index: 5;
-    width: 67vw;
+	width: 67vw;
+	visibility: hidden;
 }
