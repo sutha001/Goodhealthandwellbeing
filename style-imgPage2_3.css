@@ -38,10 +38,10 @@
 	transform: rotate(-7.5deg);
 }
 .pic2_3_frame{
-	width: 50.5vw;
+	width: 45.5vw;
     position: absolute;
-    margin-top: 76%;
-    margin-left: 0%;
+    margin-top: 126%;
+    margin-left: 4%;
 	z-index: 2;
 }
 .pic2_3_gif{
@@ -127,6 +127,14 @@
         transform: translateY(2vw);
     }
 }
+
+.pic2_3_light1{
+	width: 100vw;
+	position: absolute;
+	margin-top: 62%;
+	z-index:11;
+}
+
 
 .dirt1{
 	margin-top: 14%;

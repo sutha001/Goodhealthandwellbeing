@@ -49,9 +49,9 @@
 .pic2_4_frame{
 	width: 45vw;
     position: absolute;
-    margin-top: 145%;
+    margin-top: 147%;
     left: 0%;
-	z-index: 1;
+	z-index: 2;
 }
 .pic2_4_gif{
 	width: 40vw;
@@ -254,4 +254,17 @@
     position: absolute;
     z-index: 5;
     width: 75.5vw;
+}
+
+.pic2_4_light1{
+	width: 100vw;
+	position: absolute;
+	margin-top: 62%;
+	z-index:0;
+}
+.pic2_4_light2{
+	width: 100vw;
+	position: absolute;
+	margin-top: 145%;
+	z-index:1;
 }
