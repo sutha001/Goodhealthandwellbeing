@@ -115,7 +115,7 @@
 	width: 4vw;
     position: absolute;
     margin-top: 349%;
-    z-index: 3;
+    z-index: 11;
     cursor: pointer;
     margin-left: 48vw;
     animation: arrow23 3s infinite;

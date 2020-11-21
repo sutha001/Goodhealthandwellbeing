@@ -253,7 +253,8 @@
     margin-left: 12%;
     position: absolute;
     z-index: 5;
-    width: 75.5vw;
+	width: 75.5vw;
+	visibility: hidden;
 }
 
 .pic2_4_light1{

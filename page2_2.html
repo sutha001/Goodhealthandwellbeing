@@ -81,7 +81,7 @@
 				<p class="txt1">แฟ้มรายงานคดี<br>ฉบับที่2</p>
 			</div>
 
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก2/รอยล้อ.png" class="tireprint" data-aos="zoom-out" data-aos-delay="300" >
+			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก2/รอยล้อ.png" class="tireprint" id="tire" >
 
 			
 			<img src="page2\แฟ้ม2\เส้น1.png" class="rope2_1">
@@ -116,7 +116,8 @@
 			<img src="page2\แฟ้ม2\13.1.png" class="pic2_pin7">
 
 			<img src="page2\แฟ้ม2\รูปสุดท้าย.png" class="pic2_2_last">
-			<img src="page2\แฟ้ม2\close.png" class="pic2_2_close">
+			<img src="page2\แฟ้ม2\close.png" class="pic2_2_close" data-aos="zoom-out" data-aos-duration="250"
+			data-aos-delay="900" data-aos-once="true">
 
 			<img src="page2\แฟ้ม1\ลูกศร.png" class="pic2_2_arrow" onclick="movetoforder1()">
 
@@ -127,7 +128,7 @@
 			</div>
 
 			<div class="page22_c1" id="page2c1">
-				<p data-aos="fade-left" data-aos-duration="500" data-aos-anchor-placement="top">10 ก.ย.63 / ลาดพร้าว<br><br>
+				<p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">10 ก.ย.63 / ลาดพร้าว<br><br>
 					ชมรมช่วยเหลือเหยื่ออาชญากรรมได้โพสต์คลิป<br>
 					ผู้ขับขี่จักรยานยนต์รับจ้าง <mark
 						style="background-color: #ffe91a; color: #161616;">ทำร้ายร่างกายคน<br>
@@ -347,17 +348,39 @@
 			toggleActions: "play none none none"
 		})
 
-		ScrollTrigger.batch("#page2c1", {
-			onEnter: batch => {
-				gsap.from(batch, { rotation: 12, duration: 1 })
-			},
-			start: "center 100%",
-			toggleActions: "play none none none"
-		})
 
 
 		
 	</script>
+
+	<!-- tire -->
+	<script>
+		ScrollTrigger.batch("#tire", {
+			onEnter: batch => {
+				tirehe();
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function tirehe() {
+			var elem = document.getElementById("tire");
+			var pos = 0;
+			var id = setInterval(frame, 7);
+			function frame() {
+				if (pos == 67) {
+					clearInterval(id);
+				} else {
+					pos += 1;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+	</script>
+	<!-- tire -->
 
 </body>
 
