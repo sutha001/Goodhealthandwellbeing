@@ -1,5 +1,5 @@
 :root {
-	--opaheadfordernone:0.5;
+	--opaheadfordernone:0.7;
 	--opaheadforderBlock: 1; 
   }
 
@@ -120,9 +120,9 @@ body {
 	position: absolute;
     width: 100%;
     background-color: #161616;
-    color: #ffe91a;
+    color: #7c7b77;
     height: 16vh;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
     z-index: 9;
     margin-top: 435%;
 }
