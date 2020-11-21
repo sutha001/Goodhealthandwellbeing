@@ -126,13 +126,12 @@
 	position: absolute;
 	z-index: 9999;
 }
-
-.invest{
+.ImgButton{
 	position: absolute;
-	width: 35vw;
+	width: 14.9vw;
     cursor: pointer;
     z-index: 1500;
     margin-top: 375%;
-    margin-left: -10%;
+    margin-left: -7.45%;
 	left: 50%;
 }
