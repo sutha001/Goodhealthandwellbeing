@@ -34,7 +34,8 @@
 
 .page23_c4{
 	margin-top: 287%;
-	margin-left: 23%;
+	margin-left: auto;
+	width: 100vw;
 	position: absolute;
 	z-index: 3;
 	font-family: 'chakra_petchlight';
@@ -42,6 +43,17 @@
 	font-size: 1.11vw;
 	line-height: 25pt;
 	text-align: center;
+}
+.page23_next{
+	margin-top: 353.9%;
+    margin-left: auto;
+    position: absolute;
+    z-index: 3;
+    font-family: 'chakra_petchlight';
+    color: #ffe91f;
+    font-size: 1.041vw;
+    text-align: center;
+    width: 100vw;
 }
 
 

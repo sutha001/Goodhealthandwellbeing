@@ -192,7 +192,8 @@
     position: absolute;
     margin-top: 380%;
     z-index: 1;
-    left: 15%;
+    margin-left: -35%;
+	left: 50%;
 }
 
 .pic2_1_group10 {

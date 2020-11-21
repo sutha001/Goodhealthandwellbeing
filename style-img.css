@@ -128,10 +128,10 @@
 
 .invest{
 	position: absolute;
-	width: 30%;
-	left: 50%;
+	width: 35vw;
     cursor: pointer;
     z-index: 1500;
     margin-top: 375%;
     margin-left: -10%;
+	left: 50%;
 }

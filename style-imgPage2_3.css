@@ -101,7 +101,8 @@
 	position: absolute;
 	margin-top: 305%;
 	z-index:1;
-	left:10%;
+	margin-left: -35%;
+	left: 50%;
 }
 .pic2_3_close{
 	width: 45vw;
@@ -111,11 +112,35 @@
 	left:49%;
 }
 .pic2_3_arrow{
-	width: 5vw;
-	position: absolute;
-	margin-top: 351%;
-	z-index:1;
-	left:48%;
+	width: 4vw;
+    position: absolute;
+    margin-top: 349%;
+    z-index: 3;
+    cursor: pointer;
+    margin-left: 48vw;
+    animation: arrow23 3s infinite;
+    animation-play-state: playing;
+    transition: 0.2s;
+}
+@keyframes arrow23 {
+    50% {
+        transform: translateY(2vw);
+    }
+}
+
+.dirt1{
+	margin-top: 14%;
+    margin-left: 64%;
+    position: absolute;
+    z-index: 5;
+    width: 27vw;
+}
+.dirt2{
+	margin-top: 40%;
+    margin-left: 10%;
+    position: absolute;
+    z-index: 5;
+    width: 32vw;
 }
 
 /*--PIN--*/

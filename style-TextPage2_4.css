@@ -34,7 +34,8 @@
 
 .page24_c4{
 	margin-top: 313%;
-	margin-left: 23%;
+	margin-left: auto;
+	width: 100vw;
 	position: absolute;
 	z-index: 3;
 	font-family: 'chakra_petchlight';

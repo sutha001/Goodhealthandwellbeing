@@ -105,7 +105,8 @@
 	position: absolute;
 	margin-top: 338%;
 	z-index:1;
-	left:10%;
+	margin-left: -35%;
+	left: 50%;
 }
 .pic2_4_close{
 	width: 45vw;
@@ -120,7 +121,8 @@
 	position: absolute;
 	margin-top: 377%;
 	z-index:1;
-	left:40%;
+	left:50%;
+	margin-left: -7.45%;
 }
 .pic2_4_143{
 	width: 2.5vw;
@@ -245,4 +247,11 @@
 	z-index: 12;
 	margin-top: 309%;
 	left: 47.5%;
+}
+.tireprint2{
+	margin-top:12%;
+    margin-left: 12%;
+    position: absolute;
+    z-index: 5;
+    width: 75.5vw;
 }

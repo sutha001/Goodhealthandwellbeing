@@ -121,14 +121,8 @@
     position: absolute;
     margin-top: 325%;
     z-index: 1;
-    margin-left: 15%;
-}
-.pic2_2_arrow{
-	width: 5vw;
-	position: absolute;
-	margin-top: 377%;
-	z-index:1;
-	margin-left:50%;
+    margin-left: -35%;
+	left: 50%;
 }
 .pic2_2_close{
 	width: 45vw;
@@ -169,4 +163,28 @@
 	z-index:12;
 	margin-left:34%;
 	transform: rotate(-9deg);
+}
+.pic2_2_arrow {
+    width: 4vw;
+    position: absolute;
+    margin-top: 374%;
+    z-index: 12;
+    cursor: pointer;
+    margin-left: 48vw;
+    animation: arrow22 3s infinite;
+    animation-play-state: playing;
+    transition: 0.2s;
+}
+
+@keyframes arrow22 {
+    50% {
+        transform: translateY(2vw);
+    }
+}
+.tireprint{
+	margin-top: 12%;
+    margin-left: 21%;
+    position: absolute;
+    z-index: 5;
+    width: 67vw;
 }
