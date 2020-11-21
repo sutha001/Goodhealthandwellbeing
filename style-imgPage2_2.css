@@ -8,11 +8,54 @@
 	z-index: 9;
 	margin-top: 385%;
 }
-.rope2_2{
+.rope2{
 	margin-top: 97%;
     width: 95vw;
     position: absolute;
     z-index: 10;
+}
+.rope2_1{
+	 width: 46vw;
+	margin-top: 97%;
+    position: absolute;
+    z-index: 10;
+    margin-left:20%;
+}
+.rope2_2{
+	width: 42vw;
+	margin-top: 97%;
+    position: absolute;
+    z-index: 10;
+    margin-left:20%;
+}
+.rope2_3{
+	width: 41vw;
+	margin-top: 137.5%;
+    position: absolute;
+    z-index: 10;
+    margin-left:24%;
+}
+.rope2_4{
+	width: 48.5vw;
+	margin-top: 150%;
+    position: absolute;
+    z-index: 10;
+    margin-left:23.5%;
+}
+.rope2_5{
+	width: 35vw;
+	margin-top: 210.8%;
+    position: absolute;
+    z-index: 10;
+    margin-left:35.5%;
+}
+.rope2_6{
+	width: 25vw;
+	margin-top: 213.5%;
+    position: absolute;
+    z-index: 10;
+    margin-left:46.5%;
+    transform: rotate(-2deg);
 }
 .pic2_2_1{
 	width: 55vw;
@@ -21,36 +64,36 @@
 	z-index:1;
 	margin-left:0%;
 }
-.pic2_2_141{
+.pic2_pin1{
 	width: 2.5vw;
 	position: absolute;
 	margin-top:97.5%;
 	z-index:11;
-	margin-left:22.5%;
+	margin-left:22.1%;
 }
 .pic2_2_21{
-	width: 30vw;
+	width: 27vw;
 	position: absolute;
-	margin-top: 122%;
+	margin-top: 122.5%;
 	z-index:1;
-	margin-left:58%;
+	margin-left:57%;
 	transform: rotate(-5deg);
 }
 .pic2_2_22{
-	width: 28vw;
+	width: 26vw;
 	position: absolute;
-	margin-top: 143%;
+	margin-top: 142.7%;
 	z-index:1;
 	margin-left:58%;
 }
-.pic2_2_14{
+.pic2_pin2{
 	width: 2.5vw;
 	position: absolute;
-	margin-top: 122%;
+	margin-top: 121.5%;
 	z-index:11;
-	margin-left:64%;
+	margin-left:63%;
 }
-.pic2_2_121{
+.pic2_pin3{
 	width: 2.5vw;
 	position: absolute;
 	margin-top: 141%;
@@ -72,7 +115,7 @@
 	margin-left:7.7%;
 	transform: rotate(4deg);
 }
-.pic2_2_111{
+.pic2_pin4{
 	width: 2.5vw;
 	position: absolute;
 	margin-top: 152.5%;
@@ -113,7 +156,7 @@
 .pic2_2_light{
 	width: 100vw;
 	position: absolute;
-	margin-top: 145%;
+	margin-top: 138%;
 	z-index:11;
 }
 .pic2_2_last{
@@ -132,16 +175,16 @@
 	margin-left:45%;
 	transform: rotate(-1deg);
 }
-.pic2_2_131{
+.pic2_pin6{
 	width: 2.5vw;
 	position: absolute;
-	margin-top: 213%;
+	margin-top: 213.4%;
 	z-index:11;
-	margin-left:67%;
+	margin-left:66.2%;
 	transform: rotate(30deg);
 
 }
-.pic2_2_141_2{
+.pic2_pin5{
 	width: 2.5vw;
 	position: absolute;
 	margin-top: 237%;
@@ -149,12 +192,12 @@
 	margin-left:37%;
 	transform: rotate(-81deg);
 }
-.pic2_2_131_last{
+.pic2_pin7{
 	width: 2.5vw;
 	position: absolute;
-	margin-top: 298%;
+	margin-top: 297.5%;
 	z-index:12;
-	margin-left:48%;
+	margin-left:50.7%;
 }
 .pic2_2_circle{
 	width: 12vw;
