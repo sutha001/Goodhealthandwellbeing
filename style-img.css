@@ -91,13 +91,14 @@
 }
 
 #dokdok {
-	width: 2vw;
-	margin-top: -15%;
-	margin-left: 50%;
+	width: 3vw;
+	margin-top: -13.5%;
+	margin-left: -1.5%;
 	background-position: center;
 	background-size: cover;
 	position: absolute;
 	z-index:1200;
+	left:50%;
 }
 .logo{
 	width: 15vw;
@@ -119,9 +120,9 @@
 	z-index: 1000;
 }
 #jjbk{
-	width: 10%;
-	margin-left: -2%;
-	margin-top: -1%;
+	width: 12vw;
+	margin-left: -6%;
+	margin-top: -3%;
 	position: absolute;
 	z-index: 9999;
 }
