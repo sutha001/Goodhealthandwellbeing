@@ -55,7 +55,8 @@
     width: 36vw;
     position: absolute;
     z-index: 10;
-    margin-left:48.2%;
+    margin-left:47.8%;
+    transform: rotate(0.5deg);
 }
 .pic2_3_5{
 	width: 30vw;
@@ -230,7 +231,7 @@
 	position: absolute;
 	margin-top: 202%;
 	z-index:11;
-	margin-left:80.5%;
+	margin-left:80.4%;
 	transform: rotate(31deg);
 }
 
