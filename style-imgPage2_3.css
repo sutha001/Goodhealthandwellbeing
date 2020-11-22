@@ -122,10 +122,10 @@
 	transform-origin: 40% top;
 }
 .pic2_3_31{
-	width: 20.2vw;
+	width: 22.2vw;
     position: absolute;
     margin-top: 203%;
-    margin-left:70%;
+    margin-left:67.5%;
 	z-index: 1;
 	transform: rotate(-7deg);
 	transform-origin: 55% top;
@@ -133,7 +133,7 @@
 .pic2_3_6{
 	width: 32vw;
 	position: absolute;
-	margin-top: 258.6%;
+	margin-top: 258.3%;
 	z-index:1;
 	margin-left:33%;
 }
