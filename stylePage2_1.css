@@ -12,7 +12,11 @@ body {
 	overflow-x: visible;
 	background-color: #121110 !important;
 }
-
+#section1 {
+	height: 132.9vh;
+	position: relative;
+	z-index: 1;
+}
 .hide {
 	display: none;
 }
@@ -108,14 +112,6 @@ body {
     z-index: 2;
 	visibility: hidden;
 }
-
-
-#section1 {
-	height: 132.9vh;
-	position: relative;
-	z-index: 1;
-}
-
 #footer_div {
 	position: absolute;
     width: 100%;
