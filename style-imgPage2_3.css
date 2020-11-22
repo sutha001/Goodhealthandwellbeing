@@ -15,6 +15,48 @@
     z-index: 10;
     left:0%;
 }
+.rope3_1{
+	margin-top: 79%;
+    width: 60vw;
+    position: absolute;
+    z-index: 10;
+    left:20%;
+}
+.rope3_2{
+	margin-top: 97.7%;
+    width: 67vw;
+    position: absolute;
+    z-index: 10;
+    left:22.5%;
+}
+.rope3_3{
+	margin-top: 118.5%;
+    width: 68vw;
+    position: absolute;
+    z-index: 10;
+    left:15.9%;
+}
+.rope3_4{
+	margin-top: 185%;
+    width: 37vw;
+    position: absolute;
+    z-index: 10;
+    left:45.6%;
+}
+.rope3_5{
+	margin-top: 174.5%;
+    width: 20vw;
+    position: absolute;
+    z-index: 10;
+    left:68.5%;
+}
+.rope3_6{
+	margin-top: 195%;
+    width: 36vw;
+    position: absolute;
+    z-index: 10;
+    left:48.2%;
+}
 .pic2_3_5{
 	width: 30vw;
     position: absolute;
