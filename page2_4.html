@@ -87,13 +87,13 @@
 
 			<img data-src="page2/หน้าปกแฟ้มทั้ง 4/ปก4/ล้อ.png" class="tireprint2 lazyload" id="tire2">
 
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-01.png" class="rope4_1 lazyload">
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-02.png" class="rope4_2 lazyload">
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-03.png" class="rope4_3 lazyload">
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-04.png" class="rope4_4 lazyload">
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-05.png" class="rope4_5 lazyload">
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-06.png" class="rope4_6 lazyload">
-			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-07.png" class="rope4_7 lazyload">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-01.png" class="rope4_1 lazyload" id="rope2_1">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-02.png" class="rope4_2 lazyload" id="rope2_2">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-03.png" class="rope4_3 lazyload" id="rope2_3">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-04.png" class="rope4_4 lazyload" id="rope2_4">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-05.png" class="rope4_5 lazyload" id="rope2_5">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-06.png" class="rope4_6 lazyload" id="rope2_6">
+			<img data-src="page2\แฟ้ม4\เชือกแบบแยกชิ้น\เชือก-07.png" class="rope4_7 lazyload" id="rope2_7">
 
 			<img data-src="page2\แฟ้ม4\1.png" class="pic2_4_1 lazyload" id="pic2_4_1">
 			<img data-src="page2\แฟ้ม4\f.png" class="pic2_4_f lazyload">
@@ -417,7 +417,7 @@
 
 		ScrollTrigger.batch("#pic2_4_h", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation: 15, duration: 1 })
+				gsap.from(batch, { rotation: 18, duration: 1.5 })
 			},
 			start: "top 100%",
 			toggleActions: "play none none none"
@@ -426,7 +426,7 @@
 
 		ScrollTrigger.batch("#pic2_4_12", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation: -12, duration: 1 })
+				gsap.from(batch, { rotation: -30, duration: 2 })
 			},
 			start: "top 100%",
 			toggleActions: "play none none none"
@@ -456,7 +456,7 @@
 	<script>
 		ScrollTrigger.batch("#tire2", {
 			onEnter: batch => {
-				tirehea();
+				setTimeout(() => { tirehea(); }, 1500);
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
@@ -474,7 +474,6 @@
 					pos += 1;
 					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
 				}
-				check7 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
@@ -485,6 +484,207 @@
 
 	</script>
 	<!-- tire -->
+
+	<!-- ROPE -->
+	<script>
+
+		var check1 = 0;
+		var check2 = 0;
+		var check3 = 0;
+		var check4 = 0;
+		var check5 = 0;
+		var check6 = 0;
+		var check7 = 0;
+
+		ScrollTrigger.batch("#rope2_1", {
+			onEnter: batch => {
+				if (check1 == 0) {
+				rop1();
+				}
+			},
+			start: "top 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop1() {
+			var elem = document.getElementById("rope2_1");
+			var pos = 0;
+			var id = setInterval(frame, 60);
+			function frame() {
+				if (pos == 50) {
+					clearInterval(id);
+				} else {
+					pos += 1;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check1 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#rope2_2", {
+			onEnter: batch => {
+				if (check2 == 0) {
+				rop2();
+				}
+			},
+			start: "top 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop2() {
+			var elem = document.getElementById("rope2_2");
+			var pos = 0;
+			var id = setInterval(frame, 60);
+			function frame() {
+				if (pos == 50) {
+					clearInterval(id);
+				} else {
+					pos += 1;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check2 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#rope2_3", {
+			onEnter: batch => {
+				if (check3 == 0) {
+				rop3();
+				}
+			},
+			start: "top 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop3() {
+			var elem = document.getElementById("rope2_3");
+			var pos = 0;
+			var id = setInterval(frame, 60);
+			function frame() {
+				if (pos == 50) {
+					clearInterval(id);
+				} else {
+					pos += 0.8;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check3 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#rope2_4", {
+			onEnter: batch => {
+				if (check4 == 0) {
+				rop4();
+				}
+			},
+			start: "top 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop4() {
+			var elem = document.getElementById("rope2_4");
+			var pos = 0;
+			var id = setInterval(frame, 60);
+			function frame() {
+				if (pos == 150) {
+					clearInterval(id);
+				} else {
+					pos += 1;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check4 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#rope2_5", {
+			onEnter: batch => {
+				if (check5 == 0) {
+				rop5();
+				}
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop5() {
+			var elem = document.getElementById("rope2_5");
+			var pos = 0;
+			var id = setInterval(frame, 60);
+			function frame() {
+				if (pos == 45) {
+					clearInterval(id);
+				} else {
+					pos += 0.5;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check5 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#rope2_6", {
+			onEnter: batch => {
+				if (check6 == 0) {
+				rop6();
+				}
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop6() {
+			var elem = document.getElementById("rope2_6");
+			var pos = 0;
+			var id = setInterval(frame, 60);
+			function frame() {
+				if (pos == 90) {
+					clearInterval(id);
+				} else {
+					pos += 0.6;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check6 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+
+		ScrollTrigger.batch("#rope2_7", {
+			onEnter: batch => {
+				if (check7 == 0) {
+				rop7();}
+			},
+			start: "center 100%",
+			toggleActions: "play none none none"
+
+		})
+
+		function rop7() {
+			var elem = document.getElementById("rope2_7");
+			var pos = 0;
+			var id = setInterval(frame, 50);
+			function frame() {
+				if (pos == 150) {
+					clearInterval(id);
+				} else {
+					pos += 1;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
+				}
+				check7 = 1;
+				elem.style.visibility = "visible";
+			}
+		}
+	</script>
+	<!-- ROPE -->
 
 
 </body>
