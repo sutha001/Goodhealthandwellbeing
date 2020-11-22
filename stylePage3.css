@@ -1,3 +1,11 @@
+.bodyyy{
+	width: 100vw;
+	background-color: red;
+	overflow: hidden;
+}
+
+
+
 .section3{
 	position: relative;
 	height: 100vh;
@@ -129,11 +137,10 @@
 }
 .doc_right{
 	width: 40vw;
-	right: -23.5%;
+	right: 0%;
 	position: absolute;
 	margin-top: 338%;
 	z-index: 3;
-	transform:  rotate(11deg);
 }
 .star{
 	width: 10vw;

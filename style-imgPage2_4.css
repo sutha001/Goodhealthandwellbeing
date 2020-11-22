@@ -129,10 +129,10 @@
 	transform-origin: 20% top;
 }
 .pic2_4_12{
-	width: 45vw;
+	width: 39vw;
     position: absolute;
     margin-top: 220%;
-    right:-8%;
+    right:-7%;
 	z-index: 1;
 	transform-origin: 50% top;
 	transform: rotate(-4deg);
