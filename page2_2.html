@@ -406,7 +406,7 @@
 
 		ScrollTrigger.batch("#pic2_2_frame", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation: 10, duration: 2,delay:1 })
+				gsap.from(batch, { rotation: 10, duration: 2, delay: 1 })
 			},
 			start: "top 100%",
 			toggleActions: "play none none none"
@@ -465,11 +465,21 @@
 
 	<!-- ROPE -->
 	<script>
+
+		var check1 = 0;
+		var check2 = 0;
+		var check3 = 0;
+		var check4 = 0;
+		var check5 = 0;
+		var check6 = 0;
+
 		ScrollTrigger.batch("#rope2_1", {
 			onEnter: batch => {
+				if (check1 == 0) {
 				rop1();
+				}
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 
 		})
@@ -485,16 +495,18 @@
 					pos += 1;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
-				check7 = 1;
+				check1 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
 
 		ScrollTrigger.batch("#rope2_2", {
 			onEnter: batch => {
+				if (check2 == 0) {
 				rop2();
+				}
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 
 		})
@@ -510,16 +522,18 @@
 					pos += 1;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
-				check7 = 1;
+				check2 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
 
 		ScrollTrigger.batch("#rope2_3", {
 			onEnter: batch => {
+				if (check3 == 0) {
 				rop3();
+				}
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 
 		})
@@ -535,16 +549,18 @@
 					pos += 0.8;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
-				check7 = 1;
+				check3 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
 
 		ScrollTrigger.batch("#rope2_4", {
 			onEnter: batch => {
+				if (check4 == 0) {
 				rop4();
+				}
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 
 		})
@@ -560,16 +576,18 @@
 					pos += 1;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
-				check7 = 1;
+				check4 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
 
 		ScrollTrigger.batch("#rope2_5", {
 			onEnter: batch => {
+				if (check5 == 0) {
 				rop5();
+				}
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 
 		})
@@ -585,16 +603,18 @@
 					pos += 1;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
-				check7 = 1;
+				check5 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
 
 		ScrollTrigger.batch("#rope2_6", {
 			onEnter: batch => {
+				if (check6 == 0) {
 				rop6();
+				}
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 
 		})
@@ -610,7 +630,7 @@
 					pos += 1.2;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
-				check7 = 1;
+				check6 = 1;
 				elem.style.visibility = "visible";
 			}
 		}
