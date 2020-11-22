@@ -62,7 +62,8 @@
     width: 20vw;
     position: absolute;
     z-index: 11;
-    left:46%;
+    left:46.8%;
+    transform: rotate(-1.2deg);
 }
 .pic2_4_1{
 	width: 45vw;
