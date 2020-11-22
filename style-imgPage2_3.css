@@ -13,49 +13,49 @@
     width: 100vw;
     position: absolute;
     z-index: 10;
-    left:0%;
+    margin-left:0%;
 }
 .rope3_1{
 	margin-top: 79%;
     width: 60vw;
     position: absolute;
     z-index: 10;
-    left:20%;
+    margin-left:20%;
 }
 .rope3_2{
 	margin-top: 97.7%;
     width: 67vw;
     position: absolute;
     z-index: 10;
-    left:22.5%;
+    margin-left:22.5%;
 }
 .rope3_3{
 	margin-top: 118.5%;
     width: 68vw;
     position: absolute;
     z-index: 10;
-    left:15.9%;
+    margin-left:15.9%;
 }
 .rope3_4{
 	margin-top: 185%;
     width: 37vw;
     position: absolute;
     z-index: 10;
-    left:45.6%;
+    margin-left:45.6%;
 }
 .rope3_5{
 	margin-top: 174.5%;
     width: 20vw;
     position: absolute;
     z-index: 10;
-    left:68.5%;
+    margin-left:68.5%;
 }
 .rope3_6{
 	margin-top: 195%;
     width: 36vw;
     position: absolute;
     z-index: 10;
-    left:48.2%;
+    margin-left:48.2%;
 }
 .pic2_3_5{
 	width: 30vw;
@@ -75,7 +75,7 @@
 	width: 18.5vw;
     position: absolute;
     margin-top: 109.5%;
-    left: 80%;
+    margin-left: 80%;
 	z-index: 1;
 	transform: rotate(-7.5deg);
 }
@@ -105,7 +105,7 @@
 	width: 19vw;
     position: absolute;
     margin-top: 180.5%;
-    left:63%;
+    margin-left:63%;
 	z-index:2;
 	transform: rotate(5deg);
 }
@@ -113,14 +113,14 @@
 	width: 45vw;
     position: absolute;
     margin-top: 192%;
-    left:27%;
+    margin-left:27%;
 	z-index: 1;
 }
 .pic2_3_31{
 	width: 20.2vw;
     position: absolute;
     margin-top: 205%;
-    left:70%;
+    margin-left:70%;
 	z-index: 1;
 	transform: rotate(-7deg);
 }
@@ -129,14 +129,14 @@
 	position: absolute;
 	margin-top: 258.6%;
 	z-index:1;
-	left:33%;
+	margin-left:33%;
 }
 .pic2_3_circle2{
 	width: 21vw;
 	position: absolute;
 	margin-top: 252%;
 	z-index:1;
-	left:29%;
+	margin-left:29%;
 }
 .pic2_3_last{
 	width: 70vw;
@@ -151,7 +151,7 @@
 	position: absolute;
 	margin-top: 303%;
 	z-index:1;
-	left:49%;
+	margin-left:49%;
 }
 .pic2_3_arrow{
 	width: 4vw;
