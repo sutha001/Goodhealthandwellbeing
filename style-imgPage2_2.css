@@ -58,9 +58,16 @@
 
 }
 .pic2_2_1{
-	width: 55vw;
+	width: 46vw;
 	position: absolute;
-	margin-top: 63%;
+	margin-top: 98%;
+	z-index:2;
+	margin-left:0%;
+}
+.pic_light{
+	width: 54vw;
+	position: absolute;
+	margin-top: 17%;
 	z-index:1;
 	margin-left:0%;
 }
