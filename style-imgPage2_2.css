@@ -19,42 +19,48 @@
 	margin-top: 97%;
     position: absolute;
     z-index: 10;
-    margin-left:20%;
+	margin-left:20%;
+	visibility: hidden;
 }
 .rope2_2{
 	width: 42vw;
 	margin-top: 97%;
     position: absolute;
     z-index: 10;
-    margin-left:20%;
+	margin-left:20%;
+	visibility: hidden;
 }
 .rope2_3{
 	width: 41vw;
 	margin-top: 137.5%;
     position: absolute;
     z-index: 10;
-    margin-left:24%;
+	margin-left:24%;
+	visibility: hidden;
 }
 .rope2_4{
 	width: 48.5vw;
 	margin-top: 150%;
     position: absolute;
     z-index: 10;
-    margin-left:23.5%;
+	margin-left:23.5%;
+	visibility: hidden;
 }
 .rope2_5{
 	width: 35vw;
 	margin-top: 210.8%;
     position: absolute;
     z-index: 10;
-    margin-left:35.5%;
+	margin-left:35.5%;
+	visibility: hidden;
 }
 .rope2_6{
 	width: 25vw;
 	margin-top: 213.7%;
     position: absolute;
     z-index: 10;
-    margin-left:45.7%;
+	margin-left:45.7%;
+	visibility: hidden;
 
 }
 .pic2_2_1{
