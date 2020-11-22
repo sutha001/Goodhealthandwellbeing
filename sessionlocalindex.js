@@ -62,19 +62,6 @@ function mov3(){
         }
     }
 }
-function mov3(){
-    var elem = document.getElementById("erraa3");
-    var pos = 0;
-    var id = setInterval(frame, 0.5);
-    function frame() {
-        if (pos == 154) {
-            clearInterval(id);
-        } else {
-            pos++;
-            elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
-        }
-    }
-}
 function mov4(){
     var elem = document.getElementById("erraa4");
     var pos = 0;
@@ -103,5 +90,77 @@ function mov5(){
     }
 }
 function clospopup(){
-    document.getElementById('popup').style.display = "none";
+    mov1re();
+    mov2re();
+    mov3re();
+    mov4re();
+    mov5re();
+}
+
+function mov1re(){
+    var elem = document.getElementById("erraa1");
+    var pos = 154;
+    var id = setInterval(frame, 0.5);
+    function frame() {
+        if (pos == 0) {
+            document.getElementById('popup').style.display = "none";
+            clearInterval(id);
+        } else {
+            pos--;
+            elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+        }
+    }
+}
+function mov2re(){
+    var elem = document.getElementById("erraa2");
+    var pos = 0;
+    var id = setInterval(frame, 0.5);
+    function frame() {
+        if (pos == 154) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.clip = "rect(auto, 154vw, auto, "+pos+"vw)";
+        }
+    }
+}
+function mov3re(){
+    var elem = document.getElementById("erraa3");
+    var pos = 154;
+    var id = setInterval(frame, 0.5);
+    function frame() {
+        if (pos == 0) {
+            clearInterval(id);
+        } else {
+            pos--;
+            elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+        }
+    }
+}
+function mov4re(){
+    var elem = document.getElementById("erraa4");
+    var pos = 154;
+    var id = setInterval(frame, 0.5);
+    function frame() {
+        if (pos == 0) {
+            clearInterval(id);
+        } else {
+            pos--;
+            elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+        }
+    }
+}
+
+function mov5re(){
+    var elem = document.getElementById("erraa5");
+    var pos = 0;
+    var id = setInterval(frame, 1);
+    function frame() {
+        if (pos == 154) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.clip = "rect(auto, 154vw, auto, "+pos+"vw)";
+        }
+    }
 }
