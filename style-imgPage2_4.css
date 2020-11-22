@@ -25,10 +25,10 @@
 }
 .rope4_2{
 	margin-top: 106.5%;
-    width: 67vw;
+    width: 67.5vw;
     position: absolute;
     z-index: 10;
-	left:16.7%;
+	left:17%;
 	visibility: hidden;
 }
 .rope4_3{
@@ -192,7 +192,7 @@
 	position: absolute;
 	z-index: 12;
 	margin-top: 105.5%;
-	right: 20%;
+	right: 19.2%;
 	transform: rotate(30deg);
 }
 .pic4_pin2{
