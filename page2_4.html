@@ -55,12 +55,12 @@
 		</nav>
 		<a href="index.html"><img src="pic\img\icon\logo.png" class="logo"></a>
 
-		<img data-src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\หัวปก1.png" id="headfile1" onclick="location.href='page2_1.html'"
-			class="movetoforder lazyload">
-		<img data-src="page2/ขีดฆ่า.png" class="linekill lazyload" id=linekill1>
-		<img data-src="page2/ขีดฆ่า.png" class="linekill a2 lazyload">
-		<img data-src="page2/ขีดฆ่า.png" class="linekill a3 lazyload">
-		<img data-src="page2/ขีดฆ่า.png" class="linekill a4 lazyload">
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\หัวปก1.png" id="headfile1" onclick="location.href='page2_1.html'"
+			class="movetoforder">
+		<img src="page2/ขีดฆ่า.png" class="linekill" id=linekill1>
+		<img src="page2/ขีดฆ่า.png" class="linekill a2" id=linekill2>
+		<img src="page2/ขีดฆ่า.png" class="linekill a3" id=linekill3>
+		<img src="page2/ขีดฆ่า.png" class="linekill a4" id=linekill4>
 		<p class="posiheadforder1" onclick="location.href='page2_1.html'">ช่องว่างปริศนา</p>
 		<p class="posiheadforder2" onclick="location.href='page2_2.html'">ระวังข้างหลัง</p>
 		<p class="posiheadforder3" onclick="location.href='page2_3.html'">หลุมยักษ์ทะลุมิติ</p>
@@ -131,7 +131,7 @@
 			<img data-src="page2\แฟ้ม4\รูปปิดคดี.png" class="pic2_4_last lazyload">
 			<img data-src="page2\แฟ้ม4\ปิดคดี4.png" class="pic2_4_close lazyload" data-aos="zoom-out" data-aos-duration="250"
 				data-aos-delay="900" data-aos-once="true">
-			<a href="page3.html"><img src="page2\แฟ้ม4\2ปุ่มใหม่4.png" class="pic2_4_button"
+			<a href="page3.html" onclick="movetoforder4()"><img src="page2\แฟ้ม4\2ปุ่มใหม่4.png" class="pic2_4_button"
 					onmouseover="this.src='page2\\แฟ้ม4\\1ปุ่มใหม่4.png' "
 					onmouseout="this.src='page2\\แฟ้ม4\\2ปุ่มใหม่4.png'"></a>
 
@@ -347,7 +347,7 @@
 			}
 		}
 
-		
+
 		ScrollTrigger.batch("#pic2_4_1", {
 			onEnter: batch => {
 				gsap.from(batch, { rotation: -12, duration: 1 })
@@ -366,7 +366,7 @@
 
 		ScrollTrigger.batch("#pic2_4_frame", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation:5, duration: 3,delay:2 })
+				gsap.from(batch, { rotation: 5, duration: 3, delay: 2 })
 			},
 			start: "top center",
 			toggleActions: "play none none none"

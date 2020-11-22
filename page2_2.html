@@ -58,9 +58,9 @@
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\หัวปก1.png" id="headfile1" onclick="location.href='page2_1.html'"
 			class="movetoforder">
 		<img src="page2/ขีดฆ่า.png" class="linekill" id=linekill1>
-		<img src="page2/ขีดฆ่า.png" class="linekill a2">
-		<img src="page2/ขีดฆ่า.png" class="linekill a3">
-		<img src="page2/ขีดฆ่า.png" class="linekill a4">
+		<img src="page2/ขีดฆ่า.png" class="linekill a2" id=linekill2>
+		<img src="page2/ขีดฆ่า.png" class="linekill a3" id=linekill3>
+		<img src="page2/ขีดฆ่า.png" class="linekill a4" id=linekill4>
 		<p class="posiheadforder1" onclick="location.href='page2_1.html'">ช่องว่างปริศนา</p>
 		<p class="posiheadforder2" onclick="forder2()">ระวังข้างหลัง</p>
 		<p class="posiheadforder3" onclick="location.href='page2_3.html'">หลุมยักษ์ทะลุมิติ</p>
@@ -125,7 +125,7 @@
 			<img src="page2\แฟ้ม2\close.png" class="pic2_2_close" data-aos="zoom-out" data-aos-duration="250"
 				data-aos-delay="900" data-aos-once="true">
 
-			<img src="page2\แฟ้ม1\ลูกศร.png" class="pic2_2_arrow" onclick="movetoforder1()">
+			<img src="page2\แฟ้ม1\ลูกศร.png" class="pic2_2_arrow" onclick="movetoforder2()">
 
 			<div id="footer_div2_2">
 				<p class="foot">รายงานนี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
@@ -438,7 +438,7 @@
 	<script>
 		ScrollTrigger.batch("#tire", {
 			onEnter: batch => {
-				tirehe();
+				setTimeout(() => {  tirehe(); }, 2000);
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"

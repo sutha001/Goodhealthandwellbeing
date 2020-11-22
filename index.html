@@ -27,11 +27,18 @@
 
 
 <body>
-
+	<div id="popup" class="popup">
+		<img src="pic/img/imgerror/aa.png" class="erraa">
+		<img src="pic/img/imgerror/aa.png" class="erraa b2">
+		<img src="pic/img/imgerror/aa.png" class="erraa b3">
+		<img src="pic/img/imgerror/aa.png" class="erraa b4">
+		<img src="pic/img/imgerror/aa.png" class="erraa b5">
+		<img src="pic/img/imgerror/aa.png" class="erraa b6">
+		<p class="popuperror">เกิดข้อผิดพลาด!!!<br>กรุณากลับไปอ่านแฟ้มคดีให้จบก่อน</p>
+	</div>
 
 	<section id="section1" class="hide">
 		<nav style="z-index: 9999">
-
 			<div id="pencet" onclick="myfunction()">
 				<span></span>
 				<span></span>
@@ -48,7 +55,7 @@
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num3"><a href="#" id="menulock" onclick="menu3()">CASE SOLVED</a></li>
+				<li class="num3" onclick="movetopage3()"><a id="menulock">CASE SOLVED</a></li>
 			</ul>
 		</nav>
 
@@ -71,7 +78,9 @@
 					อาจไม่ได้สวยงามนัก แค่เพียงการเดินทางออกจากบ้าน<br>
 					ในแต่ละวัน ก็ทั้งเหนื่อยยากและเสี่ยงภัยอันตราย<br>
 					ที่อาจมาถึงเมื่อไหร่ก็ได้ เหมือนตัวคุณเองกําลังเดําเนิน<br>
-					ชีวิตอยู่ใน<mark style="background-color: #0037ff; color: #ffe91a; display: inline-block; line-height: 1;">สถานที่เกิดเหตุ...</mark></p>
+					ชีวิตอยู่ใน<mark
+						style="background-color: #0037ff; color: #ffe91a; display: inline-block; line-height: 1;">สถานที่เกิดเหตุ...</mark>
+				</p>
 			</div>
 			<div class="move">
 			</div>
@@ -215,10 +224,9 @@
 		crossorigin="anonymous"></script>
 
 	<script type="text/javascript" src="dist/aos.js"></script>
+	<script type="text/javascript" src="sessionlocal.js"></script>
 
 	<script>
-
-
 		AOS.init({
 			duration: 800,
 		})
@@ -264,10 +272,6 @@
 
 				check = 0;
 			}
-		}
-
-		function menu3() {
-			location.href = "page2_1.html";
 		}
 
 

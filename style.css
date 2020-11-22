@@ -88,6 +88,7 @@ nav ul {
 
 .num3 {
 	margin-right: 0px;
+	cursor: pointer; 
 }
 
 nav ul li {
@@ -250,7 +251,62 @@ nav ul li a {
 	background-color: #ffe91a;
 }
 
-#menulock{
+#menulock {
 	color: #7c7b77;
-	font-family:'chakra_petchbold' ;
+	font-family: 'chakra_petchbold';
+}
+
+.popup {
+	width: 30vw;
+	height: 30vw;
+	background-color: red;
+	position: fixed;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	overflow: hidden;
+}
+.popuperror{
+	text-align: center;
+	width: 20vw;
+	color: #f4f0ea;
+	position: absolute;
+	font-family: 'chakra_petchbold';
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.erraa{
+	position: absolute;
+    width: 45vw;
+    transform: rotate(38deg);
+    top: 29%;
+    right: -25%;
+}
+.b2{
+	transform: rotate(38deg);
+    top: 29%;
+    right: -25%;
+}
+.b3{
+	transform: rotate(38deg);
+    top: 29%;
+    right: -25%;
+}
+.b4{
+	transform: rotate(38deg);
+    top: 29%;
+    right: -25%;
+}
+.b5{
+	transform: rotate(38deg);
+    top: 29%;
+    right: -25%;
+}
+.b6{
+	transform: rotate(38deg);
+    top: 29%;
+    right: -25%;
 }
