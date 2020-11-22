@@ -58,9 +58,9 @@
 		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\หัวปก1.png" id="headfile1" onclick="location.href='page2_1.html'"
 			class="movetoforder">
 		<img src="page2/ขีดฆ่า.png" class="linekill" id=linekill1>
-		<img src="page2/ขีดฆ่า.png" class="linekill a2">
-		<img src="page2/ขีดฆ่า.png" class="linekill a3">
-		<img src="page2/ขีดฆ่า.png" class="linekill a4">
+		<img src="page2/ขีดฆ่า.png" class="linekill a2" id=linekill2>
+		<img src="page2/ขีดฆ่า.png" class="linekill a3" id=linekill3>
+		<img src="page2/ขีดฆ่า.png" class="linekill a4" id=linekill4>
 		<p class="posiheadforder1" onclick="location.href='page2_1.html'">ช่องว่างปริศนา</p>
 		<p class="posiheadforder2" onclick="forder2()">ระวังข้างหลัง</p>
 		<p class="posiheadforder3" onclick="location.href='page2_3.html'">หลุมยักษ์ทะลุมิติ</p>
@@ -125,7 +125,7 @@
 			<img src="page2\แฟ้ม2\close.png" class="pic2_2_close" data-aos="zoom-out" data-aos-duration="250"
 				data-aos-delay="900" data-aos-once="true">
 
-			<img src="page2\แฟ้ม1\ลูกศร.png" class="pic2_2_arrow" onclick="movetoforder1()">
+			<img src="page2\แฟ้ม1\ลูกศร.png" class="pic2_2_arrow" onclick="movetoforder2()">
 
 			<div id="footer_div2_2">
 				<p class="foot">รายงานนี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
@@ -138,7 +138,7 @@
 					ชมรมช่วยเหลือเหยื่ออาชญากรรมได้โพสต์คลิป<br>
 					ผู้ขับขี่จักรยานยนต์รับจ้าง <mark
 						style="background-color: #ffe91a; color: #161616;">ทำร้ายร่างกายคน<br>
-						เดินฟุตบาท</mark> และได้ยืนด่าทอชายใส่เสื้อเหลืองด้วย<br>
+						เดินฟุตปาธ</mark> และได้ยืนด่าทอชายใส่เสื้อเหลืองด้วย<br>
 					เสียงดังและหยาบคาย อีกทั้งยังตบหน้า และจิกผม<br>
 					ชายเสื้อสีเหลืองอีกด้วย ทำให้มีผู้เข้ามาแสดง<br>
 					ความคิดเห็นกันจำนวนมาก<br><br>
@@ -179,7 +179,7 @@
 			<div class="page22_c3">
 				<p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">26 พ.ย.61 / ปากซอยลาดพร้าว
 					69<br><br>
-					นักเรียนสาวกำลังเดินกลับบ้าน เมื่อถึงฟุตบาทจุดเกิดเหตุ ตนกำลังก้าว<br>
+					นักเรียนสาวกำลังเดินกลับบ้าน เมื่อถึงฟุตปาธจุดเกิดเหตุ ตนกำลังก้าว<br>
 					เท้าขึ้น<mark
 						style="background-color: #ffe91a; color: #161616;display: inline-block; line-height: 1;">ถูกรถจักรยานยนต์ชนทันที</mark>
 					ตนไม่สามารถหลบได้ทัน ตอนถูกชน<br>
@@ -193,7 +193,7 @@
 					</tr>
 					<tr>
 						<td class="td22">&nbsp;ผู้ร้าย&nbsp;</td>
-						<td class="td22">&nbsp;นายภูวดล ศรีสำโรง (วินมอเตอร์ไซด์รับจ้าง)&nbsp;</td>
+						<td class="td22">&nbsp;นายภูวดล ศรีสำโรง (วินมอเตอร์ไซค์รับจ้าง)&nbsp;</td>
 					</tr>
 				</table>
 				</p>
@@ -204,7 +204,7 @@
 				<p>จากการสืบสวนผู้ร้ายในคดีปริศนาทัง3คดี เราพบคนร้ายชัดเจนเเล้วแต่สาเหตุของพวกเขาทั้งสาม<br>
 					มีจุดเชื่อมกันนั้นก็คือ <mark
 						style="background-color: #ffe91a; color: #161616;display: inline-block; line-height: 1;">พวกเขายังขาดวินัย
-						ขาดความเข้าใจในการใช้สาธารณูปโภคสาธรณะ</mark><br>
+						ขาดความเข้าใจในการใช้สาธารณูปโภคสาธารณะ</mark><br>
 					และขาดจิตสำนึกต่อคนในสังคม<br>
 				</p>
 			</div>
@@ -438,7 +438,7 @@
 	<script>
 		ScrollTrigger.batch("#tire", {
 			onEnter: batch => {
-				tirehe();
+				setTimeout(() => {  tirehe(); }, 2000);
 			},
 			start: "center 100%",
 			toggleActions: "play none none none"
