@@ -20,7 +20,7 @@
     width: 52.7vw;
     position: absolute;
     z-index: 10;
-	left:27%;
+	left:27.9%;
 	visibility: hidden;
 }
 .rope4_2{
@@ -68,8 +68,8 @@
     width: 21vw;
     position: absolute;
     z-index: 11;
-    left:46.8%;
-	transform: rotate(-1.2deg);
+    left:46.3%;
+	transform: rotate(-1.4deg);
 	visibility: hidden;
 }
 .pic2_4_1{
