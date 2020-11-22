@@ -93,22 +93,25 @@
 			<img src="page2\แฟ้ม2\เส้น5.png" class="rope2_5">
 			<img src="page2\แฟ้ม2\เส้น6.png" class="rope2_6">
 
-			<img src="page2\แฟ้ม2\motor11.jpg" class="pic2_2_1">
+			<img src="page2\แฟ้ม2\motor11.jpg" class="pic2_2_1" id="pic2_2_1">
 			<img src="page2\แฟ้ม2\แสงง.png" class="pic_light">
 			<img src="page2\แฟ้ม2\14.1.png" class="pic2_pin1">
 
-			<img src="page2\แฟ้ม2\2.1.png" class="pic2_2_21">
+			<img src="page2\แฟ้ม2\2.1.png" class="pic2_2_21" id="pic2_2_21">
 			<img src="page2\แฟ้ม2\14.png" class="pic2_pin2">
-			<img src="page2\แฟ้ม2\2.2.png" class="pic2_2_22">
+			<img src="page2\แฟ้ม2\2.2.png" class="pic2_2_22" id="pic2_2_22">
 			<img src="page2\แฟ้ม2\12.1.png" class="pic2_pin3">
 
-			<img src="page2\แฟ้ม2\กรอบอันใหม่.png" class="pic2_2_frame">
-			<img src="page2\แฟ้ม2\2.4.gif" class="pic2_2_gif">
+			<div id="pic2_2_frame">
+				<img src="page2\แฟ้ม2\กรอบอันใหม่.png" class="pic2_2_frame">
+				<img src="page2\แฟ้ม2\2.4.gif" class="pic2_2_gif">
+			</div>
+
 			<img src="page2\แฟ้ม2\11.1.png" class="pic2_pin4">
 			<img src="page2\แฟ้ม2\f.png" class="pic2_2_f">
 
-			<img src="page2\แฟ้ม2\3.1.png" class="pic2_2_31">
-			<img src="page2\แฟ้ม2\3.2.png" class="pic2_2_32">
+			<img src="page2\แฟ้ม2\3.1.png" class="pic2_2_31" id="pic2_2_31">
+			<img src="page2\แฟ้ม2\3.2.png" class="pic2_2_32" id="pic2_2_32">
 			<img src="page2\แฟ้ม2\14.1.png" class="pic2_pin5">
 			<img src="page2\แฟ้ม2\วง.png" class="pic2_2_circle">
 
@@ -376,45 +379,53 @@
 			}
 		}
 
-		ScrollTrigger.batch("#pic21_1", {
+		ScrollTrigger.batch("#pic2_2_1", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation: -12, duration: 1 })
+				gsap.from(batch, { rotation: -12, duration: 2 })
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 		})
 
-		ScrollTrigger.batch("#pic21_2", {
+		ScrollTrigger.batch("#pic2_2_21", {
+			onEnter: batch => {
+				gsap.from(batch, { rotation: -15, duration: 1 })
+			},
+			start: "top 100%",
+			toggleActions: "play none none none"
+		})
+
+		ScrollTrigger.batch("#pic2_2_22", {
 			onEnter: batch => {
 				gsap.from(batch, { rotation: 12, duration: 1 })
 			},
-			start: "center 100%",
-			toggleActions: "play none none none"
-		})
-
-		ScrollTrigger.batch("#pic21_3", {
-			onEnter: batch => {
-				gsap.from(batch, { rotation: 12, duration: 1 })
-			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 		})
 
 
-		ScrollTrigger.batch("#pic21_6", {
+		ScrollTrigger.batch("#pic2_2_frame", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation: 12, duration: 1 })
+				gsap.from(batch, { rotation: 10, duration: 2,delay:0.5 })
 			},
-			start: "center 100%",
+			start: "top 100%",
 			toggleActions: "play none none none"
 		})
 
 
-		ScrollTrigger.batch("#pic21_8", {
+		ScrollTrigger.batch("#pic2_2_31", {
 			onEnter: batch => {
-				gsap.from(batch, { rotation: -12, duration: 1 })
+				gsap.from(batch, { rotation: 12, duration: 3 })
 			},
-			start: "center 100%",
+			start: "top 100%",
+			toggleActions: "play none none none"
+		})
+
+		ScrollTrigger.batch("#pic2_2_32", {
+			onEnter: batch => {
+				gsap.from(batch, { rotation: -20, duration: 2 })
+			},
+			start: "top 100%",
 			toggleActions: "play none none none"
 		})
 

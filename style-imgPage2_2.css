@@ -58,11 +58,12 @@
 
 }
 .pic2_2_1{
-	width: 46vw;
+	width: 49vw;
 	position: absolute;
-	margin-top: 98%;
+	margin-top: 99%;
 	z-index:2;
 	margin-left:0%;
+	transform-origin: top center;
 }
 .pic_light{
 	width: 54vw;
@@ -84,6 +85,7 @@
 	margin-top: 122.5%;
 	z-index:1;
 	margin-left:57%;
+	transform-origin: 25% top;
 	transform: rotate(-5deg);
 }
 .pic2_2_22{
@@ -92,6 +94,7 @@
 	margin-top: 142.7%;
 	z-index:1;
 	margin-left:58%;
+	transform-origin: top left;
 }
 .pic2_pin2{
 	width: 2.5vw;
@@ -114,6 +117,7 @@
 	z-index:2;
 	margin-left:0%;
 }
+
 .pic2_2_gif{
 	width: 35.8vw;
 	position: absolute;
@@ -142,14 +146,16 @@
 	position: absolute;
 	margin-top: 215%;
 	z-index:1;
+	transform-origin: 30% top;
 	right:16%;
 }
 .pic2_2_32{
 	width: 20vw;
 	position: absolute;
-	margin-top: 238%;
+	margin-top: 237%;
 	z-index:1;
 	margin-left:22%;
+	transform-origin: top right;
 	transform: rotate(-3deg);
 }
 .pic2_2_33{
