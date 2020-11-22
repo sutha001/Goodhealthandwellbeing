@@ -257,16 +257,16 @@ nav ul li a {
 }
 
 .popup {
-	width: 30vw;
-	height: 30vw;
-	background-color: red;
-	position: fixed;
-	z-index: 10;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: none;
-	overflow: hidden;
+	width: 100vw;
+    height: 100vw;
+    position: fixed;
+    z-index: 10;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    overflow: hidden;
 }
 .popuperror{
 	text-align: center;
@@ -280,29 +280,30 @@ nav ul li a {
 }
 .erraa{
 	position: absolute;
-    width: 45vw;
+    width: 154vw;
     transform: rotate(38deg);
-    top: 29%;
+    top: 31%;
     right: -25%;
 }
 .b2{
     transform: rotate(309deg);
-    top: 37%;
+    top: 41%;
     right: -22%;
 }
 .b3{
     transform: rotate(-8deg);
-    top: 29%;
+    top: 34%;
     right: -25%;
 }
 .boxerror{
 	position: absolute;
-	width: 20vw;
-	height: 10vw;
-	background-color: #161616;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-	box-shadow: 0vw 0vw 10vw #161616;
+    width: 25vw;
+    height: 25vw;
+    background-color: #161616;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    /* border: 10px; */
+    box-shadow: 0vw 0vw 3vw 3vw #161616;
 }
