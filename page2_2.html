@@ -532,7 +532,7 @@
 				if (pos == 50) {
 					clearInterval(id);
 				} else {
-					pos += 1;
+					pos += 0.8;
 					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
 				check7 = 1;
@@ -604,11 +604,11 @@
 			var pos = 0;
 			var id = setInterval(frame, 60);
 			function frame() {
-				if (pos == 50) {
+				if (pos == 90) {
 					clearInterval(id);
 				} else {
-					pos += 1;
-					elem.style.clip = "rect(auto," + pos + "vw, auto, auto)";
+					pos += 1.2;
+					elem.style.clip = "rect(auto, auto," + pos + "vw, auto)";
 				}
 				check7 = 1;
 				elem.style.visibility = "visible";
