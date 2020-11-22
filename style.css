@@ -295,15 +295,32 @@ nav ul li a {
     top: 34%;
     right: -25%;
 }
-.boxerror{
+.b4{
+	transform: rotate(-27deg);
+    top: 64%;
+    right: -25%;
+}
+.b5{
+	transform: rotate(-27deg);
+    top: 4%;
+    right: -25%;
+}
+.sparyeiei{
 	position: absolute;
-    width: 25vw;
-    height: 25vw;
-    background-color: #161616;
-    top: 50%;
+    width: 45vw;
+    /* height: 25vw; */
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
-    /* border: 10px; */
-    box-shadow: 0vw 0vw 3vw 3vw #161616;
+}
+.xxx{
+	position: absolute;
+    width: 4vw;
+    /* height: 25vw; */
+    top: 40%;
+	left: 61%;
+	cursor: pointer;
+}
+.xxx:hover{
+	width: 5vw;
 }

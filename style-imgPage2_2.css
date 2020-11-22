@@ -68,7 +68,7 @@
 	position: absolute;
 	margin-top: 99%;
 	z-index:2;
-	margin-left:0%;
+	margin-left:-2%;
 	transform-origin: top center;
 }
 .pic_light{
@@ -121,7 +121,7 @@
 	position: absolute;
 	margin-top: 145%;
 	z-index:2;
-	margin-left:0%;
+	margin-left:-1%;
 }
 
 .pic2_2_gif{
@@ -129,7 +129,7 @@
 	position: absolute;
 	margin-top: 157.6%;
 	z-index:1;
-	margin-left:7.7%;
+	margin-left:6.7%;
 	transform: rotate(4deg);
 }
 .pic2_pin4{
@@ -167,7 +167,7 @@
 .pic2_2_33{
 	width: 18vw;
     position: absolute;
-    margin-top: 253%;
+    margin-top: 251%;
     z-index: 1;
     margin-left: 45%;
     transform: rotate(3deg);

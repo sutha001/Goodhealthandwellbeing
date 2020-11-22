@@ -13,42 +13,48 @@
     width: 100vw;
     position: absolute;
     z-index: 10;
-    margin-left:0%;
+	margin-left:0%;
+	visibility: hidden;
 }
 .rope3_1{
 	margin-top: 79%;
     width: 60vw;
     position: absolute;
     z-index: 10;
-    margin-left:20%;
+	margin-left:20%;
+	visibility: hidden;
 }
 .rope3_2{
 	margin-top: 97.7%;
     width: 67vw;
     position: absolute;
     z-index: 10;
-    margin-left:22.5%;
+	margin-left:22.5%;
+	visibility: hidden;
 }
 .rope3_3{
 	margin-top: 118.5%;
     width: 68vw;
     position: absolute;
     z-index: 10;
-    margin-left:15.9%;
+	margin-left:15.9%;
+	visibility: hidden;
 }
 .rope3_4{
 	margin-top: 185%;
     width: 37vw;
     position: absolute;
     z-index: 10;
-    margin-left:45.6%;
+	margin-left:45.6%;
+	visibility: hidden;
 }
 .rope3_5{
 	margin-top: 174.5%;
     width: 20vw;
     position: absolute;
     z-index: 10;
-    margin-left:68.5%;
+	margin-left:68.5%;
+	visibility: hidden;
 }
 .rope3_6{
 	margin-top: 195%;
@@ -56,7 +62,8 @@
     position: absolute;
     z-index: 10;
     margin-left:47.8%;
-    transform: rotate(0.5deg);
+	transform: rotate(0.5deg);
+	visibility: hidden;
 }
 .pic2_3_5{
 	width: 30vw;
@@ -86,14 +93,14 @@
 	width: 45.5vw;
     position: absolute;
     margin-top: 126%;
-    margin-left: 4%;
+    margin-left: 3%;
 	z-index: 2;
 }
 .pic2_3_gif{
 	width: 37vw;
     position: absolute;
     margin-top: 131.5%;
-    margin-left:7.8%;
+    margin-left:6.8%;
 	z-index: 1;
 	transform: rotate(-4.1deg);
 }
