@@ -234,7 +234,8 @@
 	position: absolute;
 	z-index: 12;
 	margin-top: 309%;
-	left: 47.5%;
+	margin-left: -1.25%;
+	left: 50%;
 }
 .tireprint2{
 	margin-top:12%;

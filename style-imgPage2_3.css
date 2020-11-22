@@ -247,7 +247,8 @@
 	position: absolute;
 	margin-top: 281.5%;
 	z-index:11;
-	margin-left:50%;
+	margin-left: -1.05%;
+	left: 50%;
 }
 
 

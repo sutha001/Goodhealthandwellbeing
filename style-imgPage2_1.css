@@ -275,7 +275,8 @@
     width: 3vw;
     position: absolute;
     margin-top: 343%;
-    margin-left: 47%;
+    margin-left: -1.5%;
+	left: 50%;
     z-index: 100;
 }
 
