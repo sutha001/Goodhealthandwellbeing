@@ -286,27 +286,23 @@ nav ul li a {
     right: -25%;
 }
 .b2{
-	transform: rotate(38deg);
-    top: 29%;
-    right: -25%;
+    transform: rotate(309deg);
+    top: 37%;
+    right: -22%;
 }
 .b3{
-	transform: rotate(38deg);
+    transform: rotate(-8deg);
     top: 29%;
     right: -25%;
 }
-.b4{
-	transform: rotate(38deg);
-    top: 29%;
-    right: -25%;
-}
-.b5{
-	transform: rotate(38deg);
-    top: 29%;
-    right: -25%;
-}
-.b6{
-	transform: rotate(38deg);
-    top: 29%;
-    right: -25%;
+.boxerror{
+	position: absolute;
+	width: 20vw;
+	height: 10vw;
+	background-color: #161616;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	box-shadow: 0vw 0vw 10vw #161616;
 }
