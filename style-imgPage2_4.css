@@ -17,21 +17,21 @@
 }
 .rope4_1{
 	margin-top: 83%;
-    width: 53vw;
+    width: 52.7vw;
     position: absolute;
     z-index: 10;
-    left:27%;
+    left:28%;
 }
 .rope4_2{
-	margin-top: 106.8%;
+	margin-top: 106.5%;
     width: 67vw;
     position: absolute;
     z-index: 10;
     left:16.7%;
 }
 .rope4_3{
-	margin-top: 152.8%;
-    width: 15.2vw;
+	margin-top: 152.2%;
+    width: 15.5vw;
     position: absolute;
     z-index: 11;
     left:16.4%;
@@ -41,10 +41,10 @@
     width: 49.9vw;
     position: absolute;
     z-index: 11;
-    left:17.8%;
+    left:18%;
 }
 .rope4_5{
-	margin-top: 232%;
+	margin-top: 231.5%;
     width: 45vw;
     position: absolute;
     z-index: 11;
@@ -58,12 +58,12 @@
     left:63%;
 }
 .rope4_7{
-	margin-top: 254.5%;
-    width: 20vw;
+	margin-top: 253%;
+    width: 21vw;
     position: absolute;
     z-index: 11;
-    left:46.8%;
-    transform: rotate(-1.2deg);
+    left:46.2%;
+    transform: rotate(-1.4deg);
 }
 .pic2_4_1{
 	width: 45vw;
@@ -195,7 +195,7 @@
 	position: absolute;
 	z-index: 12;
 	margin-top: 152%;
-	left: 20%;
+	left: 19.5%;
 	transform: rotate(25deg);
 }
 .pic4_pin4{
@@ -210,8 +210,8 @@
 	width: 2.5vw;
 	position: absolute;
 	z-index: 12;
-	margin-top: 253%;
-	left: 63%;
+	margin-top: 252%;
+	left: 63.5%;
 	transform: rotate(59deg);
 }
 .pic4_pin6{
@@ -226,7 +226,7 @@
 	width: 2.5vw;
 	position: absolute;
 	z-index: 12;
-	margin-top: 232%;
+	margin-top: 231.5%;
 	left: 22%;
 	transform: rotate(-64deg);
 }
