@@ -46,12 +46,12 @@
 				<span></span>
 			</div>
 			<ul id="manmuha" class="manubbb">
-				<li class="num1" id="num1"><a href="index.html"
+				<li class="num1" id="num1" onclick="toindex()"><a
 						style="font-family:'chakra_petchbold' ; color: #0037ff;">CASE</a></li>
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num2"><a href="page2_1.html"
+				<li class="num2" onclick="topage2()"><a id="page2222"
 						style="font-family:'chakra_petchbold' ; color: #ffe91a;">INVESTIGATE</a></li>
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
@@ -241,7 +241,13 @@
 			element.scrollIntoView({ behavior: 'smooth', block: 'end' });
 		}
 
+		function toindex(){
+			location.href = "index.html"
+		}
 
+		function topage2(){
+			location.href = "page2_1.html"
+		}
 
 
 		ScrollTrigger.batch("#motorcycle11", {

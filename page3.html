@@ -28,7 +28,7 @@
 </head>
 
 <body>
-	
+
 	<section id="section3">
 
 		<nav style="z-index: 99">
@@ -39,17 +39,17 @@
 				<span></span>
 			</div>
 			<ul id="manmuha" class="manubbb">
-				<li class="num1" id="num1"><a href="index.html"
+				<li class="num1" id="num1" onclick="toindex()"><a
 						style="font-family:'chakra_petchbold' ; color:#ffe91a;">CASE</a></li>
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num2"><a href="page2_1.html"
+				<li class="num2" onclick="topage2()"><a
 						style="font-family:'chakra_petchbold' ; color:#ffe91a;">INVESTIGATE</a></li>
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num3"><a href="page3.html" style="font-family:'chakra_petchbold' ; color: #0037ff;">CASE
+				<li class="num3" onclick="topage3()"><a style="font-family:'chakra_petchbold' ; color: #0037ff;">CASE
 						SOLVED</a></li>
 			</ul>
 		</nav>
@@ -445,9 +445,15 @@
 		integrity="sha512-8XagG4jqzHfdBwmnXNDxXWc+HJc+C5v6mPAOMu7eO+F3Dt8Y07k9Q0byGh3mpoPEr9ecn1VpWAReiFDSpePMLg=="
 		crossorigin="anonymous"></script>
 
+	<script type="text/javascript" src="dist/aos.js"></script>
+
 	<script>
 
-		$(function() {
+		function topage3(){
+			location.href = "page3.html";
+		}
+
+		$(function () {
 			$('.lazyload').lazy();
 		});
 

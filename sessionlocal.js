@@ -53,7 +53,7 @@ function movetoforder3() {
 
 function movetoforder4() {
     var element = document.querySelector(".movetoforder");
-    document.getElementById("linekill3").style.display = "block";
+    document.getElementById("linekill4").style.display = "block";
     element.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
     if (typeof (Storage) !== "undefined") {
@@ -76,6 +76,29 @@ if(getcountpage31 == "ture" && getcountpage32 == "ture" && getcountpage33 == "tu
 function movetopage3() {
     if (getcountpage31 == "ture" && getcountpage32 == "ture" && getcountpage33 == "ture" && getcountpage34 == "ture") {
         document.getElementById('popup').style.display = "none";
+        location.href = "page3.html";
+    }
+    else {
+        mov1();
+        mov2();
+        mov3();
+        mov4();
+        mov5();
+    }
+}
+
+function toindex(){
+    location.href = "index.html"
+}
+
+function topage2(){
+    location.href = "page2_1.html"
+}
+
+function movetopage34(){
+    if (getcountpage31 == "ture" && getcountpage32 == "ture" && getcountpage33 == "ture") {
+        document.getElementById('popup').style.display = "none";
+        movetoforder4();
         location.href = "page3.html";
     }
     else {
