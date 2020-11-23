@@ -1251,7 +1251,7 @@
 	<script>
 		ScrollTrigger.batch("#line_under1", {
 			onEnter: batch => {
-				lin1();
+				setTimeout(() => { lin1(); }, 1000);
 			},
 			start: "center bottom",
 			toggleActions: "play none none none"
@@ -1279,9 +1279,9 @@
 	<script>
 		ScrollTrigger.batch("#line_under2", {
 			onEnter: batch => {
-				lin2();
+				setTimeout(() => { lin2(); }, 1200);
 			},
-			start: "250px bottom",
+			start: "center bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -1306,9 +1306,9 @@
 	<script>
 		ScrollTrigger.batch("#line_under3", {
 			onEnter: batch => {
-				lin3();
+				setTimeout(() => { lin3(); }, 1200);
 			},
-			start: "250px bottom",
+			start: "center bottom",
 			toggleActions: "play none none none"
 
 		})
@@ -1333,9 +1333,9 @@
 	<script>
 		ScrollTrigger.batch("#line_under4", {
 			onEnter: batch => {
-				lin4();
+				setTimeout(() => { lin4(); }, 1200);
 			},
-			start: "250px bottom",
+			start: "center bottom",
 			toggleActions: "play none none none"
 
 		})
