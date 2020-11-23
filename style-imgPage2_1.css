@@ -191,7 +191,7 @@
 .pic2_1_end {
     width: 70vw;
     position: absolute;
-    margin-top: 380%;
+    margin-top: 374%;
     z-index: 1;
     margin-left: -35%;
 	left: 50%;
@@ -200,7 +200,7 @@
 .pic2_1_group10 {
     width: 45vw;
     position: absolute;
-    margin-top: 375%;
+    margin-top: 369%;
     z-index: 1;
     left: 44.5%;
     transform: rotate(-1deg);
@@ -209,7 +209,7 @@
 .pic2_1_arrow {
     width: 4vw;
     position: absolute;
-    margin-top: 424%;
+    margin-top: 418%;
     z-index: 1;
     cursor: pointer;
     margin-left: 48vw;
