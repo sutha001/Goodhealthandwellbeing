@@ -29,7 +29,11 @@
 	<title>BKK crime scene</title>
 </head>
 
-<body>
+<body OnLoad="JavaScript:fncAlert();">
+
+	<div style="position: fixed; background-color: black; width: 100vw; height: 100vw; z-index: 500000;" id="load"> <img
+			src="pic/img/kWaXKD7.gif" style="display: block; margin: 12vw auto;">
+	</div>
 
 	<section id="section3">
 
@@ -1356,6 +1360,10 @@
 				check7 = 1;
 				elem.style.visibility = "visible";
 			}
+		}
+
+		function fncAlert() {
+			document.getElementById("load").style.display = "none";
 		}
 	</script>
 
