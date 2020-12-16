@@ -32,8 +32,7 @@
 <body OnLoad="JavaScript:fncAlert();">
 
 	<div style="position: fixed; background-color: black; width: 100vw; height: 100vw; z-index: 500000;" id="load"> <img
-			src="pic/img/kWaXKD7.gif"
-			style="display: block; margin: 12vw auto;">
+			src="pic/img/kWaXKD7.gif" style="display: block; margin: 12vw auto;">
 	</div>
 
 	<div id="popup" class="popup">
@@ -107,14 +106,16 @@
 			<img src="page2\แฟ้ม1\14.png" class="pin7">
 			<img src="page2/แฟ้ม1/12.1.png" class="pin8">
 
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส.png" class="foothead" data-aos="zoom-out"
-				data-aos-delay="300" data-aos-duration="300">
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-1.png" class="foothead2" data-aos="zoom-out"
-				data-aos-delay="700" data-aos-duration="300">
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-2.png" class="foothead3" data-aos="zoom-out"
-				data-aos-delay="1100" data-aos-duration="300">
-			<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-3.png" class="foothead4" data-aos="zoom-out"
-				data-aos-delay="1500" data-aos-anchor-placement="top" data-aos-duration="300">
+			<div id="foottttt">
+				<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส.png" class="foothead" data-aos="zoom-out" data-aos-delay="300"
+					data-aos-duration="300">
+				<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-1.png" class="foothead2" data-aos="zoom-out" data-aos-delay="700"
+					data-aos-duration="300">
+				<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-2.png" class="foothead3" data-aos="zoom-out"
+					data-aos-delay="1100" data-aos-duration="300">
+				<img src="page2/หน้าปกแฟ้มทั้ง 4/ปก1/ส-3.png" class="foothead4" data-aos="zoom-out"
+					data-aos-delay="1500" data-aos-anchor-placement="top" data-aos-duration="300">
+			</div>
 
 
 			<!--<img src="page2\แฟ้ม1\เชือก.png" class="rope2_1">-->
@@ -753,6 +754,7 @@
 			document.getElementById("folder3").style.display = "none";
 			document.getElementById("folder4").style.display = "block";
 		}
+		document.getElementById("foottttt").style.display = "none";
 
 		$(function () {
 			$('.lazyload').lazy();
@@ -760,6 +762,7 @@
 
 		function fncAlert() {
 			document.getElementById("load").style.display = "none";
+			document.getElementById("foottttt").style.display = "block";
 		}
 	</script>
 
