@@ -29,7 +29,12 @@
 </head>
 
 
-<body>
+<body OnLoad="JavaScript:fncAlert();">
+
+	<div style="position: fixed; background-color: black; width: 100vw; height: 100vw; z-index: 500000;" id="load"> <img
+			src="pic/img/kWaXKD7.gif"
+			style="position: absolute; z-index: 500000;    margin-left: 24vw;margin-top: 22vw;">
+	</div>
 	<div id="popup" class="popup">
 		<img src="pic/img/imgerror/aa.png" class="erraa" id="erraa1">
 		<img src="pic/img/imgerror/aa.png" class="erraa b2" id="erraa2">
@@ -55,7 +60,8 @@
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num2" onclick="topage2()"><a style="font-family:'chakra_petchbold' ; color: #0037ff;">INVESTIGATE</a>
+				<li class="num2" onclick="topage2()"><a
+						style="font-family:'chakra_petchbold' ; color: #0037ff;">INVESTIGATE</a>
 				</li>
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
@@ -81,9 +87,9 @@
 			class="lazyload">
 		<img data-src="page2\หน้าปกแฟ้มทั้ง 4\ปก4\หัวปก4.png" id="headfile4" onclick="forder4()" class="lazyload">
 
-		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\ปก1.png" id="file1" >
-		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก2\ปก2.png" id="file2" >
-		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก3\ปก3.png" id="file3" >
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก1\ปก1.png" id="file1">
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก2\ปก2.png" id="file2">
+		<img src="page2\หน้าปกแฟ้มทั้ง 4\ปก3\ปก3.png" id="file3">
 		<img data-src="page2\หน้าปกแฟ้มทั้ง 4\ปก4\ปก4.png" id="file4" class="lazyload">
 
 
@@ -141,11 +147,11 @@
 			<img src="page2\แฟ้ม4\วง.png" class="pic2_4_circle">
 
 			<img src="page2\แฟ้ม4\รูปปิดคดี.png" class="pic2_4_last">
-			<img src="page2\แฟ้ม4\ปิดคดี4.png" class="pic2_4_close" data-aos="zoom-out"
-				data-aos-duration="250" data-aos-delay="900" data-aos-once="true">
+			<img src="page2\แฟ้ม4\ปิดคดี4.png" class="pic2_4_close" data-aos="zoom-out" data-aos-duration="250"
+				data-aos-delay="900" data-aos-once="true">
 
-			<a onclick="movetopage34()"><img src="page2\แฟ้ม4\2ปุ่มใหม่4.png" class="pic2_4_button" style="cursor: pointer;"
-					onmouseover="this.src='page2\\แฟ้ม4\\1ปุ่มใหม่4.png' "
+			<a onclick="movetopage34()"><img src="page2\แฟ้ม4\2ปุ่มใหม่4.png" class="pic2_4_button"
+					style="cursor: pointer;" onmouseover="this.src='page2\\แฟ้ม4\\1ปุ่มใหม่4.png' "
 					onmouseout="this.src='page2\\แฟ้ม4\\2ปุ่มใหม่4.png'"></a>
 
 
@@ -161,7 +167,7 @@
 					เหตุรถเก๋งฮอนด้าของ นางสาว นรินทิพย์ แสงจันทร์ <mark
 						style="background-color: #fd5a1f; color: #f9f9f9; display: inline-block; line-height: 1;">เมาแล้วขับ
 					</mark><br><mark
-					style="background-color: #fd5a1f; color: #f9f9f9; display: inline-block; line-height: 1;">ผ่าไฟแดง</mark>
+						style="background-color: #fd5a1f; color: #f9f9f9; display: inline-block; line-height: 1;">ผ่าไฟแดง</mark>
 					พุ่งชนรถจักรยานยนต์ทําให้ นางเงาฟ้า แต่งสวน แม่ค้า<br>
 					ขายข้าวมันไก่ที่กําลังจะไปเปิดร้านซึ่งเป็นผู้โดยสารที่นั่งซ้อนท้ายเสียชีวิต<br>
 					ส่วนนายประทีป เนียมสุวรรณ วินจักรยานยนต์รับจ้างได้<br>
@@ -211,7 +217,8 @@
 				<p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">24 ก.ย. 33 /
 					ถนนเพชรบุรีตัดใหม่ แขวงมักกะสัน เขตราชเทวี<br><br>
 					ผู้ขับ<mark
-						style="background-color: #fd5a1f; color: #f9f9f9;display: inline-block; line-height: 1;">รถบรรทุกแก๊สวิ่งลงจากทางด่วนฝ่าไฟแดง</mark>เข้าสู่ถนนเพชรบุรีตัดใหม่ และจะเลี้ยวขวา<br>
+						style="background-color: #fd5a1f; color: #f9f9f9;display: inline-block; line-height: 1;">รถบรรทุกแก๊สวิ่งลงจากทางด่วนฝ่าไฟแดง</mark>เข้าสู่ถนนเพชรบุรีตัดใหม่
+					และจะเลี้ยวขวา<br>
 					ไปทางสี่แยกมักกะสันได้ประสบอุบัติเหตุชนกับรถยนต์ที่จอดรถรอสัญญาณไฟ<br>
 					พุ่งเข้าชนตึกแถวริมถนนซึ่งเป็นหอพักสตรีเพชร เกิดแรงกระแทกแก๊สรั่ว<br>
 					ปะทะความร้อนจากระบบ จุดระเบิดเครื่องยนต์ที่จอดอยู่บริเวณนั้นให้ลุกเป็นเปลวไฟ<br>
@@ -698,6 +705,9 @@
 				check7 = 1;
 				elem.style.visibility = "visible";
 			}
+		}
+		function fncAlert() {
+			document.getElementById("load").style.display = "none";
 		}
 	</script>
 	<!-- ROPE -->
