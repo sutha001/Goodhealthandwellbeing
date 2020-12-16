@@ -29,7 +29,13 @@
 </head>
 
 
-<body>
+<body OnLoad="JavaScript:fncAlert();">
+
+	<div style="position: fixed; background-color: black; width: 100vw; height: 100vw; z-index: 500000;" id="load"> <img
+			src="pic/img/kWaXKD7.gif"
+			style="position: absolute; z-index: 500000;    margin-left: 24vw;margin-top: 22vw;">
+	</div>
+
 	<div id="popup" class="popup">
 		<img src="pic/img/imgerror/aa.png" class="erraa" id="erraa1">
 		<img src="pic/img/imgerror/aa.png" class="erraa b2" id="erraa2">
@@ -55,7 +61,8 @@
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
 					</svg></li>
-				<li class="num2" onclick="topage2()"><a style="font-family:'chakra_petchbold' ; color: #0037ff;">INVESTIGATE</a>
+				<li class="num2" onclick="topage2()"><a
+						style="font-family:'chakra_petchbold' ; color: #0037ff;">INVESTIGATE</a>
 				</li>
 				<li><svg height="100" width="100">
 						<line x1="0" y1="50" x2="100" y2="50" style="stroke: #ffe91a;stroke-width:2" />
@@ -148,7 +155,7 @@
 					ชมรมช่วยเหลือเหยื่ออาชญากรรมได้โพสต์คลิป<br>
 					ผู้ขับขี่จักรยานยนต์รับจ้าง <mark
 						style="background-color: #ffe91a; color: #161616; display: inline-block; line-height: 1;">ทำร้ายร่างกายคนเดินฟุตปาธ
-						</mark><br>และได้ยืนด่าทอชายใส่เสื้อเหลืองด้วย<br>
+					</mark><br>และได้ยืนด่าทอชายใส่เสื้อเหลืองด้วย<br>
 					เสียงดัง และหยาบคาย อีกทั้งยังตบหน้า และจิกผม<br>
 					ชายเสื้อสีเหลืองอีกด้วย ทำให้มีผู้เข้ามา<br>
 					แสดงความคิดเห็นกันจำนวนมาก<br><br>
@@ -168,7 +175,7 @@
 			<div class="page22_c2">
 				<p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">28 พ.ค.62 / ย่านบางบอน<br><br>
 					พนักงานส่งอาหารกำลังจะไปขึ้นรถจักรยานยนต์ที่จอดอยู่ริมถนน<br>
-					 <mark
+					<mark
 						style="background-color: #ffe91a; color: #161616;display: inline-block; line-height: 1;">คู่กรณีที่ขับย้อนศรบนทางเท้าได้พุ่งมาชน</mark>
 					จนได้รับบาดเจ็บ<br>
 					สภาพหัวเข่าทั้ง 2 ข้างมีบาดแผลเเตก เเละร่องรอย<br>
@@ -486,7 +493,7 @@
 		ScrollTrigger.batch("#rope2_1", {
 			onEnter: batch => {
 				if (check1 == 0) {
-				rop1();
+					rop1();
 				}
 			},
 			start: "top 100%",
@@ -513,7 +520,7 @@
 		ScrollTrigger.batch("#rope2_2", {
 			onEnter: batch => {
 				if (check2 == 0) {
-				rop2();
+					rop2();
 				}
 			},
 			start: "top 100%",
@@ -540,7 +547,7 @@
 		ScrollTrigger.batch("#rope2_3", {
 			onEnter: batch => {
 				if (check3 == 0) {
-				rop3();
+					rop3();
 				}
 			},
 			start: "top 100%",
@@ -567,7 +574,7 @@
 		ScrollTrigger.batch("#rope2_4", {
 			onEnter: batch => {
 				if (check4 == 0) {
-				rop4();
+					rop4();
 				}
 			},
 			start: "top 100%",
@@ -594,7 +601,7 @@
 		ScrollTrigger.batch("#rope2_5", {
 			onEnter: batch => {
 				if (check5 == 0) {
-				rop5();
+					rop5();
 				}
 			},
 			start: "top 100%",
@@ -621,7 +628,7 @@
 		ScrollTrigger.batch("#rope2_6", {
 			onEnter: batch => {
 				if (check6 == 0) {
-				rop6();
+					rop6();
 				}
 			},
 			start: "top 100%",
@@ -643,6 +650,10 @@
 				check6 = 1;
 				elem.style.visibility = "visible";
 			}
+		}
+
+		function fncAlert() {
+			document.getElementById("load").style.display = "none";
 		}
 	</script>
 	<!-- ROPE -->
